@@ -16,11 +16,7 @@ export class AppComponent {
 
   ngOnInit(): void {
 
-    this.dataService.getEstado(27).subscribe(estado => {
-      console.log(estado);
-    })
-
-    this.map = this.mapService.createMap([-46.625290, -23.533773]);
+    this.map = this.mapService.createMap(27, [-46.625290, -23.533773]);
 
   }
 

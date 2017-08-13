@@ -9,11 +9,24 @@ export class DataService {
 
   estado: any;
 
-  constructor(private http: Http) {}
+  microrregiaoUrl: string;
+  mesorregiaoUrl: string;
+  coordenadasUrl: string;
+
+  constructor(private http: Http) {
+    this.microrregiaoUrl = '../assets/data/microrregioes/';
+    this.mesorregiaoUrl = '../assets/data/mesorregioes/';
+    this.coordenadasUrl = '../assets/data/coordenadas/';
+  }
 
   getEstado (codigo_estado: number) {
     return this.http.get(`assets/data/coordenadas/${codigo_estado}.json`)
       .map((response) => response.json());
+  }
+
+  listMicrorregioes(estado: number) {
+    return this.http.get(`${this.microrregiaoUrl}${estado}.json`)
+    .map((response) => response.json());
   }
 
 }

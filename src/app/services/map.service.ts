@@ -1,4 +1,10 @@
+import { DataService } from './data.service';
+import { Http } from '@angular/http';
 import { Injectable } from '@angular/core';
+import {Observable} from 'rxjs/Rx';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/catch';
+
 import * as ol from 'openlayers';
 
 @Injectable()
@@ -9,7 +15,7 @@ export class MapService {
   vector: any;
   map: any;
 
-  constructor() { }
+  constructor(private http: Http, private dataService: DataService) { }
 
   initStyle() {
 
@@ -38,10 +44,12 @@ export class MapService {
 
   }
 
-  createMap(lonLat) {
+  createMap(estado, lonLat) {
 
     this.initStyle();
-    this.initVector(27);
+    this.initVector(estado);
+
+    this.listMicrorregioes(estado);
 
     this.map = new ol.Map({
       layers: [
@@ -59,6 +67,33 @@ export class MapService {
     });
 
     return this.map;
+  }
+
+  listMicrorregioes(estado: number) {
+
+    this.dataService.listMicrorregioes(estado).subscribe(micro => {
+      console.log(micro);
+    });
+
+  }
+
+  unsetMunicipios(topoJSON, codigo_estado, municipios) {
+    let geometries = topoJSON.objects[codigo_estado]['geometries'];
+
+    // if (municipios != null) {
+    //     let municipiosArr = [];
+
+    //     $.each(JSON.parse(municipios), function(idx, obj) {
+    //       municipiosArr.push(obj.codigo);
+    //     });
+
+    //   for(var i = geometries.length -1; i >= 0 ; i--){
+    //     let cod = geometries[i].properties.cod;
+    //     if($.inArray(cod.toString(), municipiosArr) < 0){
+    //           geometries.splice(i, 1);
+    //     }
+    //   }
+    // }
   }
 
 }
