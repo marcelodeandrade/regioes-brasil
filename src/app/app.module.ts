@@ -1,3 +1,4 @@
+import { MapService } from './services/map.service';
 import { DataService } from './services/data.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpModule
   ],
-  providers: [DataService],
+  providers: [DataService, MapService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -12,7 +12,7 @@ export class DataService {
   constructor(private http: Http) {}
 
   getEstado (codigo_estado: number) {
-    return this.http.get(`assets/data/estados/${codigo_estado}.json`)
+    return this.http.get(`assets/data/coordenadas/${codigo_estado}.json`)
       .map((response) => response.json());
   }
 
