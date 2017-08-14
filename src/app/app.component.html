@@ -1,1 +1,13 @@
- <div id="map" class="map"></div>
+<select>
+  <option *ngFor="let microrregiao of microrregioes" value= {{microrregiao.codigo}}>
+    {{microrregiao.nome}}
+  </option>
+</select>
+
+<select>
+  <option *ngFor="let mesorregiao of mesorregioes" value= {{mesorregiao.codigo}}>
+    {{mesorregiao.nome}}
+  </option>
+</select>
+
+<div id="map" class="map"></div>

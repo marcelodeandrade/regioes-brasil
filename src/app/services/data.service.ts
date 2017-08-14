@@ -20,12 +20,17 @@ export class DataService {
   }
 
   getEstado (codigo_estado: number) {
-    return this.http.get(`assets/data/coordenadas/${codigo_estado}.json`)
+    return this.http.get(`${this.coordenadasUrl}${codigo_estado}.json`)
       .map((response) => response.json());
   }
 
   listMicrorregioes(estado: number) {
     return this.http.get(`${this.microrregiaoUrl}${estado}.json`)
+    .map((response) => response.json());
+  }
+
+  listMesorregioes(estado: number) {
+    return this.http.get(`${this.mesorregiaoUrl}${estado}.json`)
     .map((response) => response.json());
   }
 

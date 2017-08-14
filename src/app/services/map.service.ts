@@ -71,9 +71,29 @@ export class MapService {
 
   listMicrorregioes(estado: number) {
 
+    let listMicrorregioes = new Array();
+
     this.dataService.listMicrorregioes(estado).subscribe(micro => {
-      console.log(micro);
+      micro.forEach(element => {
+        listMicrorregioes.push({codigo: element.codigo, nome: element.nome});
+      });
     });
+
+    return listMicrorregioes;
+
+  }
+
+  listMesorregioes(estado: number) {
+
+    let listMesorregioes = new Array();
+
+    this.dataService.listMesorregioes(estado).subscribe(micro => {
+      micro.forEach(element => {
+        listMesorregioes.push({codigo: element.codigo, nome: element.nome});
+      });
+    });
+
+    return listMesorregioes;
 
   }
 
