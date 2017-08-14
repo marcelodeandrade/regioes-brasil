@@ -1,0 +1,137 @@
+[
+    {
+        "codigo": "11",
+        "uf": "RO",
+        "nome": "RONDONIA"
+    },
+    {
+        "codigo": "12",
+        "uf": "AC",
+        "nome": "ACRE"
+    },
+    {
+        "codigo": "13",
+        "uf": "AM",
+        "nome": "AMAZONAS"
+    },
+    {
+        "codigo": "14",
+        "uf": "RR",
+        "nome": "RORAIMA"
+    },
+    {
+        "codigo": "15",
+        "uf": "PA",
+        "nome": "PARA"
+    },
+    {
+        "codigo": "16",
+        "uf": "AP",
+        "nome": "AMAPA"
+    },
+    {
+        "codigo": "17",
+        "uf": "TO",
+        "nome": "TOCANTINS"
+    },
+    {
+        "codigo": "21",
+        "uf": "MA",
+        "nome": "MARANHAO"
+    },
+    {
+        "codigo": "22",
+        "uf": "PI",
+        "nome": "PIAUI"
+    },
+    {
+        "codigo": "23",
+        "uf": "CE",
+        "nome": "CEARA"
+    },
+    {
+        "codigo": "24",
+        "uf": "RN",
+        "nome": "RIO GRANDE NORTE"
+    },
+    {
+        "codigo": "25",
+        "uf": "PB",
+        "nome": "PARAIBA"
+    },
+    {
+        "codigo": "26",
+        "uf": "PE",
+        "nome": "PERNAMBUCO"
+    },
+    {
+        "codigo": "27",
+        "uf": "AL",
+        "nome": "ALAGOAS"
+    },
+    {
+        "codigo": "28",
+        "uf": "SE",
+        "nome": "SERGIPE"
+    },
+    {
+        "codigo": "29",
+        "uf": "BA",
+        "nome": "BAHIA"
+    },
+    {
+        "codigo": "31",
+        "uf": "MG",
+        "nome": "MINAS GERAIS"
+    },
+    {
+        "codigo": "32",
+        "uf": "ES",
+        "nome": "ESPIRITO SANTO"
+    },
+    {
+        "codigo": "33",
+        "uf": "RJ",
+        "nome": "RIO DE JANEIRO"
+    },
+    {
+        "codigo": "35",
+        "uf": "SP",
+        "nome": "SAO PAULO"
+    },
+    {
+        "codigo": "41",
+        "uf": "PR",
+        "nome": "PARANA"
+    },
+    {
+        "codigo": "42",
+        "uf": "SC",
+        "nome": "SANTA CATARINA"
+    },
+    {
+        "codigo": "43",
+        "uf": "RS",
+        "nome": "RIO GRANDE DO SUL"
+    },
+    {
+        "codigo": "50",
+        "uf": "MS",
+        "nome": "MATO GROSSO DO SUL"
+    },
+    {
+        "codigo": "51",
+        "uf": "MT",
+        "nome": "MATO GROSSO"
+    },
+    {
+        "codigo": "52",
+        "uf": "GO",
+        "nome": "GOIAS"
+    },
+    {
+        "codigo": "53",
+        "uf": "DF",
+        "nome": "DESTRITO FEDERAL"
+    }
+]

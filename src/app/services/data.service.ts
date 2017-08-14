@@ -9,28 +9,35 @@ export class DataService {
 
   estado: any;
 
-  microrregiaoUrl: string;
-  mesorregiaoUrl: string;
-  coordenadasUrl: string;
+  microrregiaoURL: string;
+  mesorregiaoURL: string;
+  coordenadasURL: string;
+  estadosURL: string;
 
   constructor(private http: Http) {
-    this.microrregiaoUrl = '../assets/data/microrregioes/';
-    this.mesorregiaoUrl = '../assets/data/mesorregioes/';
-    this.coordenadasUrl = '../assets/data/coordenadas/';
+    this.microrregiaoURL = '../assets/data/microrregioes/';
+    this.mesorregiaoURL = '../assets/data/mesorregioes/';
+    this.coordenadasURL = '../assets/data/coordenadas/';
+    this.estadosURL = '../assets/data/';
   }
 
   getEstado (codigo_estado: number) {
-    return this.http.get(`${this.coordenadasUrl}${codigo_estado}.json`)
+    return this.http.get(`${this.coordenadasURL}${codigo_estado}.json`)
+      .map((response) => response.json());
+  }
+
+  listEstados () {
+    return this.http.get(`${this.estadosURL}estados.json`)
       .map((response) => response.json());
   }
 
   listMicrorregioes(estado: number) {
-    return this.http.get(`${this.microrregiaoUrl}${estado}.json`)
+    return this.http.get(`${this.microrregiaoURL}${estado}.json`)
     .map((response) => response.json());
   }
 
   listMesorregioes(estado: number) {
-    return this.http.get(`${this.mesorregiaoUrl}${estado}.json`)
+    return this.http.get(`${this.mesorregiaoURL}${estado}.json`)
     .map((response) => response.json());
   }
 

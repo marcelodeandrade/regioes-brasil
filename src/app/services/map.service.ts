@@ -69,17 +69,21 @@ export class MapService {
     return this.map;
   }
 
-  listMicrorregioes(estado: number) {
+  listEstados() {
 
-    let listMicrorregioes = new Array();
+    let listEstados = new Array();
 
-    this.dataService.listMicrorregioes(estado).subscribe(micro => {
+    this.dataService.listEstados().subscribe(micro => {
       micro.forEach(element => {
-        listMicrorregioes.push({codigo: element.codigo, nome: element.nome});
+        listEstados.push({codigo: element.codigo, nome: element.nome});
       });
     });
-
-    return listMicrorregioes;
+    Object.keys(listEstados)
+    .sort()
+    .forEach(function(v, i) {
+        console.log(v, listEstados[v]);
+     });
+    return listEstados;
 
   }
 
@@ -94,6 +98,20 @@ export class MapService {
     });
 
     return listMesorregioes;
+
+  }
+
+  listMicrorregioes(estado: number) {
+
+    let listMicrorregioes = new Array();
+
+    this.dataService.listMicrorregioes(estado).subscribe(micro => {
+      micro.forEach(element => {
+        listMicrorregioes.push({codigo: element.codigo, nome: element.nome});
+      });
+    });
+
+    return listMicrorregioes;
 
   }
 
