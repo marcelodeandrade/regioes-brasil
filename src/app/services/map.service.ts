@@ -78,11 +78,7 @@ export class MapService {
         listEstados.push({codigo: element.codigo, nome: element.nome});
       });
     });
-    Object.keys(listEstados)
-    .sort()
-    .forEach(function(v, i) {
-        console.log(v, listEstados[v]);
-     });
+
     return listEstados;
 
   }
