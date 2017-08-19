@@ -20,13 +20,27 @@ export class MapService {
   constructor(private http: Http, private dataService: DataService) { }
 
   refreshMap(estado) {
-    this.vectorSource.clear();
+
+    this.map.removeLayer(this.vector);
+
+    this.vectorSource = new ol.source.Vector({
+      url: `../assets/data/coordenadas/${estado}.json`,
+      format: new ol.format.TopoJSON()
+    });
+
+    this.vector = new ol.layer.Vector({
+      source: this.vectorSource,
+      style: this.style
+    });
+
+    this.map.addLayer(this.vector);
+
   }
 
   centerMap(lonLat) {
     this.map.getView().setCenter(ol.proj.transform(lonLat, 'EPSG:4326', 'EPSG:3857'));
     this.map.getView().setZoom(5);
-}
+  }
 
   createMap(estado, lonLat) {
 
