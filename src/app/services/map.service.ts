@@ -23,6 +23,11 @@ export class MapService {
     this.vectorSource.clear();
   }
 
+  centerMap(lonLat) {
+    this.map.getView().setCenter(ol.proj.transform(lonLat, 'EPSG:4326', 'EPSG:3857'));
+    this.map.getView().setZoom(5);
+}
+
   createMap(estado, lonLat) {
 
     this.style = new ol.style.Style({
