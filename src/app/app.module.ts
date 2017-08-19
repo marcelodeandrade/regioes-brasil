@@ -1,3 +1,4 @@
+import { GeolocationService } from './services/geolocation.service';
 import { MapService } from './services/map.service';
 import { DataService } from './services/data.service';
 import { BrowserModule } from '@angular/platform-browser';
@@ -16,7 +17,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpModule
   ],
-  providers: [DataService, MapService],
+  providers: [DataService, MapService, GeolocationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

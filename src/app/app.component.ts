@@ -1,3 +1,4 @@
+import { GeolocationService } from './services/geolocation.service';
 import { MapService } from './services/map.service';
 import { DataService } from './services/data.service';
 import { Component } from '@angular/core';
@@ -17,9 +18,14 @@ export class AppComponent {
 
   selectedEstado: number = 27;
 
-  constructor(private dataService: DataService, private mapService: MapService) {}
+  constructor(private dataService: DataService, private mapService: MapService, private geolocationService: GeolocationService) {}
 
   ngOnInit(): void {
+
+    this.geolocationService.getLocation([]).subscribe((position) => {
+        this.location = [position.coords.longitude, position.coords.latitude];
+    });
+
     this.estadosList = this.mapService.listEstados();
     this.createMap();
   }
