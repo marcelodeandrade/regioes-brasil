@@ -15,19 +15,27 @@ export class AppComponent {
   mesorregioesList: any;
   estadosList: any;
 
-  selectedEstado: number = 0;
+  selectedEstado: number = 27;
 
   constructor(private dataService: DataService, private mapService: MapService) {}
 
   ngOnInit(): void {
     this.estadosList = this.mapService.listEstados();
-    this.map = this.mapService.createMap(27, [-46.625290, -23.533773]);
+    this.createMap();
   }
 
   onSelect(estado) {
     this.selectedEstado = estado;
     this.mesorregioesList = this.mapService.listMesorregioes(estado);
     this.microrregioesList = this.mapService.listMicrorregioes(estado);
+    this.refreshMap();
   }
 
+  createMap() {
+    this.map = this.mapService.createMap(this.selectedEstado, [-35.659207, -9.373628]);
+  }
+
+  refreshMap() {
+    this.mapService.refreshMap(this.selectedEstado);
+  }
 }

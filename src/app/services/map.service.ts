@@ -13,11 +13,17 @@ export class MapService {
   raster: any;
   style: any;
   vector: any;
+  vectorSource: any;
+  view: any;
   map: any;
 
   constructor(private http: Http, private dataService: DataService) { }
 
-  initStyle() {
+  refreshMap(estado) {
+    this.vectorSource.clear();
+  }
+
+  createMap(estado, lonLat) {
 
     this.style = new ol.style.Style({
       fill: new ol.style.Fill({
@@ -29,27 +35,22 @@ export class MapService {
       })
     });
 
-  }
-
-  initVector(cod) {
+    this.vectorSource = new ol.source.Vector({
+      url: `../assets/data/coordenadas/${estado}.json`,
+      format: new ol.format.TopoJSON(),
+      overlaps: false,
+    });
 
     this.vector = new ol.layer.Vector({
-      source: new ol.source.Vector({
-        url: `../assets/data/coordenadas/${cod}.json`,
-        format: new ol.format.TopoJSON(),
-        overlaps: false,
-      }),
+      source: this.vectorSource,
       style: this.style
     });
 
-  }
-
-  createMap(estado, lonLat) {
-
-    this.initStyle();
-    this.initVector(estado);
-
-    this.listMicrorregioes(estado);
+    this.view = new ol.View({
+      projection: 'EPSG:3857',
+      center: ol.proj.fromLonLat(lonLat),
+      zoom: 8
+    });
 
     this.map = new ol.Map({
       layers: [
@@ -59,11 +60,7 @@ export class MapService {
         , this.vector
       ],
       target: 'map',
-      view: new ol.View({
-        projection: 'EPSG:3857',
-        center: ol.proj.fromLonLat(lonLat),
-        zoom: 4
-      })
+      view: this.view
     });
 
     return this.map;
