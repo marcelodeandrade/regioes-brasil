@@ -85,48 +85,6 @@ export class MapService {
     return this.map;
   }
 
-  listEstados() {
-
-    let listEstados = new Array();
-
-    this.dataService.listEstados().subscribe(estados => {
-      estados.map(estado => {
-        listEstados.push({codigo: estado.codigo, nome: estado.nome});
-      });
-    });
-
-    return listEstados;
-
-  }
-
-  listMesorregioes(estado: number) {
-
-    let listMesorregioes = new Array();
-
-    this.dataService.listMesorregioes(estado).subscribe(mesos => {
-      mesos.map(meso => {
-        listMesorregioes.push({codigo: meso.codigo, nome: meso.nome});
-      });
-    });
-
-    return listMesorregioes;
-
-  }
-
-  listMicrorregioes(estado: number) {
-
-    let listMicrorregioes = new Array();
-
-    this.dataService.listMicrorregioes(estado).subscribe(micros => {
-      micros.map(micro => {
-        listMicrorregioes.push({codigo: micro.codigo, nome: micro.nome});
-      });
-    });
-
-    return listMicrorregioes;
-
-  }
-
   unsetMunicipios(topoJSON, codigo_estado, municipios) {
     let geometries = topoJSON.objects[codigo_estado]['geometries'];
 

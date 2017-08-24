@@ -43,14 +43,14 @@ export class AppComponent {
 
     });
 
-    this.estadosList = this.mapService.listEstados();
+    this.estadosList = this.dataService.listEstados();
     this.createMap();
   }
 
   onSelect(estado) {
     this.selectedEstado = estado;
-    this.mesorregioesList = this.mapService.listMesorregioes(estado);
-    this.microrregioesList = this.mapService.listMicrorregioes(estado);
+    this.mesorregioesList = this.dataService.listMesorregioes(estado);
+    this.microrregioesList = this.dataService.listMicrorregioes(estado);
     this.refreshMap();
   }
 

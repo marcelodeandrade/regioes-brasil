@@ -53,18 +53,18 @@ export class GMapsService {
     return uf;
   }
 
-  getCodigoByUF(uf) {
-    let codigo;
+  // getCodigoByUF(uf) {
+  //   let codigo;
 
-     this.dataService.listEstados().subscribe(estados => {
-      codigo = estados.filter((estado) => {
-          return estado.uf.includes(uf);
-        }).map((estado) => {
-          return estado.codigo;
-        })[0];
-    });
+  //    this.dataService.listEstados().subscribe(estados => {
+  //     codigo = estados.filter((estado) => {
+  //         return estado.uf.includes(uf);
+  //       }).map((estado) => {
+  //         return estado.codigo;
+  //       })[0];
+  //   });
 
-    return codigo;
-  }
+  //   return codigo;
+  // }
 
 }

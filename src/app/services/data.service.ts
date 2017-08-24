@@ -27,18 +27,45 @@ export class DataService {
   }
 
   listEstados () {
-    return this.http.get(`${this.estadosURL}estados.json`)
-      .map((response) => response.json());
+    const data = [];
+
+    this.http.get(`${this.estadosURL}estados.json`)
+    .map((response) => response.json())
+    .subscribe(estados => {
+      estados.map(estado => {
+        data.push({codigo: estado.codigo, nome: estado.nome});
+      });
+    });
+
+    return data;
   }
 
   listMicrorregioes(estado: number) {
-    return this.http.get(`${this.microrregiaoURL}${estado}.json`)
-    .map((response) => response.json());
+    const data = [];
+
+    this.http.get(`${this.microrregiaoURL}${estado}.json`)
+    .map((response) => response.json())
+    .subscribe(micros => {
+      micros.map(micro => {
+        data.push({codigo: micro.codigo, nome: micro.nome});
+      });
+    });
+
+    return data;
   }
 
   listMesorregioes(estado: number) {
-    return this.http.get(`${this.mesorregiaoURL}${estado}.json`)
-    .map((response) => response.json());
+    const data = [];
+
+    this.http.get(`${this.mesorregiaoURL}${estado}.json`)
+    .map((response) => response.json())
+    .subscribe(mesos => {
+      mesos.map(meso => {
+        data.push({codigo: meso.codigo, nome: meso.nome});
+      });
+    });
+
+    return data;
   }
 
 }
