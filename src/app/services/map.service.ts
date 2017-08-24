@@ -19,7 +19,7 @@ export class MapService {
 
   constructor(private http: Http, private dataService: DataService) { }
 
-  refreshMap(estado) {
+  refreshMap(estado, lonLat) {
 
     this.map.removeLayer(this.vector);
 
@@ -35,6 +35,7 @@ export class MapService {
 
     this.map.addLayer(this.vector);
 
+    this.centerMap(lonLat);
   }
 
   centerMap(lonLat) {
