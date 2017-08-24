@@ -1,3 +1,4 @@
+import { GMapsService } from './services/gmaps.service';
 import { GeolocationService } from './services/geolocation.service';
 import { MapService } from './services/map.service';
 import { DataService } from './services/data.service';
@@ -18,12 +19,16 @@ export class AppComponent {
 
   selectedEstado: number = 27;
 
-  constructor(private dataService: DataService, private mapService: MapService, private geolocationService: GeolocationService) {}
+  constructor(private dataService: DataService, private mapService: MapService, private geolocationService: GeolocationService, private gmapsService: GMapsService) {}
 
   ngOnInit(): void {
 
     this.geolocationService.getLocation([]).subscribe((position) => {
         this.location = [position.coords.longitude, position.coords.latitude];
+
+        this.gmapsService.getGeocoding( 'CONJUNTO JOSE TENORIO, MACEIO ALAGOAS' ).subscribe(function (x) {
+          console.log(x.toString());
+          });
     });
 
     this.estadosList = this.mapService.listEstados();

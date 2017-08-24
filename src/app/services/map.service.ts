@@ -89,9 +89,9 @@ export class MapService {
 
     let listEstados = new Array();
 
-    this.dataService.listEstados().subscribe(micro => {
-      micro.forEach(element => {
-        listEstados.push({codigo: element.codigo, nome: element.nome});
+    this.dataService.listEstados().subscribe(estados => {
+      estados.map(estado => {
+        listEstados.push({codigo: estado.codigo, nome: estado.nome});
       });
     });
 
@@ -103,9 +103,9 @@ export class MapService {
 
     let listMesorregioes = new Array();
 
-    this.dataService.listMesorregioes(estado).subscribe(micro => {
-      micro.forEach(element => {
-        listMesorregioes.push({codigo: element.codigo, nome: element.nome});
+    this.dataService.listMesorregioes(estado).subscribe(mesos => {
+      mesos.map(meso => {
+        listMesorregioes.push({codigo: meso.codigo, nome: meso.nome});
       });
     });
 
@@ -117,9 +117,9 @@ export class MapService {
 
     let listMicrorregioes = new Array();
 
-    this.dataService.listMicrorregioes(estado).subscribe(micro => {
-      micro.forEach(element => {
-        listMicrorregioes.push({codigo: element.codigo, nome: element.nome});
+    this.dataService.listMicrorregioes(estado).subscribe(micros => {
+      micros.map(micro => {
+        listMicrorregioes.push({codigo: micro.codigo, nome: micro.nome});
       });
     });
 
