@@ -5,7 +5,7 @@
         "nome": "RONDONIA",
         "capital": {
           "codigo": 1100205,
-          "latLong": [-8.76, -63.9]
+          "latLng": [-8.76, -63.9]
         }
     },
     {
@@ -14,7 +14,7 @@
         "nome": "ACRE",
         "capital": {
           "codigo": 1200401,
-          "latLong": [-9.97, -67.81]
+          "latLng": [-9.97, -67.81]
         }
     },
     {
@@ -23,7 +23,7 @@
         "nome": "AMAZONAS",
         "capital": {
           "codigo": 1302603,
-          "latLong": [-3.1, -60.02]
+          "latLng": [-3.1, -60.02]
         }
     },
     {
@@ -32,7 +32,7 @@
         "nome": "RORAIMA",
         "capital": {
           "codigo": 1400100,
-          "latLong": [2.82, -60.67]
+          "latLng": [2.82, -60.67]
         }
     },
     {
@@ -41,7 +41,7 @@
         "nome": "PARA",
         "capital": {
           "codigo": 1501402,
-          "latLong": [-1.45, -48.5]
+          "latLng": [-1.45, -48.5]
         }
     },
     {
@@ -50,7 +50,7 @@
         "nome": "AMAPA",
         "capital": {
           "codigo": 1600303,
-          "latLong": [0.03, -51.06]
+          "latLng": [0.03, -51.06]
         }
     },
     {
@@ -59,7 +59,7 @@
         "nome": "TOCANTINS",
         "capital": {
           "codigo": 1721000,
-          "latLong": [-10.16, -48.33]
+          "latLng": [-10.16, -48.33]
         }
     },
     {
@@ -68,7 +68,7 @@
         "nome": "MARANHAO",
         "capital": {
           "codigo": 2111300,
-          "latLong": [-2.53, -44.3]
+          "latLng": [-2.53, -44.3]
         }
     },
     {
@@ -77,7 +77,7 @@
         "nome": "PIAUI",
         "capital": {
           "codigo": 2211001,
-          "latLong": [-5.08, -42.8]
+          "latLng": [-5.08, -42.8]
         }
     },
     {
@@ -86,7 +86,7 @@
         "nome": "CEARA",
         "capital": {
           "codigo": 2304400,
-          "latLong": [-3.71, -38.54]
+          "latLng": [-3.71, -38.54]
         }
     },
     {
@@ -95,7 +95,7 @@
         "nome": "RIO GRANDE NORTE",
         "capital": {
           "codigo": 2408102,
-          "latLong": [-5.79, -35.2]
+          "latLng": [-5.79, -35.2]
         }
     },
     {
@@ -104,7 +104,7 @@
         "nome": "PARAIBA",
         "capital": {
           "codigo": 2507507,
-          "latLong": [-7.11, -34.86]
+          "latLng": [-7.11, -34.86]
         }
     },
     {
@@ -113,7 +113,7 @@
         "nome": "PERNAMBUCO",
         "capital": {
           "codigo": 2611606,
-          "latLong": [-8.05, -34.88]
+          "latLng": [-8.05, -34.88]
         }
     },
     {
@@ -122,7 +122,7 @@
         "nome": "ALAGOAS",
         "capital": {
           "codigo": 2704302,
-          "latLong": [-9.66, -35.73]
+          "latLng": [-9.66, -35.73]
         }
     },
     {
@@ -131,7 +131,7 @@
         "nome": "SERGIPE",
         "capital": {
           "codigo": 2800308,
-          "latLong": [-10.91, -37.07]
+          "latLng": [-10.91, -37.07]
         }
     },
     {
@@ -140,7 +140,7 @@
         "nome": "BAHIA",
         "capital": {
           "codigo": 2927408,
-          "latLong": [-12.97, -38.51]
+          "latLng": [-12.97, -38.51]
         }
     },
     {
@@ -149,7 +149,7 @@
         "nome": "MINAS GERAIS",
         "capital": {
           "codigo": 3106200,
-          "latLong": [-19.81, -43.95]
+          "latLng": [-19.81, -43.95]
         }
     },
     {
@@ -158,7 +158,7 @@
         "nome": "ESPIRITO SANTO",
         "capital": {
           "codigo": 3205309,
-          "latLong": [-20.31, -40.33]
+          "latLng": [-20.31, -40.33]
         }
     },
     {
@@ -167,7 +167,7 @@
         "nome": "RIO DE JANEIRO",
         "capital": {
           "codigo": 3304557,
-          "latLong": [-22.9, -43.2]
+          "latLng": [-22.9, -43.2]
         }
     },
     {
@@ -176,7 +176,7 @@
         "nome": "SAO PAULO",
         "capital": {
           "codigo": 3550308,
-          "latLong": [-23.54, -46.63]
+          "latLng": [-23.54, -46.63]
         }
     },
     {
@@ -185,7 +185,7 @@
         "nome": "PARANA",
         "capital": {
           "codigo": 4106902,
-          "latLong": [-25.42, -49.27]
+          "latLng": [-25.42, -49.27]
         }
     },
     {
@@ -194,7 +194,7 @@
         "nome": "SANTA CATARINA",
         "capital": {
           "codigo": 4205407,
-          "latLong": [-27.59, -48.54]
+          "latLng": [-27.59, -48.54]
         }
     },
     {
@@ -203,7 +203,7 @@
         "nome": "RIO GRANDE DO SUL",
         "capital": {
           "codigo": 4314902,
-          "latLong": [-30.03, -51.23]
+          "latLng": [-30.03, -51.23]
         }
     },
     {
@@ -212,7 +212,7 @@
         "nome": "MATO GROSSO DO SUL",
         "capital": {
           "codigo": 5002704,
-          "latLong": [-20.44, -54.64]
+          "latLng": [-20.44, -54.64]
         }
     },
     {
@@ -221,7 +221,7 @@
         "nome": "MATO GROSSO",
         "capital": {
           "codigo": 5103403,
-          "latLong": [-15.59, -56.09]
+          "latLng": [-15.59, -56.09]
         }
     },
     {
@@ -230,7 +230,7 @@
         "nome": "GOIAS",
         "capital": {
           "codigo": 5208707,
-          "latLong": [-16.67, -49.25]
+          "latLng": [-16.67, -49.25]
         }
     },
     {
@@ -239,7 +239,7 @@
         "nome": "DESTRITO FEDERAL",
         "capital": {
           "codigo": 5300108,
-          "latLong": [-15.78, -47.93]
+          "latLng": [-15.78, -47.93]
         }
     }
 ]

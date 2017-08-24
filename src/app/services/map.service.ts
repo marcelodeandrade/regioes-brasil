@@ -19,12 +19,12 @@ export class MapService {
 
   constructor(private http: Http, private dataService: DataService) { }
 
-  refreshMap(estado, lonLat) {
+  refreshMap(options) {
 
     this.map.removeLayer(this.vector);
 
     this.vectorSource = new ol.source.Vector({
-      url: `../assets/data/coordenadas/${estado}.json`,
+      url: `../assets/data/coordenadas/${options.estado}.json`,
       format: new ol.format.TopoJSON()
     });
 
@@ -35,15 +35,15 @@ export class MapService {
 
     this.map.addLayer(this.vector);
 
-    this.centerMap(lonLat);
+    this.centerMap(options.latLng);
   }
 
   centerMap(lonLat) {
     this.map.getView().setCenter(ol.proj.transform(lonLat, 'EPSG:4326', 'EPSG:3857'));
-    this.map.getView().setZoom(5);
+    this.map.getView().setZoom(8);
   }
 
-  createMap(estado, lonLat) {
+  createMap() {
 
     this.style = new ol.style.Style({
       fill: new ol.style.Fill({
@@ -55,11 +55,7 @@ export class MapService {
       })
     });
 
-    this.vectorSource = new ol.source.Vector({
-      url: `../assets/data/coordenadas/${estado}.json`,
-      format: new ol.format.TopoJSON(),
-      overlaps: false,
-    });
+    this.vectorSource = new ol.source.Vector();
 
     this.vector = new ol.layer.Vector({
       source: this.vectorSource,
@@ -68,8 +64,8 @@ export class MapService {
 
     this.view = new ol.View({
       projection: 'EPSG:3857',
-      center: ol.proj.fromLonLat(lonLat),
-      zoom: 8
+      center: ol.proj.fromLonLat([-47.93, -15.78]),
+      zoom: 4
     });
 
     this.map = new ol.Map({

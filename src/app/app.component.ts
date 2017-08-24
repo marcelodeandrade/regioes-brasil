@@ -29,6 +29,7 @@ export class AppComponent {
   ngOnInit(): void {
 
     this.estadosList = this.dataService.listEstados();
+    this.createMap();
 
     this.geolocationService.getLocation([]).subscribe((position) => {
         this.location = [position.coords.longitude, position.coords.latitude];
@@ -37,9 +38,7 @@ export class AppComponent {
 
           let uf = this.gmapsService.getGeocoderAddressUF(addressListGeocoder);
           this.selectedEstado = this.dataService.getCodigoByUF(uf, this.estadosList);
-
-          this.createMap();
-          // this.refreshMap();
+          this.refreshMap();
 
         });
 
@@ -49,17 +48,22 @@ export class AppComponent {
 
   onSelect(estado) {
     this.selectedEstado = estado;
+    this.location = this.dataService.getCapitalLatLon(estado, this.estadosList);
     this.mesorregioesList = this.dataService.listMesorregioes(estado);
     this.microrregioesList = this.dataService.listMicrorregioes(estado);
+
     this.refreshMap();
   }
 
   createMap() {
-    // this.map = this.mapService.createMap(this.selectedEstado, [-35.659207, -9.373628]);
-    this.map = this.mapService.createMap(this.selectedEstado, this.location);
+    this.map = this.mapService.createMap();
   }
 
   refreshMap() {
-    this.mapService.refreshMap(this.selectedEstado, this.location);
+    this.mapService.refreshMap({
+      'estado': this.selectedEstado,
+      'latLng': this.location
+    });
   }
+
 }

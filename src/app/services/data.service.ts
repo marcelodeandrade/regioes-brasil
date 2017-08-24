@@ -1,3 +1,4 @@
+import { LatLng } from '@agm/core';
 import { Http } from '@angular/http';
 import { Injectable } from '@angular/core';
 import {Observable} from 'rxjs/Rx';
@@ -33,10 +34,14 @@ export class DataService {
     .map((response) => response.json())
     .subscribe(estados => {
       estados.map(estado => {
-        data.push({codigo: estado.codigo, nome: estado.nome, uf: estado.uf});
+        data.push({
+          codigo: estado.codigo,
+          nome: estado.nome,
+          uf: estado.uf,
+          latLng: estado.capital.latLng
+        });
       });
     });
-
     return data;
   }
 
@@ -72,6 +77,12 @@ export class DataService {
     return estadosList.filter((estado) => {
       return estado.uf.includes(uf);
     }).map(estado => estado.codigo)[0];
+  }
+
+  getCapitalLatLon(codigo, estadosList) {
+    return estadosList.filter((estado) => {
+      return estado.codigo.includes(codigo);
+    }).map(estado => {return estado.latLng})[0].reverse();
   }
 
 }

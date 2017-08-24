@@ -3,189 +3,189 @@
     "estado": 12,
     "capital": {
       "codigo": 1200401,
-      "latLong": [-9.97, -67.81]
+      "latLng": [-9.97, -67.81]
     }
   },
   {
     "estado": 27,
     "capital": {
       "codigo": 2704302,
-      "latLong": [-9.66, -35.73]
+      "latLng": [-9.66, -35.73]
     }
   },
   {
     "estado": 16,
     "capital": {
       "codigo": 1600303,
-      "latLong": [0.03, -51.06]
+      "latLng": [0.03, -51.06]
     }
   },
   {
     "estado": 13,
     "capital": {
       "codigo": 1302603,
-      "latLong": [-3.1, -60.02]
+      "latLng": [-3.1, -60.02]
     }
   },
   {
     "estado": 29,
     "capital": {
       "codigo": 2927408,
-      "latLong": [-12.97, -38.51]
+      "latLng": [-12.97, -38.51]
     }
   },
   {
     "estado": 23,
     "capital": {
       "codigo": 2304400,
-      "latLong": [-3.71, -38.54]
+      "latLng": [-3.71, -38.54]
     }
   },
   {
     "estado": 53,
     "capital": {
       "codigo": 5300108,
-      "latLong": [-15.78, -47.93]
+      "latLng": [-15.78, -47.93]
     }
   },
   {
     "estado": 32,
     "capital": {
       "codigo": 3205309,
-      "latLong": [-20.31, -40.33]
+      "latLng": [-20.31, -40.33]
     }
   },
   {
     "estado": 52,
     "capital": {
       "codigo": 5208707,
-      "latLong": [-16.67, -49.25]
+      "latLng": [-16.67, -49.25]
     }
   },
   {
     "estado": 21,
     "capital": {
       "codigo": 2111300,
-      "latLong": [-2.53, -44.3]
+      "latLng": [-2.53, -44.3]
     }
   },
   {
     "estado": 51,
     "capital": {
       "codigo": 5103403,
-      "latLong": [-15.59, -56.09]
+      "latLng": [-15.59, -56.09]
     }
   },
   {
     "estado": 50,
     "capital": {
       "codigo": 5002704,
-      "latLong": [-20.44, -54.64]
+      "latLng": [-20.44, -54.64]
     }
   },
   {
     "estado": 31,
     "capital": {
       "codigo": 3106200,
-      "latLong": [-19.81, -43.95]
+      "latLng": [-19.81, -43.95]
     }
   },
   {
     "estado": 15,
     "capital": {
       "codigo": 1501402,
-      "latLong": [-1.45, -48.5]
+      "latLng": [-1.45, -48.5]
     }
   },
   {
     "estado": 25,
     "capital": {
       "codigo": 2507507,
-      "latLong": [-7.11, -34.86]
+      "latLng": [-7.11, -34.86]
     }
   },
   {
     "estado": 41,
     "capital": {
       "codigo": 4106902,
-      "latLong": [-25.42, -49.27]
+      "latLng": [-25.42, -49.27]
     }
   },
   {
     "estado": 26,
     "capital": {
       "codigo": 2611606,
-      "latLong": [-8.05, -34.88]
+      "latLng": [-8.05, -34.88]
     }
   },
   {
     "estado": 22,
     "capital": {
       "codigo": 2211001,
-      "latLong": [-5.08, -42.8]
+      "latLng": [-5.08, -42.8]
     }
   },
   {
     "estado": 33,
     "capital": {
       "codigo": 3304557,
-      "latLong": [-22.9, -43.2]
+      "latLng": [-22.9, -43.2]
     }
   },
   {
     "estado": 24,
     "capital": {
       "codigo": 2408102,
-      "latLong": [-5.79, -35.2]
+      "latLng": [-5.79, -35.2]
     }
   },
   {
     "estado": 43,
     "capital": {
       "codigo": 4314902,
-      "latLong": [-30.03, -51.23]
+      "latLng": [-30.03, -51.23]
     }
   },
   {
     "estado": 11,
     "capital": {
       "codigo": 1100205,
-      "latLong": [-8.76, -63.9]
+      "latLng": [-8.76, -63.9]
     }
   },
   {
     "estado": 14,
     "capital": {
       "codigo": 1400100,
-      "latLong": [2.82, -60.67]
+      "latLng": [2.82, -60.67]
     }
   },
   {
     "estado": 42,
     "capital": {
       "codigo": 4205407,
-      "latLong": [-27.59, -48.54]
+      "latLng": [-27.59, -48.54]
     }
   },
   {
     "estado": 35,
     "capital": {
       "codigo": 3550308,
-      "latLong": [-23.54, -46.63]
+      "latLng": [-23.54, -46.63]
     }
   },
   {
     "estado": 28,
     "capital": {
       "codigo": 2800308,
-      "latLong": [-10.91, -37.07]
+      "latLng": [-10.91, -37.07]
     }
   },
   {
     "estado": 17,
     "capital": {
       "codigo": 1721000,
-      "latLong": [-10.16, -48.33]
+      "latLng": [-10.16, -48.33]
     }
   }
 ]
