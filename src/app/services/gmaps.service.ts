@@ -13,42 +13,35 @@ export class GMapsService {
   constructor(
     private gmapsLoader: MapsAPILoader,
     private dataService: DataService
-  ) {
-    this.gmapsLoader.load().then(() => {
-      this.geocoder = new google.maps.Geocoder();
-    });
-  }
+  ) {}
 
   reverseGeocoding(latitude, longitude) {
     return Observable.create(observer => {
-      try {
+      this.gmapsLoader.load().then(() => {
+        try {
           let latLng = new google.maps.LatLng(latitude, longitude);
           this.geocoder.geocode({'latLng': latLng}, (results, status) => {
             observer.next(results);
             observer.complete();
           });
-
-      } catch (error) {
-        observer.error('error getGeocoding' + error);
-        observer.complete();
-      }
-    });
-  }
-
-  isEstado(address_components) {
-    return address_components.types.includes('administrative_area_level_1') && address_components.types.includes('political');
-  }
-
-  getGeocoderAddressUF(geocoderAddress) {
-    let uf;
-
-    geocoderAddress.map(function(address) {
-      address.address_components.filter( function( elem, i, array ) {
-        if(this.isEstado(elem)) {
-          uf = elem.shortname;
+        } catch (error) {
+          observer.error('error getGeocoding' + error);
+          observer.complete();
         }
       });
     });
+  }
+
+  isEstado(address) {
+    return address.types.includes('administrative_area_level_1') && address.types.includes('political');
+  }
+
+  getGeocoderAddressUF(geocoderAddress) {
+    let uf = geocoderAddress.address_components.filter((address) => {
+      return this.isEstado(address);
+    }).map(estado => {
+      return estado.short_name;
+    })[0];
 
     return uf;
   }
