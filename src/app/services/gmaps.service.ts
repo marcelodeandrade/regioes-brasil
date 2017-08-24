@@ -1,45 +1,70 @@
+import { DataService } from './data.service';
 import { Injectable } from '@angular/core';
-import { MapsAPILoader } from '@agm/core';
+import { LatLng, MapsAPILoader } from '@agm/core';
 import { Observable } from 'rxjs/Observable';
 
 declare var google: any;
 
 @Injectable()
 export class GMapsService {
-    constructor(private __loader: MapsAPILoader) {
 
-    }
+  geocoder: any;
 
-    getGeocoding(address: string) {
-        return Observable.create(observer => {
-            try {
-                //at this point the variable google may be still undefined (google maps scripts still loading)
-                //so load all the scripts, then...
-                this.__loader.load().then(() => {
-                    let geocoder = new google.maps.Geocoder();
-                    geocoder.geocode({ address }, (results, status) => {
+  constructor(
+    private gmapsLoader: MapsAPILoader,
+    private dataService: DataService
+  ) {
+    this.gmapsLoader.load().then(() => {
+      this.geocoder = new google.maps.Geocoder();
+    });
+  }
 
-                        if (status === google.maps.GeocoderStatus.OK) {
-                            const place = results[0].geometry.location;
-                            observer.next(place);
-                            observer.complete();
-                        } else {
-                            console.error('Error - ', results, ' & Status - ', status);
-                            if (status === google.maps.GeocoderStatus.ZERO_RESULTS) {
-                                observer.error('Address not found!');
-                            }else {
-                                observer.error(status);
-                            }
+  reverseGeocoding(latitude, longitude) {
+    return Observable.create(observer => {
+      try {
+          let latLng = new google.maps.LatLng(latitude, longitude);
+          this.geocoder.geocode({'latLng': latLng}, (results, status) => {
+            observer.next(results);
+            observer.complete();
+          });
 
-                            observer.complete();
-                        }
-                    });
-                });
-            } catch (error) {
-                observer.error('error getGeocoding' + error);
-                observer.complete();
-            }
+      } catch (error) {
+        observer.error('error getGeocoding' + error);
+        observer.complete();
+      }
+    });
+  }
 
-        });
-    }
+  isEstado(address_components) {
+    return address_components.types.includes('administrative_area_level_1') && address_components.types.includes('political');
+  }
+
+  getGeocoderAddressUF(geocoderAddress) {
+    let uf;
+
+    geocoderAddress.map(function(address) {
+      address.address_components.filter( function( elem, i, array ) {
+        if(this.isEstado(elem)) {
+          uf = elem.shortname;
+        }
+      });
+    });
+
+    return uf;
+  }
+
+  getCodigoByUF(uf) {
+    let codigo;
+
+     this.dataService.listEstados().subscribe(estados => {
+      codigo = estados.filter((estado) => {
+          return estado.uf.includes(uf);
+        }).map((estado) => {
+          return estado.codigo;
+        })[0];
+    });
+
+    return codigo;
+  }
+
 }
