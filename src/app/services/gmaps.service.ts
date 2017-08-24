@@ -18,6 +18,8 @@ export class GMapsService {
   reverseGeocoding(latitude, longitude) {
     return Observable.create(observer => {
       this.gmapsLoader.load().then(() => {
+
+        this.geocoder = new google.maps.Geocoder();
         try {
           let latLng = new google.maps.LatLng(latitude, longitude);
           this.geocoder.geocode({'latLng': latLng}, (results, status) => {
