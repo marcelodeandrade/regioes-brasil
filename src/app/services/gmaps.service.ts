@@ -15,7 +15,7 @@ export class GMapsService {
     private dataService: DataService
   ) {}
 
-  reverseGeocoding(latitude, longitude) {
+  reverseGeocoder(latitude, longitude) {
     return Observable.create(observer => {
       this.gmapsLoader.load().then(() => {
 
@@ -38,12 +38,16 @@ export class GMapsService {
     return address.types.includes('administrative_area_level_1') && address.types.includes('political');
   }
 
-  getGeocoderAddressUF(geocoderAddress) {
-    let uf = geocoderAddress.address_components.filter((address) => {
-      return this.isEstado(address);
-    }).map(estado => {
-      return estado.short_name;
-    })[0];
+  getGeocoderAddressUF(addressListGeocoder) {
+    let uf;
+
+    addressListGeocoder.map((address) => {
+      return address.address_components.filter((component, i, array) => {
+        if (this.isEstado(component)) {
+           uf = component.short_name;
+        }
+      });
+    });
 
     return uf;
   }
