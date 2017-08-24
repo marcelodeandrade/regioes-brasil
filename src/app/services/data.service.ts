@@ -33,7 +33,7 @@ export class DataService {
     .map((response) => response.json())
     .subscribe(estados => {
       estados.map(estado => {
-        data.push({codigo: estado.codigo, nome: estado.nome});
+        data.push({codigo: estado.codigo, nome: estado.nome, uf: estado.uf});
       });
     });
 
@@ -66,6 +66,12 @@ export class DataService {
     });
 
     return data;
+  }
+
+  getCodigoByUF(uf, estadosList) {
+    return estadosList.filter((estado) => {
+      return estado.uf.includes(uf);
+    }).map(estado => estado.codigo)[0];
   }
 
 }
