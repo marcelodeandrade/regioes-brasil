@@ -1,20 +1,20 @@
 <select [(ngModel)]="selectedEstado" (change)="onSelect($event.target.value)">
   <option value="0">Selecione o Estado</option>
-  <option *ngFor="let estado of estadosList" value= {{estado.codigo}}>
+  <option *ngFor="let estado of (estadosList | sortBy: 'nome')" value= {{estado.codigo}}>
     {{estado.nome}}
   </option>
 </select>
 
 <select *ngIf="selectedEstado != 0">
   <option value="0">Selecione a mesorregiao</option>
-  <option *ngFor="let mesorregiao of mesorregioesList" value= {{mesorregiao.codigo}}>
+  <option *ngFor="let mesorregiao of (mesorregioesList | sortBy: 'nome')" value= {{mesorregiao.codigo}}>
     {{mesorregiao.nome}}
   </option>
 </select>
 
 <select *ngIf="selectedEstado != 0">
   <option value="0">Selecione a microrregiao</option>
-  <option *ngFor="let microrregiao of microrregioesList" value= {{microrregiao.codigo}}>
+  <option *ngFor="let microrregiao of (microrregioesList | sortBy: 'nome')" value= {{microrregiao.codigo}}>
     {{microrregiao.nome}}
   </option>
 </select>

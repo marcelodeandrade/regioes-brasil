@@ -10,10 +10,12 @@ import { HttpModule } from '@angular/http';
 import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
+import { SortPipe } from './pipes/sort.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SortPipe
   ],
   imports: [
     BrowserModule,
