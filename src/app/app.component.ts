@@ -48,10 +48,6 @@ export class AppComponent {
 
   onSelect(estado) {
     this.selectedEstado = estado;
-    this.location = this.dataService.getCapitalLatLon(estado, this.estadosList);
-    this.mesorregioesList = this.dataService.listMesorregioes(estado);
-    this.microrregioesList = this.dataService.listMicrorregioes(estado);
-
     this.refreshMap();
   }
 
@@ -60,6 +56,10 @@ export class AppComponent {
   }
 
   refreshMap() {
+    this.location = this.dataService.getCapitalLatLon(this.selectedEstado, this.estadosList);
+    this.mesorregioesList = this.dataService.listMesorregioes(this.selectedEstado);
+    this.microrregioesList = this.dataService.listMicrorregioes(this.selectedEstado);
+
     this.mapService.refreshMap({
       'estado': this.selectedEstado,
       'latLng': this.location
