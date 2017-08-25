@@ -39,8 +39,7 @@ export class MapService {
   }
 
   centerMap(lonLat) {
-    this.map.getView().setCenter(ol.proj.transform(lonLat, 'EPSG:4326', 'EPSG:3857'));
-    this.map.getView().setZoom(8);
+    this.map.getView().animate({zoom: 8}, {center: ol.proj.transform(lonLat, 'EPSG:4326', 'EPSG:3857')});
   }
 
   createMap() {
