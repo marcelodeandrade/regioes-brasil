@@ -1,0 +1,68 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "1201",
+            "nome_regiao_intermediaria": "Rio Branco",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "120001",
+                    "nome_regiao_imediata": "Rio Branco",
+                    "municipios": [
+                        "1200013",
+                        "1200138",
+                        "1200179",
+                        "1200385",
+                        "1200401",
+                        "1200450",
+                        "1200807"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "120002",
+                    "nome_regiao_imediata": "Brasil\u00e9ia",
+                    "municipios": [
+                        "1200054",
+                        "1200104",
+                        "1200252",
+                        "1200708"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "120003",
+                    "nome_regiao_imediata": "Sena Madureira",
+                    "municipios": [
+                        "1200344",
+                        "1200435",
+                        "1200500"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1202",
+            "nome_regiao_intermediaria": "Cruzeiro do Sul",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "120004",
+                    "nome_regiao_imediata": "Cruzeiro do Sul",
+                    "municipios": [
+                        "1200203",
+                        "1200336",
+                        "1200351",
+                        "1200393",
+                        "1200427"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "120005",
+                    "nome_regiao_imediata": "Tarauac\u00e1",
+                    "municipios": [
+                        "1200302",
+                        "1200328",
+                        "1200609"
+                    ]
+                }
+            ]
+        }
+    ]
+}

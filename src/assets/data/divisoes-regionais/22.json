@@ -1,0 +1,378 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "2203",
+            "nome_regiao_intermediaria": "Picos",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "220010",
+                    "nome_regiao_imediata": "Paulistana",
+                    "municipios": [
+                        "2200053",
+                        "2201739",
+                        "2202554",
+                        "2203271",
+                        "2205151",
+                        "2207777",
+                        "2207801",
+                        "2208650",
+                        "2210706"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220009",
+                    "nome_regiao_imediata": "Picos",
+                    "municipios": [
+                        "2200251",
+                        "2200277",
+                        "2200954",
+                        "2201572",
+                        "2201804",
+                        "2202091",
+                        "2202133",
+                        "2203404",
+                        "2204154",
+                        "2204204",
+                        "2204303",
+                        "2204352",
+                        "2204907",
+                        "2205003",
+                        "2205201",
+                        "2205953",
+                        "2206050",
+                        "2206506",
+                        "2207207",
+                        "2207553",
+                        "2208007",
+                        "2208205",
+                        "2209104",
+                        "2209351",
+                        "2209401",
+                        "2209856",
+                        "2210201",
+                        "2210300",
+                        "2210375",
+                        "2210938",
+                        "2211506",
+                        "2211605",
+                        "2211704"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220012",
+                    "nome_regiao_imediata": "Simpl\u00edcio Mendes",
+                    "municipios": [
+                        "2201556",
+                        "2202109",
+                        "2202802",
+                        "2207306",
+                        "2209658",
+                        "2210805",
+                        "2210904"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220011",
+                    "nome_regiao_imediata": "Oeiras",
+                    "municipios": [
+                        "2202075",
+                        "2202778",
+                        "2203859",
+                        "2207009",
+                        "2209377",
+                        "2209500",
+                        "2209955",
+                        "2210391",
+                        "2210979"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2201",
+            "nome_regiao_intermediaria": "Teresina",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "220002",
+                    "nome_regiao_imediata": "Amarante - \u00c1gua Branca - Regenera\u00e7\u00e3o",
+                    "municipios": [
+                        "2200103",
+                        "2200202",
+                        "2200509",
+                        "2200608",
+                        "2201408",
+                        "2203503",
+                        "2204006",
+                        "2204600",
+                        "2205250",
+                        "2205540",
+                        "2206308",
+                        "2207108",
+                        "2207504",
+                        "2207751",
+                        "2208601",
+                        "2208809",
+                        "2209450",
+                        "2209609",
+                        "2209807",
+                        "2210383",
+                        "2210508",
+                        "2211407"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220001",
+                    "nome_regiao_imediata": "Teresina",
+                    "municipios": [
+                        "2200301",
+                        "2200400",
+                        "2201606",
+                        "2202737",
+                        "2203255",
+                        "2203305",
+                        "2205508",
+                        "2205557",
+                        "2205581",
+                        "2206209",
+                        "2206407",
+                        "2206720",
+                        "2206951",
+                        "2207793",
+                        "2211001",
+                        "2211100"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220004",
+                    "nome_regiao_imediata": "Valen\u00e7a do Piau\u00ed",
+                    "municipios": [
+                        "2200905",
+                        "2201176",
+                        "2204709",
+                        "2204808",
+                        "2205599",
+                        "2206902",
+                        "2208106",
+                        "2209153",
+                        "2211308"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220003",
+                    "nome_regiao_imediata": "Campo Maior",
+                    "municipios": [
+                        "2201051",
+                        "2201945",
+                        "2202026",
+                        "2202208",
+                        "2202604",
+                        "2202711",
+                        "2205276",
+                        "2205516",
+                        "2206753",
+                        "2209906",
+                        "2210409",
+                        "2210656"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220005",
+                    "nome_regiao_imediata": "Barras",
+                    "municipios": [
+                        "2201200",
+                        "2201770",
+                        "2202059",
+                        "2202174",
+                        "2206803",
+                        "2208502"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2205",
+            "nome_regiao_intermediaria": "Corrente - Bom Jesus",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "220016",
+                    "nome_regiao_imediata": "Bom Jesus",
+                    "municipios": [
+                        "2200459",
+                        "2201903",
+                        "2202752",
+                        "2203107",
+                        "2203230",
+                        "2207405",
+                        "2208700",
+                        "2209302"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220015",
+                    "nome_regiao_imediata": "Corrente",
+                    "municipios": [
+                        "2201101",
+                        "2201309",
+                        "2202901",
+                        "2203008",
+                        "2203206",
+                        "2204402",
+                        "2205524",
+                        "2206605",
+                        "2206654",
+                        "2207603",
+                        "2208858",
+                        "2209203",
+                        "2209757",
+                        "2210623"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2204",
+            "nome_regiao_intermediaria": "S\u00e3o Raimundo Nonato",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "220013",
+                    "nome_regiao_imediata": "S\u00e3o Raimundo Nonato",
+                    "municipios": [
+                        "2200707",
+                        "2201929",
+                        "2202505",
+                        "2202851",
+                        "2203354",
+                        "2203453",
+                        "2203750",
+                        "2204550",
+                        "2205532",
+                        "2209559",
+                        "2210359",
+                        "2210607",
+                        "2211357"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220014",
+                    "nome_regiao_imediata": "S\u00e3o Jo\u00e3o do Piau\u00ed",
+                    "municipios": [
+                        "2202117",
+                        "2202455",
+                        "2205359",
+                        "2205565",
+                        "2207934",
+                        "2207959",
+                        "2208874",
+                        "2210003"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2206",
+            "nome_regiao_intermediaria": "Floriano",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "220018",
+                    "nome_regiao_imediata": "Uru\u00e7u\u00ed",
+                    "municipios": [
+                        "2200806",
+                        "2201150",
+                        "2201705",
+                        "2205904",
+                        "2208908",
+                        "2210631",
+                        "2211209"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220017",
+                    "nome_regiao_imediata": "Floriano",
+                    "municipios": [
+                        "2201002",
+                        "2202251",
+                        "2203909",
+                        "2204105",
+                        "2204501",
+                        "2205102",
+                        "2205300",
+                        "2205607",
+                        "2206001",
+                        "2206704",
+                        "2208551",
+                        "2209708",
+                        "2210102"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220019",
+                    "nome_regiao_imediata": "Canto do Buriti",
+                    "municipios": [
+                        "2201988",
+                        "2202307",
+                        "2203602",
+                        "2203800",
+                        "2207355",
+                        "2207850",
+                        "2209005",
+                        "2210953"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2202",
+            "nome_regiao_intermediaria": "Parna\u00edba",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "220008",
+                    "nome_regiao_imediata": "Esperantina",
+                    "municipios": [
+                        "2201507",
+                        "2203701",
+                        "2205409",
+                        "2205458",
+                        "2205805",
+                        "2205854",
+                        "2206100",
+                        "2206670",
+                        "2209971"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220006",
+                    "nome_regiao_imediata": "Parna\u00edba",
+                    "municipios": [
+                        "2201919",
+                        "2202000",
+                        "2202083",
+                        "2202539",
+                        "2202653",
+                        "2202703",
+                        "2202729",
+                        "2204659",
+                        "2205706",
+                        "2206696",
+                        "2207702"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "220007",
+                    "nome_regiao_imediata": "Piripiri",
+                    "municipios": [
+                        "2201960",
+                        "2202406",
+                        "2203420",
+                        "2205573",
+                        "2206357",
+                        "2207900",
+                        "2208304",
+                        "2208403",
+                        "2209872",
+                        "2210052"
+                    ]
+                }
+            ]
+        }
+    ]
+}
