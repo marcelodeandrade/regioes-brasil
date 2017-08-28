@@ -14,12 +14,14 @@ export class DataService {
   mesorregiaoURL: string;
   coordenadasURL: string;
   estadosURL: string;
+  divisoesRegionaisURL: string;
 
   constructor(private http: Http) {
     this.microrregiaoURL = '../assets/data/microrregioes/';
     this.mesorregiaoURL = '../assets/data/mesorregioes/';
     this.coordenadasURL = '../assets/data/coordenadas/';
     this.estadosURL = '../assets/data/';
+    this.divisoesRegionaisURL = '../assets/data/divisoes-regionais/';
   }
 
   getEstado (codigo_estado: number) {
@@ -27,7 +29,7 @@ export class DataService {
       .map((response) => response.json());
   }
 
-  listEstados () {
+  listEstados(): Array<Object> {
     const data = [];
 
     this.http.get(`${this.estadosURL}estados.json`)
@@ -45,28 +47,33 @@ export class DataService {
     return data;
   }
 
-  listMicrorregioes(estado: number) {
+  listRegioesIntermediarias(estado: number): Array<Object> {
     const data = [];
 
-    this.http.get(`${this.microrregiaoURL}${estado}.json`)
+    this.http.get(`${this.divisoesRegionaisURL}${estado}.json`)
     .map((response) => response.json())
-    .subscribe(micros => {
-      micros.map(micro => {
-        data.push({codigo: micro.codigo, nome: micro.nome});
+    .subscribe(regioes => {
+      console.log(regioes);
+      regioes.regioes_intermediarias.map(regiao => {
+        data.push({codigo: regiao.codigo_regiao_intermediaria, nome: regiao.nome_regiao_intermediaria});
       });
     });
 
     return data;
   }
 
-  listMesorregioes(estado: number) {
+  listRegioesImediatas(estado: number, regiaoIntermediaria: number): Array<Object> {
     const data = [];
 
-    this.http.get(`${this.mesorregiaoURL}${estado}.json`)
+    this.http.get(`${this.divisoesRegionaisURL}${estado}.json`)
     .map((response) => response.json())
-    .subscribe(mesos => {
-      mesos.map(meso => {
-        data.push({codigo: meso.codigo, nome: meso.nome});
+    .subscribe(regioes => {
+      regioes.regioes_intermediarias.map(regiao => {
+        if (regiao.codigo_regiao_intermediaria === regiaoIntermediaria) {
+          regiao.regioes_imediatas.map(imediata => {
+            data.push({codigo: imediata.codigo_regiao_imediata, nome: imediata.nome_regiao_imediata});
+          });
+        }
       });
     });
 

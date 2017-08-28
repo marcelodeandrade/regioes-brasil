@@ -12,12 +12,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   map: any;
-  location: any;
-  microrregioesList: any;
-  mesorregioesList: any;
-  estadosList: any;
+  location: Array<number>;
+  listEstados: Array<Object>;
+  listRegioesIntermediarias: Array<Object>;
+  listRegioesImediatas: Array<Object>;
 
-  selectedEstado: number = 0;
+  selectedEstado = 0;
+  selectedRegiaoIntermediaria = 0;
+  selectedRegiaoImediata = 0;
 
   constructor(
     private dataService: DataService,
@@ -28,16 +30,16 @@ export class AppComponent {
 
   ngOnInit(): void {
 
-    this.estadosList = this.dataService.listEstados();
-    this.createMap();
+    this.listEstados = this.dataService.listEstados();
+    this.map = this.mapService.createMap();
 
     this.geolocationService.getLocation([]).subscribe((position) => {
         this.location = [position.coords.longitude, position.coords.latitude];
 
         this.gmapsService.reverseGeocoder(position.coords.latitude, position.coords.longitude).subscribe((addressListGeocoder) => {
 
-          let uf = this.gmapsService.getGeocoderAddressUF(addressListGeocoder);
-          this.selectedEstado = this.dataService.getCodigoByUF(uf, this.estadosList);
+          const uf = this.gmapsService.getGeocoderAddressUF(addressListGeocoder);
+          this.selectedEstado = this.dataService.getCodigoByUF(uf, this.listEstados);
           this.refreshMap();
 
         });
@@ -46,19 +48,26 @@ export class AppComponent {
 
   }
 
-  onSelect(estado) {
-    this.selectedEstado = estado;
+  onSelectEstado(codigo) {
+    this.selectedEstado = codigo;
     this.refreshMap();
   }
 
-  createMap() {
-    this.map = this.mapService.createMap();
+  onSelectRegiaoIntermediaria(codigo) {
+    console.log(codigo);
+    this.selectedRegiaoIntermediaria = codigo;
+    this.refreshMap();
+  }
+
+  onSelectRegiaoImediata(codigo) {
+    this.selectedRegiaoImediata = codigo;
+    this.refreshMap();
   }
 
   refreshMap() {
-    this.location = this.dataService.getCapitalLatLon(this.selectedEstado, this.estadosList);
-    this.mesorregioesList = this.dataService.listMesorregioes(this.selectedEstado);
-    this.microrregioesList = this.dataService.listMicrorregioes(this.selectedEstado);
+    this.location = this.dataService.getCapitalLatLon(this.selectedEstado, this.listEstados);
+    this.listRegioesIntermediarias = this.dataService.listRegioesIntermediarias(this.selectedEstado);
+    this.listRegioesImediatas = this.dataService.listRegioesImediatas(this.selectedEstado, this.selectedRegiaoIntermediaria);
 
     this.mapService.refreshMap({
       'estado': this.selectedEstado,
