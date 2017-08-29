@@ -40,7 +40,7 @@ export class DataService {
           codigo: estado.codigo,
           nome: estado.nome,
           uf: estado.uf,
-          latLng: estado.capital.latLng
+          latLng: estado.capital.latLng.reverse()
         });
       });
     });
@@ -53,7 +53,6 @@ export class DataService {
     this.http.get(`${this.divisoesRegionaisURL}${estado}.json`)
     .map((response) => response.json())
     .subscribe(regioes => {
-      console.log(regioes);
       regioes.regioes_intermediarias.map(regiao => {
         data.push({codigo: regiao.codigo_regiao_intermediaria, nome: regiao.nome_regiao_intermediaria});
       });
@@ -89,7 +88,7 @@ export class DataService {
   getCapitalLatLng(codigo, estadosList) {
     return estadosList.filter((estado) => {
       return estado.codigo.includes(codigo);
-    }).map(estado => {return estado.latLng})[0].reverse();
+    }).map(estado => { return estado.latLng; })[0];
   }
 
 }
