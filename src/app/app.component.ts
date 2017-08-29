@@ -54,7 +54,6 @@ export class AppComponent {
   }
 
   onSelectRegiaoIntermediaria(codigo) {
-    console.log(codigo);
     this.selectedRegiaoIntermediaria = codigo;
     this.refreshMap();
   }
