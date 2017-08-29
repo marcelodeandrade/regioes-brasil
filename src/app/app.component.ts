@@ -65,7 +65,7 @@ export class AppComponent {
   }
 
   refreshMap() {
-    this.location = this.dataService.getCapitalLatLon(this.selectedEstado, this.listEstados);
+    this.location = this.dataService.getCapitalLatLng(this.selectedEstado, this.listEstados);
     this.listRegioesIntermediarias = this.dataService.listRegioesIntermediarias(this.selectedEstado);
     this.listRegioesImediatas = this.dataService.listRegioesImediatas(this.selectedEstado, this.selectedRegiaoIntermediaria);
 

@@ -86,7 +86,7 @@ export class DataService {
     }).map(estado => estado.codigo)[0];
   }
 
-  getCapitalLatLon(codigo, estadosList) {
+  getCapitalLatLng(codigo, estadosList) {
     return estadosList.filter((estado) => {
       return estado.codigo.includes(codigo);
     }).map(estado => {return estado.latLng})[0].reverse();
