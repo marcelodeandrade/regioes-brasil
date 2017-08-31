@@ -1,3 +1,4 @@
+import { LatLng } from '@agm/core';
 import { DataService } from './data.service';
 import { Http } from '@angular/http';
 import { Injectable } from '@angular/core';
@@ -17,30 +18,33 @@ export class MapService {
   view: any;
   map: any;
 
-  constructor(private http: Http, private dataService: DataService) { }
+  constructor(private http: Http, private dataService: DataService) {}
+
+  getSource(estado) {
+    return this.dataService.getEstado(estado);
+  }
 
   refreshMap(options) {
 
-    this.map.removeLayer(this.vector);
+    this.dataService.getEstado(options.estado).subscribe(topoJSONSource => {
 
-    this.vectorSource = new ol.source.Vector({
-      url: `../assets/data/coordenadas/${options.estado}.json`,
-      format: new ol.format.TopoJSON()
+      this.map.removeLayer(this.vector);
+
+      this.vectorSource = new ol.source.Vector({
+        features: (new ol.format.TopoJSON()).readFeatures(topoJSONSource),
+      });
+
+      this.vector = new ol.layer.Vector({
+        source: this.vectorSource,
+        style: this.style
+      });
+
+      this.map.addLayer(this.vector);
+
+      this.view.animate({zoom: 8}, {center: ol.proj.transform(options.latLng, 'EPSG:4326', 'EPSG:4326')});
+
     });
-
-    this.vector = new ol.layer.Vector({
-      source: this.vectorSource,
-      style: this.style
-    });
-
-    this.map.addLayer(this.vector);
-
-    this.centerMap(options.latLng);
-  }
-
-  centerMap(LatLng) {
-    this.map.getView().animate({zoom: 8}, {center: ol.proj.transform(LatLng, 'EPSG:4326', 'EPSG:3857')});
-  }
+    }
 
   createMap() {
 
@@ -62,17 +66,23 @@ export class MapService {
     });
 
     this.view = new ol.View({
-      projection: 'EPSG:3857',
-      center: ol.proj.fromLonLat([-47.93, -15.78]),
+      projection: 'EPSG:4326',
+      center: ol.proj.transform([-47.93, -15.78], 'EPSG:4326', 'EPSG:4326'),
       zoom: 4
     });
 
     this.map = new ol.Map({
       layers: [
         new ol.layer.Tile({
-          source: new ol.source.OSM()
-        })
-        , this.vector
+          source: new ol.source.OSM({
+              url: 'http://mt{0-3}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
+              attributions: [
+                  new ol.Attribution({ html: '© Google' }),
+                  new ol.Attribution({ html: '<a href="https://developers.google.com/maps/terms">Terms of Use.</a>' })
+              ]
+          })
+      }),
+      this.vector
       ],
       target: 'map',
       view: this.view
