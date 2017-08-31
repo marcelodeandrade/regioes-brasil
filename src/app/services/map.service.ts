@@ -20,10 +20,6 @@ export class MapService {
 
   constructor(private http: Http, private dataService: DataService) {}
 
-  getSource(estado) {
-    return this.dataService.getEstado(estado);
-  }
-
   refreshMap(options) {
 
     this.dataService.getEstado(options.estado).subscribe(topoJSONSource => {
