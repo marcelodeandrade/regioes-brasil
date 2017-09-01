@@ -23,6 +23,8 @@ export class MapService {
 
     this.dataService.getEstado(options.estado).subscribe(topoJSONSource => {
 
+      this.unsetMunicipios(topoJSONSource, options);
+
       this.map.removeLayer(this.vector);
 
       this.vectorSource = new ol.source.Vector({
@@ -36,7 +38,8 @@ export class MapService {
 
       this.map.addLayer(this.vector);
 
-      this.view.animate({zoom: 8}, {center: ol.proj.transform(options.latLng, 'EPSG:4326', 'EPSG:4326')});
+      this.view.animate({zoom: 8}, {center: ol.proj.transform(options.latLng, 'EPSG:4326',
+      'EPSG:4326')});
 
     });
     }
@@ -62,7 +65,8 @@ export class MapService {
 
     this.view = new ol.View({
       projection: 'EPSG:4326',
-      center: ol.proj.transform([-47.93, -15.78], 'EPSG:4326', 'EPSG:4326'),
+      center: ol.proj.transform([-47.93, -15.78], 'EPSG:4326',
+      'EPSG:4326'),
       zoom: 4
     });
 
@@ -86,23 +90,19 @@ export class MapService {
     return this.map;
   }
 
-  unsetMunicipios(topoJSON, codigo_estado, municipios) {
-    let geometries = topoJSON.objects[codigo_estado]['geometries'];
+  unsetMunicipios(topoJSONSource, options) {
 
-    // if (municipios != null) {
-    //     let municipiosArr = [];
+    const geometries = topoJSONSource.objects[options.estado]['geometries'];
+    const municipios = options.municipios;
 
-    //     $.each(JSON.parse(municipios), function(idx, obj) {
-    //       municipiosArr.push(obj.codigo);
-    //     });
+    const newGeometries = geometries.filter((elem, i, array) => {
+      if (municipios.indexOf(elem.properties.cod.toString()) > -1) {
+        return array[i];
+      };
+    });
 
-    //   for(var i = geometries.length -1; i >= 0 ; i--){
-    //     let cod = geometries[i].properties.cod;
-    //     if($.inArray(cod.toString(), municipiosArr) < 0){
-    //           geometries.splice(i, 1);
-    //     }
-    //   }
-    // }
+    topoJSONSource.objects[options.estado]['geometries'] = newGeometries;
+
   }
 
 }
