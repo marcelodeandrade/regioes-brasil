@@ -11,12 +11,11 @@ import * as ol from 'openlayers';
 @Injectable()
 export class MapService {
 
-  raster: any;
-  style: any;
-  vector: any;
-  vectorSource: any;
-  view: any;
-  map: any;
+  style: ol.style.Style;
+  vector: ol.layer.Vector;
+  vectorSource: ol.source.Vector;
+  view: ol.View;
+  map: ol.Map;
 
   constructor(private http: Http, private dataService: DataService) {}
 
