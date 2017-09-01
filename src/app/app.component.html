@@ -1,18 +1,18 @@
-<select [(ngModel)]="selectedEstado" (change)="onSelectEstado($event.target.value)">
+<select [(ngModel)]="selectedEstado" (change)="onSelectRegiao()">
   <option value="0">Selecione o Estado</option>
   <option *ngFor="let estado of (listEstados | sortBy: 'nome')" value= {{estado.codigo}}>
     {{estado.nome}}
   </option>
 </select>
 
-<select [(ngModel)]="selectedRegiaoIntermediaria" *ngIf="selectedEstado != 0" (change)="onSelectRegiaoIntermediaria($event.target.value)">
+<select [(ngModel)]="selectedRegiaoIntermediaria" *ngIf="selectedEstado != 0" (change)="onSelectRegiao()">
   <option value="0">Selecione a Região Intermediária</option>
   <option *ngFor="let intermediaria of (listRegioesIntermediarias | sortBy: 'nome')" value= {{intermediaria.codigo}}>
     {{intermediaria.nome}}
   </option>
 </select>
 
-<select [(ngModel)]="selectedRegiaoImediata" *ngIf="selectedRegiaoIntermediaria != 0" (change)="onSelectRegiaoImediata($event.target.value)">
+<select [(ngModel)]="selectedRegiaoImediata" *ngIf="selectedRegiaoIntermediaria != 0" (change)="onSelectRegiao()">
   <option value="0">Selecione a Região Imediata</option>
   <option *ngFor="let imediata of (listRegioesImediatas | sortBy: 'nome')" value= {{imediata.codigo}}>
     {{imediata.nome}}

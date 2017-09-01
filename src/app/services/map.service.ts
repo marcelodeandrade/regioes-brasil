@@ -95,6 +95,10 @@ export class MapService {
     const geometries = topoJSONSource.objects[options.estado]['geometries'];
     const municipios = options.municipios;
 
+    if (!municipios) {
+      return;
+    }
+
     const newGeometries = geometries.filter((elem, i, array) => {
       if (municipios.indexOf(elem.properties.cod.toString()) > -1) {
         return array[i];
