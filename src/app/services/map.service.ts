@@ -100,7 +100,7 @@ export class MapService {
     }
 
     const newGeometries = geometries.filter((elem, i, array) => {
-      if (municipios.indexOf(elem.properties.cod.toString()) > -1) {
+      if (municipios.indexOf(elem.properties.cod) > -1) {
         return array[i];
       };
     });

@@ -8,31 +8,17 @@ import 'rxjs/add/operator/catch';
 @Injectable()
 export class DataService {
 
-  estado: any;
-
-  microrregiaoURL: string;
-  mesorregiaoURL: string;
-  coordenadasURL: string;
-  estadosURL: string;
-  divisoesRegionaisURL: string;
-
-  constructor(private http: Http) {
-    this.microrregiaoURL = '../assets/data/microrregioes/';
-    this.mesorregiaoURL = '../assets/data/mesorregioes/';
-    this.coordenadasURL = '../assets/data/coordenadas/';
-    this.estadosURL = '../assets/data/';
-    this.divisoesRegionaisURL = '../assets/data/divisoes-regionais/';
-  }
+  constructor(private http: Http) {}
 
   getEstado (codigo_estado: number) {
-    return this.http.get(`${this.coordenadasURL}${codigo_estado}.json`)
+    return this.http.get(`../assets/data/coordenadas/${codigo_estado}.json`)
       .map((response) => response.json());
   }
 
   listEstados(): Array<Object> {
     const data = [];
 
-    this.http.get(`${this.estadosURL}estados.json`)
+    this.http.get('../assets/data/estados.json')
     .map((response) => response.json())
     .subscribe(estados => {
       estados.map(estado => {
@@ -50,29 +36,25 @@ export class DataService {
   listRegioesIntermediarias(estado: number): Array<Object> {
     const data = [];
 
-    this.http.get(`${this.divisoesRegionaisURL}${estado}.json`)
+    this.http.get(`../assets/data/regioes.intermediarias.json`)
     .map((response) => response.json())
     .subscribe(regioes => {
-      regioes.regioes_intermediarias.map(regiao => {
-        data.push({codigo: regiao.codigo_regiao_intermediaria, nome: regiao.nome_regiao_intermediaria});
+      regioes[estado].map(regiao => {
+        data.push({codigo: regiao.codigo, nome: regiao.nome});
       });
     });
 
     return data;
   }
 
-  listRegioesImediatas(estado: number, regiaoIntermediaria: number): Array<Object> {
+  listRegioesImediatas(regiaoIntermediaria: number): Array<Object> {
     const data = [];
 
-    this.http.get(`${this.divisoesRegionaisURL}${estado}.json`)
+    this.http.get(`../assets/data/regioes.imediatas.json`)
     .map((response) => response.json())
     .subscribe(regioes => {
-      regioes.regioes_intermediarias.map(regiao => {
-        if (regiao.codigo_regiao_intermediaria === regiaoIntermediaria) {
-          regiao.regioes_imediatas.map(imediata => {
-            data.push({codigo: imediata.codigo_regiao_imediata, nome: imediata.nome_regiao_imediata});
-          });
-        }
+      regioes[regiaoIntermediaria].map(regiao => {
+        data.push({codigo: regiao.codigo, nome: regiao.nome});
       });
     });
 
@@ -89,6 +71,12 @@ export class DataService {
     return estadosList.filter((estado) => {
       return estado.codigo.includes(codigo);
     }).map(estado => { return estado.latLng; })[0];
+  }
+
+  listMunicipios(options) {
+    return this.http.get('../assets/data/municipios.json')
+    .map((response) => response.json());
+
   }
 
 }
