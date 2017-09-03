@@ -1,0 +1,588 @@
+{
+    "11": [
+        {
+            "codigo": 1101,
+            "nome": "Porto Velho"
+        },
+        {
+            "codigo": 1102,
+            "nome": "Ji-Paran\u00e1"
+        }
+    ],
+    "12": [
+        {
+            "codigo": 1201,
+            "nome": "Rio Branco"
+        },
+        {
+            "codigo": 1202,
+            "nome": "Cruzeiro do Sul"
+        }
+    ],
+    "13": [
+        {
+            "codigo": 1301,
+            "nome": "Manaus"
+        },
+        {
+            "codigo": 1302,
+            "nome": "Tef\u00e9"
+        },
+        {
+            "codigo": 1303,
+            "nome": "L\u00e1brea"
+        },
+        {
+            "codigo": 1304,
+            "nome": "Parintins"
+        }
+    ],
+    "14": [
+        {
+            "codigo": 1401,
+            "nome": "Boa Vista"
+        },
+        {
+            "codigo": 1402,
+            "nome": "Rorain\u00f3polis - Caracara\u00ed"
+        }
+    ],
+    "15": [
+        {
+            "codigo": 1501,
+            "nome": "Bel\u00e9m"
+        },
+        {
+            "codigo": 1502,
+            "nome": "Castanhal"
+        },
+        {
+            "codigo": 1503,
+            "nome": "Marab\u00e1"
+        },
+        {
+            "codigo": 1504,
+            "nome": "Reden\u00e7\u00e3o"
+        },
+        {
+            "codigo": 1505,
+            "nome": "Santar\u00e9m"
+        },
+        {
+            "codigo": 1506,
+            "nome": "Altamira"
+        },
+        {
+            "codigo": 1507,
+            "nome": "Breves"
+        }
+    ],
+    "16": [
+        {
+            "codigo": 1601,
+            "nome": "Macap\u00e1"
+        },
+        {
+            "codigo": 1602,
+            "nome": "Oiapoque - Porto Grande"
+        }
+    ],
+    "17": [
+        {
+            "codigo": 1701,
+            "nome": "Palmas"
+        },
+        {
+            "codigo": 1702,
+            "nome": "Aragua\u00edna"
+        },
+        {
+            "codigo": 1703,
+            "nome": "Gurupi"
+        }
+    ],
+    "21": [
+        {
+            "codigo": 2101,
+            "nome": "S\u00e3o Lu\u00eds"
+        },
+        {
+            "codigo": 2102,
+            "nome": "Santa In\u00eas - Bacabal"
+        },
+        {
+            "codigo": 2103,
+            "nome": "Caxias"
+        },
+        {
+            "codigo": 2104,
+            "nome": "Presidente Dutra"
+        },
+        {
+            "codigo": 2105,
+            "nome": "Imperatriz"
+        }
+    ],
+    "22": [
+        {
+            "codigo": 2201,
+            "nome": "Teresina"
+        },
+        {
+            "codigo": 2202,
+            "nome": "Parna\u00edba"
+        },
+        {
+            "codigo": 2203,
+            "nome": "Picos"
+        },
+        {
+            "codigo": 2204,
+            "nome": "S\u00e3o Raimundo Nonato"
+        },
+        {
+            "codigo": 2205,
+            "nome": "Corrente - Bom Jesus"
+        },
+        {
+            "codigo": 2206,
+            "nome": "Floriano"
+        }
+    ],
+    "23": [
+        {
+            "codigo": 2301,
+            "nome": "Fortaleza"
+        },
+        {
+            "codigo": 2302,
+            "nome": "Quixad\u00e1"
+        },
+        {
+            "codigo": 2303,
+            "nome": "Iguatu"
+        },
+        {
+            "codigo": 2304,
+            "nome": "Juazeiro do Norte"
+        },
+        {
+            "codigo": 2305,
+            "nome": "Crate\u00fas"
+        },
+        {
+            "codigo": 2306,
+            "nome": "Sobral"
+        }
+    ],
+    "24": [
+        {
+            "codigo": 2401,
+            "nome": "Natal"
+        },
+        {
+            "codigo": 2402,
+            "nome": "Caic\u00f3"
+        },
+        {
+            "codigo": 2403,
+            "nome": "Mossor\u00f3"
+        }
+    ],
+    "25": [
+        {
+            "codigo": 2501,
+            "nome": "Jo\u00e3o Pessoa"
+        },
+        {
+            "codigo": 2502,
+            "nome": "Campina Grande"
+        },
+        {
+            "codigo": 2503,
+            "nome": "Patos"
+        },
+        {
+            "codigo": 2504,
+            "nome": "Sousa - Cajazeiras"
+        }
+    ],
+    "26": [
+        {
+            "codigo": 2601,
+            "nome": "Recife"
+        },
+        {
+            "codigo": 2602,
+            "nome": "Caruaru"
+        },
+        {
+            "codigo": 2603,
+            "nome": "Serra Talhada"
+        },
+        {
+            "codigo": 2604,
+            "nome": "Petrolina"
+        }
+    ],
+    "27": [
+        {
+            "codigo": 2701,
+            "nome": "Macei\u00f3"
+        },
+        {
+            "codigo": 2702,
+            "nome": "Arapiraca"
+        }
+    ],
+    "28": [
+        {
+            "codigo": 2801,
+            "nome": "Aracaju"
+        },
+        {
+            "codigo": 2802,
+            "nome": "Itabaiana"
+        }
+    ],
+    "29": [
+        {
+            "codigo": 2901,
+            "nome": "Salvador"
+        },
+        {
+            "codigo": 2902,
+            "nome": "Santo Ant\u00f4nio de Jesus"
+        },
+        {
+            "codigo": 2903,
+            "nome": "Ilh\u00e9us \u2013 Itabuna"
+        },
+        {
+            "codigo": 2904,
+            "nome": "Vit\u00f3ria da Conquista"
+        },
+        {
+            "codigo": 2905,
+            "nome": "Guanambi"
+        },
+        {
+            "codigo": 2906,
+            "nome": "Barreiras"
+        },
+        {
+            "codigo": 2907,
+            "nome": "Irec\u00ea"
+        },
+        {
+            "codigo": 2908,
+            "nome": "Juazeiro"
+        },
+        {
+            "codigo": 2909,
+            "nome": "Paulo Afonso"
+        },
+        {
+            "codigo": 2910,
+            "nome": "Feira de Santana"
+        }
+    ],
+    "31": [
+        {
+            "codigo": 3101,
+            "nome": "Belo Horizonte"
+        },
+        {
+            "codigo": 3102,
+            "nome": "Montes Claros"
+        },
+        {
+            "codigo": 3103,
+            "nome": "Te\u00f3filo Otoni"
+        },
+        {
+            "codigo": 3104,
+            "nome": "Governador Valadares"
+        },
+        {
+            "codigo": 3105,
+            "nome": "Ipatinga"
+        },
+        {
+            "codigo": 3106,
+            "nome": "Ju\u00edz de Fora"
+        },
+        {
+            "codigo": 3107,
+            "nome": "Barbacena"
+        },
+        {
+            "codigo": 3108,
+            "nome": "Varginha"
+        },
+        {
+            "codigo": 3109,
+            "nome": "Pouso Alegre"
+        },
+        {
+            "codigo": 3110,
+            "nome": "Uberaba"
+        },
+        {
+            "codigo": 3111,
+            "nome": "Uberl\u00e2ndia"
+        },
+        {
+            "codigo": 3112,
+            "nome": "Patos de Minas"
+        },
+        {
+            "codigo": 3113,
+            "nome": "Divin\u00f3polis"
+        }
+    ],
+    "32": [
+        {
+            "codigo": 3201,
+            "nome": "Vit\u00f3ria"
+        },
+        {
+            "codigo": 3202,
+            "nome": "S\u00e3o Mateus"
+        },
+        {
+            "codigo": 3203,
+            "nome": "Colatina"
+        },
+        {
+            "codigo": 3204,
+            "nome": "Cachoeiro do Itapemirim"
+        }
+    ],
+    "33": [
+        {
+            "codigo": 3301,
+            "nome": "Rio de Janeiro"
+        },
+        {
+            "codigo": 3302,
+            "nome": "Volta Redonda - Barra Mansa"
+        },
+        {
+            "codigo": 3303,
+            "nome": "Petr\u00f3polis"
+        },
+        {
+            "codigo": 3304,
+            "nome": "Campos dos Goytacazes"
+        },
+        {
+            "codigo": 3305,
+            "nome": "Maca\u00e9 - Rio das Ostras - Cabo Frio"
+        }
+    ],
+    "35": [
+        {
+            "codigo": 3501,
+            "nome": "S\u00e3o Paulo"
+        },
+        {
+            "codigo": 3502,
+            "nome": "Sorocaba"
+        },
+        {
+            "codigo": 3503,
+            "nome": "Bauru"
+        },
+        {
+            "codigo": 3504,
+            "nome": "Mar\u00edlia"
+        },
+        {
+            "codigo": 3505,
+            "nome": "Presidente Prudente"
+        },
+        {
+            "codigo": 3506,
+            "nome": "Ara\u00e7atuba"
+        },
+        {
+            "codigo": 3507,
+            "nome": "S\u00e3o Jos\u00e9 do Rio Preto"
+        },
+        {
+            "codigo": 3508,
+            "nome": "Ribeir\u00e3o Preto"
+        },
+        {
+            "codigo": 3509,
+            "nome": "Araraquara"
+        },
+        {
+            "codigo": 3510,
+            "nome": "Campinas"
+        },
+        {
+            "codigo": 3511,
+            "nome": "S\u00e3o Jos\u00e9 dos Campos"
+        }
+    ],
+    "41": [
+        {
+            "codigo": 4101,
+            "nome": "Curitiba"
+        },
+        {
+            "codigo": 4102,
+            "nome": "Guarapuava"
+        },
+        {
+            "codigo": 4103,
+            "nome": "Cascavel"
+        },
+        {
+            "codigo": 4104,
+            "nome": "Maring\u00e1"
+        },
+        {
+            "codigo": 4105,
+            "nome": "Londrina"
+        },
+        {
+            "codigo": 4106,
+            "nome": "Ponta Grossa"
+        }
+    ],
+    "42": [
+        {
+            "codigo": 4201,
+            "nome": "Florian\u00f3polis"
+        },
+        {
+            "codigo": 4202,
+            "nome": "Crici\u00fama"
+        },
+        {
+            "codigo": 4203,
+            "nome": "Lages"
+        },
+        {
+            "codigo": 4204,
+            "nome": "Chapec\u00f3"
+        },
+        {
+            "codigo": 4205,
+            "nome": "Ca\u00e7ador"
+        },
+        {
+            "codigo": 4206,
+            "nome": "Joinville"
+        },
+        {
+            "codigo": 4207,
+            "nome": "Blumenau"
+        }
+    ],
+    "43": [
+        {
+            "codigo": 4301,
+            "nome": "Porto Alegre"
+        },
+        {
+            "codigo": 4302,
+            "nome": "Pelotas"
+        },
+        {
+            "codigo": 4303,
+            "nome": "Santa Maria"
+        },
+        {
+            "codigo": 4304,
+            "nome": "Uruguaiana"
+        },
+        {
+            "codigo": 4305,
+            "nome": "Iju\u00ed"
+        },
+        {
+            "codigo": 4306,
+            "nome": "Passo Fundo"
+        },
+        {
+            "codigo": 4307,
+            "nome": "Caxias do Sul"
+        },
+        {
+            "codigo": 4308,
+            "nome": "Santa Cruz do Sul - Lajeado"
+        }
+    ],
+    "50": [
+        {
+            "codigo": 5001,
+            "nome": "Campo Grande"
+        },
+        {
+            "codigo": 5002,
+            "nome": "Dourados"
+        },
+        {
+            "codigo": 5003,
+            "nome": "Corumb\u00e1"
+        }
+    ],
+    "51": [
+        {
+            "codigo": 5101,
+            "nome": "Cuiab\u00e1"
+        },
+        {
+            "codigo": 5102,
+            "nome": "C\u00e1ceres"
+        },
+        {
+            "codigo": 5103,
+            "nome": "Sinop"
+        },
+        {
+            "codigo": 5104,
+            "nome": "Barra do Gar\u00e7as"
+        },
+        {
+            "codigo": 5105,
+            "nome": "Rondon\u00f3polis"
+        }
+    ],
+    "52": [
+        {
+            "codigo": 5201,
+            "nome": "Goi\u00e2nia"
+        },
+        {
+            "codigo": 5202,
+            "nome": "Itumbiara"
+        },
+        {
+            "codigo": 5203,
+            "nome": "Rio Verde"
+        },
+        {
+            "codigo": 5204,
+            "nome": "S\u00e3o Lu\u00eds de Montes Belos - Ipor\u00e1"
+        },
+        {
+            "codigo": 5205,
+            "nome": "Porangatu - Urua\u00e7u"
+        },
+        {
+            "codigo": 5206,
+            "nome": "Luzi\u00e2nia - \u00c1guas Lindas de Goi\u00e1s"
+        }
+    ],
+    "53": [
+        {
+            "codigo": 5301,
+            "nome": "Distrito Federal"
+        }
+    ]
+}
