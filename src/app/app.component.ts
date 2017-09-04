@@ -52,11 +52,14 @@ export class AppComponent {
   onSelectEstado() {
     this.location = this.dataService.getCapitalLatLng(this.selectedEstado, this.listEstados);
     this.listRegioesIntermediarias = this.dataService.listRegioesIntermediarias(this.selectedEstado);
+    this.selectedRegiaoIntermediaria = 0;
+    this.selectedRegiaoImediata = 0;
     this.refreshMap();
   }
 
   onSelectRegiaoIntermediaria() {
     this.listRegioesImediatas = this.dataService.listRegioesImediatas(this.selectedRegiaoIntermediaria);
+    this.selectedRegiaoImediata = 0;
     this.refreshMap();
   }
 
@@ -73,7 +76,7 @@ export class AppComponent {
       'regiaoImediata': this.selectedRegiaoImediata
     };
 
-    let data = []
+    let data = [];
     this.dataService.listMunicipios(options).subscribe(municipios => {
       data = municipios;
       if (options.regiaoIntermediaria > 0) {
@@ -87,7 +90,7 @@ export class AppComponent {
         });
       }
       options['municipios'] = data.map(municipio => { return municipio.codigo; });
-
+      console.log(options);
       this.mapService.refreshMap(options);
     });
   }
