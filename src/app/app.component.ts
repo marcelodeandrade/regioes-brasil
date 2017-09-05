@@ -54,17 +54,40 @@ export class AppComponent {
     this.listRegioesIntermediarias = this.dataService.listRegioesIntermediarias(this.selectedEstado);
     this.selectedRegiaoIntermediaria = 0;
     this.selectedRegiaoImediata = 0;
-    this.refreshMap();
+
+    this.dataService.listMunicipios().subscribe(municipios => {
+      this.municipios = municipios.filter(municipio => {
+        return  municipio.estado === this.selectedEstado;
+      }).map(municipio => {
+        return parseInt(municipio.codigo);
+      });
+      this.refreshMap();
+    });
   }
 
   onSelectRegiaoIntermediaria() {
     this.listRegioesImediatas = this.dataService.listRegioesImediatas(this.selectedRegiaoIntermediaria);
     this.selectedRegiaoImediata = 0;
-    this.refreshMap();
+
+    this.dataService.listMunicipios().subscribe(municipios => {
+      this.municipios = municipios.filter(municipio => {
+        return this.selectedRegiaoIntermediaria !== 0 && municipio.regiao_intermediaria === this.selectedRegiaoIntermediaria;
+      }).map(municipio => {
+        return parseInt(municipio.codigo);
+      });
+      this.refreshMap();
+    });
   }
 
   onSelectRegiaoImediata() {
-    this.refreshMap();
+    this.dataService.listMunicipios().subscribe(municipios => {
+      this.municipios = municipios.filter(municipio => {
+        return this.selectedRegiaoImediata !== 0 && municipio.regiao_imediata === this.selectedRegiaoImediata;
+      }).map(municipio => {
+        return parseInt(municipio.codigo);
+      });
+      this.refreshMap();
+    });
   }
 
   refreshMap() {
@@ -73,26 +96,11 @@ export class AppComponent {
       'latLng': this.location,
       'estado': this.selectedEstado,
       'regiaoIntermediaria': this.selectedRegiaoIntermediaria,
-      'regiaoImediata': this.selectedRegiaoImediata
+      'regiaoImediata': this.selectedRegiaoImediata,
+      'municipios': this.municipios
     };
 
-    let data = [];
-    this.dataService.listMunicipios(options).subscribe(municipios => {
-      data = municipios;
-      if (options.regiaoIntermediaria > 0) {
-        data = data.filter((municipio) => {
-          return municipio.regiao_intermediaria == options.regiaoIntermediaria;
-        });
-      }
-      if (options.regiaoImediata) {
-        data = data.filter((municipio) => {
-          return municipio.regiao_imediata == options.regiaoImediata;
-        });
-      }
-      options['municipios'] = data.map(municipio => { return municipio.codigo; });
-      console.log(options);
-      this.mapService.refreshMap(options);
-    });
+    this.mapService.refreshMap(options);
   }
 
 }

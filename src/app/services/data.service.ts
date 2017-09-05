@@ -73,7 +73,7 @@ export class DataService {
     }).map(estado => { return estado.latLng; })[0];
   }
 
-  listMunicipios(options) {
+  listMunicipios() {
     return this.http.get('../assets/data/municipios.json')
     .map((response) => response.json());
 
