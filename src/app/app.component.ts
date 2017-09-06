@@ -16,7 +16,8 @@ export class AppComponent {
   listEstados: Array<Object>;
   listRegioesIntermediarias: Array<Object>;
   listRegioesImediatas: Array<Object>;
-  municipios: any;
+  municipiosEstado: any;
+  municipiosRegiao: any;
 
   selectedEstado = 0;
   selectedRegiaoIntermediaria = 0;
@@ -56,7 +57,7 @@ export class AppComponent {
     this.selectedRegiaoImediata = 0;
 
     this.dataService.listMunicipios().subscribe(municipios => {
-      this.municipios = municipios.filter(municipio => {
+      this.municipiosEstado = municipios.filter(municipio => {
         return  municipio.estado === this.selectedEstado;
       }).map(municipio => {
         return parseInt(municipio.codigo);
@@ -70,7 +71,7 @@ export class AppComponent {
     this.selectedRegiaoImediata = 0;
 
     this.dataService.listMunicipios().subscribe(municipios => {
-      this.municipios = municipios.filter(municipio => {
+      this.municipiosRegiao = municipios.filter(municipio => {
         return this.selectedRegiaoIntermediaria !== 0 && municipio.regiao_intermediaria === this.selectedRegiaoIntermediaria;
       }).map(municipio => {
         return parseInt(municipio.codigo);
@@ -81,7 +82,7 @@ export class AppComponent {
 
   onSelectRegiaoImediata() {
     this.dataService.listMunicipios().subscribe(municipios => {
-      this.municipios = municipios.filter(municipio => {
+      this.municipiosRegiao = municipios.filter(municipio => {
         return this.selectedRegiaoImediata !== 0 && municipio.regiao_imediata === this.selectedRegiaoImediata;
       }).map(municipio => {
         return parseInt(municipio.codigo);
@@ -97,7 +98,8 @@ export class AppComponent {
       'estado': this.selectedEstado,
       'regiaoIntermediaria': this.selectedRegiaoIntermediaria,
       'regiaoImediata': this.selectedRegiaoImediata,
-      'municipios': this.municipios
+      'municipiosEstado': this.municipiosEstado,
+      'municipiosRegiao': this.municipiosRegiao
     };
 
     this.mapService.refreshMap(options);

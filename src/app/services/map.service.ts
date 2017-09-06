@@ -13,7 +13,9 @@ export class MapService {
 
   style: ol.style.Style;
   vector: ol.layer.Vector;
+  vectorRegiao: ol.layer.Vector;
   vectorSource: ol.source.Vector;
+  vectorSourceRegiao: ol.source.Vector;
   view: ol.View;
   map: ol.Map;
 
@@ -23,20 +25,40 @@ export class MapService {
 
     this.dataService.getEstado(options.estado).subscribe(topoJSONSource => {
 
-      this.unsetMunicipios(topoJSONSource, options);
+      const topoJSONSourceRegiao = this.unsetMunicipios(topoJSONSource, options);
 
       this.map.removeLayer(this.vector);
+      this.map.removeLayer(this.vectorRegiao);
 
       this.vectorSource = new ol.source.Vector({
         features: (new ol.format.TopoJSON()).readFeatures(topoJSONSource),
       });
-
       this.vector = new ol.layer.Vector({
         source: this.vectorSource,
         style: this.style
       });
-
       this.map.addLayer(this.vector);
+
+      if (topoJSONSourceRegiao !== undefined) {
+
+        this.vectorSourceRegiao = new ol.source.Vector({
+          features: (new ol.format.TopoJSON()).readFeatures(topoJSONSourceRegiao),
+        });
+        this.vectorRegiao = new ol.layer.Vector({
+          source: this.vectorSourceRegiao,
+          style: new ol.style.Style({
+            fill: new ol.style.Fill({
+              color: 'rgba(255, 255, 255, 1)'
+            }),
+            stroke: new ol.style.Stroke({
+              color: '#319FD3',
+              width: 1
+            })
+          })
+        });
+
+        this.map.addLayer(this.vectorRegiao);
+      }
 
       this.view.animate({zoom: 8}, {center: ol.proj.transform(options.latLng, 'EPSG:4326',
       'EPSG:4326')});
@@ -48,7 +70,7 @@ export class MapService {
 
     this.style = new ol.style.Style({
       fill: new ol.style.Fill({
-        color: 'rgba(255, 255, 255, 0.6)'
+        color: 'rgba(255, 255, 255, 0.3)'
       }),
       stroke: new ol.style.Stroke({
         color: '#319FD3',
@@ -90,23 +112,24 @@ export class MapService {
     return this.map;
   }
 
-  unsetMunicipios(topoJSONSource, options) {
+  unsetMunicipios(source, options) {
+    const topoJSONSourceRegiao = JSON.parse(JSON.stringify(source));
 
-    const geometries = topoJSONSource.objects[options.estado]['geometries'];
-    const municipios = options.municipios;
+    const geometries = topoJSONSourceRegiao.objects[options.estado]['geometries'];
 
-    if (!municipios) {
+    if (!options.municipiosRegiao) {
       return;
     }
 
     const newGeometries = geometries.filter((elem, i, array) => {
-      if (municipios.indexOf(elem.properties.cod) > -1) {
+      if (options.municipiosRegiao.indexOf(elem.properties.cod) > -1) {
         return array[i];
       };
     });
 
-    topoJSONSource.objects[options.estado]['geometries'] = newGeometries;
+    topoJSONSourceRegiao.objects[options.estado]['geometries'] = newGeometries;
 
+    return topoJSONSourceRegiao;
   }
 
 }
