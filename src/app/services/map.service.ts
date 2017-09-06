@@ -118,7 +118,7 @@ export class MapService {
     const geometries = topoJSONSourceRegiao.objects[options.estado]['geometries'];
 
     if (!options.municipiosRegiao) {
-      return;
+      return false;
     }
 
     const newGeometries = geometries.filter((elem, i, array) => {
