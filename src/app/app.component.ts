@@ -72,9 +72,9 @@ export class AppComponent {
 
     this.dataService.listMunicipios().subscribe(municipios => {
       this.municipiosRegiao = municipios.filter(municipio => {
-        return this.selectedRegiaoIntermediaria !== 0 && municipio.regiao_intermediaria === this.selectedRegiaoIntermediaria;
+        return this.selectedRegiaoIntermediaria !== 0 && parseInt(municipio.regiao_intermediaria, 0) === this.selectedRegiaoIntermediaria;
       }).map(municipio => {
-        return parseInt(municipio.codigo);
+        return parseInt(municipio.codigo, 0);
       });
       this.refreshMap();
     });
@@ -83,9 +83,9 @@ export class AppComponent {
   onSelectRegiaoImediata() {
     this.dataService.listMunicipios().subscribe(municipios => {
       this.municipiosRegiao = municipios.filter(municipio => {
-        return this.selectedRegiaoImediata !== 0 && municipio.regiao_imediata === this.selectedRegiaoImediata;
+        return this.selectedRegiaoImediata !== 0 && parseInt(municipio.regiao_imediata, 0) === this.selectedRegiaoImediata;
       }).map(municipio => {
-        return parseInt(municipio.codigo);
+        return parseInt(municipio.codigo, 0);
       });
       this.refreshMap();
     });

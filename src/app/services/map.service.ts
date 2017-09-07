@@ -39,8 +39,7 @@ export class MapService {
       });
       this.map.addLayer(this.vector);
 
-      if (topoJSONSourceRegiao !== undefined) {
-
+      if (topoJSONSourceRegiao) {
         this.vectorSourceRegiao = new ol.source.Vector({
           features: (new ol.format.TopoJSON()).readFeatures(topoJSONSourceRegiao),
         });
