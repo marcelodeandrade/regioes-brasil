@@ -1,22 +1,20 @@
-<select [(ngModel)]="selectedEstado" (change)="onSelectEstado()">
-  <option value="0">Selecione o Estado</option>
-  <option *ngFor="let estado of (listEstados | sortBy: 'nome')" value= {{estado.codigo}}>
-    {{estado.nome}}
-  </option>
-</select>
+<md-toolbar color="primary">
 
-<select [(ngModel)]="selectedRegiaoIntermediaria" *ngIf="selectedEstado != 0" (change)="onSelectRegiaoIntermediaria()">
-  <option value="0">Selecione a Região Intermediária</option>
-  <option *ngFor="let intermediaria of (listRegioesIntermediarias | sortBy: 'nome')" value= {{intermediaria.codigo}}>
-    {{intermediaria.nome}}
-  </option>
-</select>
+  <md-select placeholder="Estado" [(ngModel)]="selectedEstado" (change)="onSelectEstado()">
+    <md-option *ngFor="let estado of (listEstados | sortBy: 'nome')" [value]="estado.codigo">{{ estado.nome }}</md-option>
+  </md-select>
 
-<select [(ngModel)]="selectedRegiaoImediata" *ngIf="selectedRegiaoIntermediaria != 0" (change)="onSelectRegiaoImediata()">
-  <option value="0">Selecione a Região Imediata</option>
-  <option *ngFor="let imediata of (listRegioesImediatas | sortBy: 'nome')" value= {{imediata.codigo}}>
-    {{imediata.nome}}
-  </option>
-</select>
+  <md-select placeholder="Região Intermediária" [(ngModel)]="selectedRegiaoIntermediaria" *ngIf="selectedEstado != 0" (change)="onSelectRegiaoIntermediaria()">
+    <md-option *ngFor="let rgint of (listRegioesIntermediarias | sortBy: 'nome')" [value]="rgint.codigo">{{ rgint.nome }}</md-option>
+  </md-select>
 
-<div id="map" class="map"></div>
+  <md-select placeholder="Região Imediata" [(ngModel)]="selectedRegiaoImediata" *ngIf="selectedRegiaoIntermediaria != 0" (change)="onSelectRegiaoImediata()">
+    <md-option *ngFor="let rgi of (listRegioesImediatas | sortBy: 'nome')" [value]="rgi.codigo">{{ rgi.nome }}</md-option>
+  </md-select>
+
+</md-toolbar>
+
+<md-card>
+  <md-card-content id="map" class="map"></md-card-content>
+</md-card>
+

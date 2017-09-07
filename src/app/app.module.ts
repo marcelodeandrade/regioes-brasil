@@ -12,6 +12,9 @@ import { AgmCoreModule } from '@agm/core';
 import { AppComponent } from './app.component';
 import { SortPipe } from './pipes/sort.pipe';
 
+import { MdSelectModule, MdToolbarModule, MdCardModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +26,9 @@ import { SortPipe } from './pipes/sort.pipe';
     HttpModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCg9qbQOcGXasYsFBJUUerf7l5a5ZtB9WQ'
-    })
+    }),
+    MdSelectModule, MdToolbarModule, MdCardModule,
+    BrowserAnimationsModule
   ],
   providers: [DataService, MapService, GeolocationService, GMapsService],
   bootstrap: [AppComponent]
