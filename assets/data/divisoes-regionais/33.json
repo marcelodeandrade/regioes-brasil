@@ -1,0 +1,210 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "3301",
+            "nome_regiao_intermediaria": "Rio de Janeiro",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "330002",
+                    "nome_regiao_imediata": "Angra dos Reis",
+                    "municipios": [
+                        "3300100",
+                        "3303807"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "330001",
+                    "nome_regiao_imediata": "Rio de Janeiro",
+                    "municipios": [
+                        "3300456",
+                        "3301702",
+                        "3301850",
+                        "3301900",
+                        "3302007",
+                        "3302270",
+                        "3302502",
+                        "3302601",
+                        "3302700",
+                        "3302858",
+                        "3303203",
+                        "3303302",
+                        "3303500",
+                        "3303609",
+                        "3304144",
+                        "3304557",
+                        "3304904",
+                        "3305109",
+                        "3305505",
+                        "3305554",
+                        "3305752"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "330003",
+                    "nome_regiao_imediata": "Rio Bonito",
+                    "municipios": [
+                        "3300803",
+                        "3304300",
+                        "3305604"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "3304",
+            "nome_regiao_intermediaria": "Campos dos Goytacazes",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "330012",
+                    "nome_regiao_imediata": "Santo Ant\u00f4nio de P\u00e1dua",
+                    "municipios": [
+                        "3300159",
+                        "3300902",
+                        "3302106",
+                        "3303005",
+                        "3304706"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "330011",
+                    "nome_regiao_imediata": "Itaperuna",
+                    "municipios": [
+                        "3300605",
+                        "3302205",
+                        "3302304",
+                        "3303104",
+                        "3304102",
+                        "3305133",
+                        "3306156"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "330010",
+                    "nome_regiao_imediata": "Campos dos Goytacazes",
+                    "municipios": [
+                        "3301009",
+                        "3301157",
+                        "3302056",
+                        "3304755",
+                        "3304805",
+                        "3305000"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "3305",
+            "nome_regiao_intermediaria": "Maca\u00e9 - Rio das Ostras - Cabo Frio",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "330013",
+                    "nome_regiao_imediata": "Cabo Frio",
+                    "municipios": [
+                        "3300209",
+                        "3300233",
+                        "3300258",
+                        "3300704",
+                        "3301876",
+                        "3305208"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "330014",
+                    "nome_regiao_imediata": "Maca\u00e9 - Rio das Ostras",
+                    "municipios": [
+                        "3300936",
+                        "3301306",
+                        "3301405",
+                        "3302403",
+                        "3304151",
+                        "3304524"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "3303",
+            "nome_regiao_intermediaria": "Petr\u00f3polis",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "330007",
+                    "nome_regiao_imediata": "Petr\u00f3polis",
+                    "municipios": [
+                        "3300225",
+                        "3303906",
+                        "3305158",
+                        "3305802"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "330008",
+                    "nome_regiao_imediata": "Nova Friburgo",
+                    "municipios": [
+                        "3300506",
+                        "3301108",
+                        "3301207",
+                        "3301504",
+                        "3301603",
+                        "3302452",
+                        "3303401",
+                        "3304607",
+                        "3305307",
+                        "3305703",
+                        "3305901"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "330009",
+                    "nome_regiao_imediata": "Tr\u00eas Rios - Para\u00edba do Sul",
+                    "municipios": [
+                        "3300951",
+                        "3303708",
+                        "3305406",
+                        "3306008"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "3302",
+            "nome_regiao_intermediaria": "Volta Redonda - Barra Mansa",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "330004",
+                    "nome_regiao_imediata": "Volta Redonda - Barra Mansa",
+                    "municipios": [
+                        "3300308",
+                        "3300407",
+                        "3301801",
+                        "3302809",
+                        "3303955",
+                        "3304003",
+                        "3304409",
+                        "3306305"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "330005",
+                    "nome_regiao_imediata": "Resende",
+                    "municipios": [
+                        "3302254",
+                        "3304110",
+                        "3304128",
+                        "3304201"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "330006",
+                    "nome_regiao_imediata": "Valen\u00e7a",
+                    "municipios": [
+                        "3302908",
+                        "3303856",
+                        "3304508",
+                        "3306107",
+                        "3306206"
+                    ]
+                }
+            ]
+        }
+    ]
+}

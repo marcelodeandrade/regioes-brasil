@@ -1,0 +1,417 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "5201",
+            "nome_regiao_intermediaria": "Goi\u00e2nia",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "520001",
+                    "nome_regiao_imediata": "Goi\u00e2nia",
+                    "municipios": [
+                        "5200050",
+                        "5201405",
+                        "5201801",
+                        "5203302",
+                        "5203559",
+                        "5203609",
+                        "5204557",
+                        "5205208",
+                        "5208707",
+                        "5208806",
+                        "5209200",
+                        "5209705",
+                        "5214507",
+                        "5215009",
+                        "5219738",
+                        "5220454",
+                        "5221197",
+                        "5221403",
+                        "5221908"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520002",
+                    "nome_regiao_imediata": "An\u00e1polis",
+                    "municipios": [
+                        "5200100",
+                        "5200308",
+                        "5201108",
+                        "5204854",
+                        "5205802",
+                        "5208152",
+                        "5208400",
+                        "5211800",
+                        "5212055",
+                        "5212303",
+                        "5215405",
+                        "5216809",
+                        "5217302",
+                        "5219506",
+                        "5219902",
+                        "5220264",
+                        "5220603",
+                        "5222005"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520003",
+                    "nome_regiao_imediata": "Inhumas - Itabera\u00ed - Anicuns",
+                    "municipios": [
+                        "5200159",
+                        "5200852",
+                        "5201306",
+                        "5201603",
+                        "5202809",
+                        "5206800",
+                        "5209606",
+                        "5210000",
+                        "5210406",
+                        "5210562",
+                        "5210604",
+                        "5211404",
+                        "5221007"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520004",
+                    "nome_regiao_imediata": "Catal\u00e3o",
+                    "municipios": [
+                        "5201207",
+                        "5204805",
+                        "5205109",
+                        "5206602",
+                        "5206909",
+                        "5208509",
+                        "5210109",
+                        "5214804",
+                        "5215504",
+                        "5221304"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520005",
+                    "nome_regiao_imediata": "Goi\u00e1s - Itapuranga",
+                    "municipios": [
+                        "5202155",
+                        "5202502",
+                        "5203807",
+                        "5207535",
+                        "5208905",
+                        "5209291",
+                        "5211008",
+                        "5211206",
+                        "5212204",
+                        "5212956",
+                        "5213905",
+                        "5214002",
+                        "5214838",
+                        "5215207",
+                        "5219258"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520006",
+                    "nome_regiao_imediata": "Pires do Rio",
+                    "municipios": [
+                        "5215306",
+                        "5215801",
+                        "5217401",
+                        "5219209",
+                        "5221809"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "5204",
+            "nome_regiao_intermediaria": "S\u00e3o Lu\u00eds de Montes Belos - Ipor\u00e1",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "520015",
+                    "nome_regiao_imediata": "Palmeiras de Goi\u00e1s",
+                    "municipios": [
+                        "5200134",
+                        "5204607",
+                        "5205455",
+                        "5207402",
+                        "5207808",
+                        "5209952",
+                        "5211701",
+                        "5214408",
+                        "5215702",
+                        "5215900",
+                        "5216403",
+                        "5219100",
+                        "5220058",
+                        "5221502"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520014",
+                    "nome_regiao_imediata": "Ipor\u00e1",
+                    "municipios": [
+                        "5200902",
+                        "5201702",
+                        "5202353",
+                        "5203104",
+                        "5203401",
+                        "5207105",
+                        "5210208",
+                        "5210307",
+                        "5212006",
+                        "5213707",
+                        "5215652",
+                        "5217203"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520013",
+                    "nome_regiao_imediata": "S\u00e3o Lu\u00eds de Montes Belos",
+                    "municipios": [
+                        "5202601",
+                        "5203939",
+                        "5204201",
+                        "5205703",
+                        "5207600",
+                        "5211602",
+                        "5213400",
+                        "5219001"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "5206",
+            "nome_regiao_intermediaria": "Luzi\u00e2nia - \u00c1guas Lindas de Goi\u00e1s",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "520022",
+                    "nome_regiao_imediata": "Flores de Goi\u00e1s",
+                    "municipios": [
+                        "5200175",
+                        "5200605",
+                        "5205307",
+                        "5207907",
+                        "5220009",
+                        "5221080",
+                        "5222203"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520020",
+                    "nome_regiao_imediata": "\u00c1guas Lindas de Goi\u00e1s",
+                    "municipios": [
+                        "5200258",
+                        "5204003",
+                        "5205513",
+                        "5208004",
+                        "5213053",
+                        "5215603",
+                        "5217609"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520021",
+                    "nome_regiao_imediata": "Posse-Campos Belos",
+                    "municipios": [
+                        "5200803",
+                        "5203962",
+                        "5204904",
+                        "5206701",
+                        "5208301",
+                        "5209408",
+                        "5209903",
+                        "5212709",
+                        "5213509",
+                        "5214903",
+                        "5218300",
+                        "5219803",
+                        "5220686",
+                        "5220702"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520019",
+                    "nome_regiao_imediata": "Luzi\u00e2nia",
+                    "municipios": [
+                        "5205497",
+                        "5206206",
+                        "5212501",
+                        "5215231",
+                        "5219753",
+                        "5221858"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "5202",
+            "nome_regiao_intermediaria": "Itumbiara",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "520008",
+                    "nome_regiao_imediata": "Caldas Novas-Morrinhos",
+                    "municipios": [
+                        "5200209",
+                        "5204508",
+                        "5205901",
+                        "5212907",
+                        "5213806",
+                        "5218789"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520007",
+                    "nome_regiao_imediata": "Itumbiara",
+                    "municipios": [
+                        "5200506",
+                        "5203500",
+                        "5203906",
+                        "5204250",
+                        "5209101",
+                        "5211503",
+                        "5212105",
+                        "5216007"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520009",
+                    "nome_regiao_imediata": "Piracanjuba",
+                    "municipios": [
+                        "5206305",
+                        "5206503",
+                        "5207352",
+                        "5212600",
+                        "5217104",
+                        "5217708",
+                        "5218391",
+                        "5222054"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "5205",
+            "nome_regiao_intermediaria": "Porangatu - Urua\u00e7u",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "520017",
+                    "nome_regiao_imediata": "Urua\u00e7u - Niquel\u00e2ndia",
+                    "municipios": [
+                        "5200555",
+                        "5200829",
+                        "5204706",
+                        "5205521",
+                        "5209804",
+                        "5212808",
+                        "5214606",
+                        "5214879",
+                        "5220157",
+                        "5221601"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520018",
+                    "nome_regiao_imediata": "Ceres - Rialma - Goian\u00e9sia",
+                    "municipios": [
+                        "5203203",
+                        "5204953",
+                        "5205000",
+                        "5205406",
+                        "5206404",
+                        "5208608",
+                        "5209457",
+                        "5210158",
+                        "5210901",
+                        "5213855",
+                        "5214705",
+                        "5214861",
+                        "5216908",
+                        "5218607",
+                        "5218706",
+                        "5218904",
+                        "5219357",
+                        "5219456",
+                        "5219704",
+                        "5220280",
+                        "5221577",
+                        "5221700",
+                        "5222302"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520016",
+                    "nome_regiao_imediata": "Porangatu",
+                    "municipios": [
+                        "5203575",
+                        "5204656",
+                        "5207501",
+                        "5208103",
+                        "5213087",
+                        "5213772",
+                        "5214051",
+                        "5214101",
+                        "5215256",
+                        "5218003",
+                        "5219605",
+                        "5220207",
+                        "5221452"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "5203",
+            "nome_regiao_intermediaria": "Rio Verde",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "520010",
+                    "nome_regiao_imediata": "Rio Verde",
+                    "municipios": [
+                        "5201454",
+                        "5204102",
+                        "5204300",
+                        "5205059",
+                        "5210802",
+                        "5211305",
+                        "5212253",
+                        "5213004",
+                        "5213756",
+                        "5218052",
+                        "5218805",
+                        "5219308",
+                        "5219712",
+                        "5221551"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520011",
+                    "nome_regiao_imediata": "Jata\u00ed-Mineiros",
+                    "municipios": [
+                        "5201504",
+                        "5204409",
+                        "5205471",
+                        "5207253",
+                        "5211909",
+                        "5213103",
+                        "5216452",
+                        "5218102",
+                        "5219407",
+                        "5220504"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "520012",
+                    "nome_regiao_imediata": "Quirin\u00f3polis",
+                    "municipios": [
+                        "5209150",
+                        "5209937",
+                        "5216304",
+                        "5218508",
+                        "5220405"
+                    ]
+                }
+            ]
+        }
+    ]
+}

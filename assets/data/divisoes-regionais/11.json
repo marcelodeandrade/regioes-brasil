@@ -1,0 +1,104 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "1102",
+            "nome_regiao_intermediaria": "Ji-Paran\u00e1",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "110005",
+                    "nome_regiao_imediata": "Cacoal",
+                    "municipios": [
+                        "1100015",
+                        "1100049",
+                        "1100098",
+                        "1100148",
+                        "1100189",
+                        "1100288",
+                        "1100296",
+                        "1100379",
+                        "1100502",
+                        "1100908",
+                        "1101203",
+                        "1101450",
+                        "1101476",
+                        "1101484"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "110006",
+                    "nome_regiao_imediata": "Vilhena",
+                    "municipios": [
+                        "1100031",
+                        "1100056",
+                        "1100064",
+                        "1100072",
+                        "1100304",
+                        "1100924",
+                        "1101468"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "110004",
+                    "nome_regiao_imediata": "Ji-Paran\u00e1",
+                    "municipios": [
+                        "1100080",
+                        "1100122",
+                        "1100155",
+                        "1100254",
+                        "1100320",
+                        "1100346",
+                        "1101302",
+                        "1101435",
+                        "1101492",
+                        "1101500",
+                        "1101559",
+                        "1101708",
+                        "1101807"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1101",
+            "nome_regiao_intermediaria": "Porto Velho",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "110002",
+                    "nome_regiao_imediata": "Ariquemes",
+                    "municipios": [
+                        "1100023",
+                        "1100262",
+                        "1100403",
+                        "1100452",
+                        "1100601",
+                        "1100700",
+                        "1100940",
+                        "1101401"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "110001",
+                    "nome_regiao_imediata": "Porto Velho",
+                    "municipios": [
+                        "1100106",
+                        "1100205",
+                        "1100338",
+                        "1100809",
+                        "1101104"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "110003",
+                    "nome_regiao_imediata": "Jaru",
+                    "municipios": [
+                        "1100114",
+                        "1100130",
+                        "1101005",
+                        "1101609",
+                        "1101757"
+                    ]
+                }
+            ]
+        }
+    ]
+}

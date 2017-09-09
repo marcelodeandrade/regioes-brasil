@@ -1,0 +1,156 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "1302",
+            "nome_regiao_intermediaria": "Tef\u00e9",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "130005",
+                    "nome_regiao_imediata": "Tef\u00e9",
+                    "municipios": [
+                        "1300029",
+                        "1301001",
+                        "1301605",
+                        "1302108",
+                        "1302207",
+                        "1302306",
+                        "1302801",
+                        "1304203",
+                        "1304260"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "130006",
+                    "nome_regiao_imediata": "Tabatinga",
+                    "municipios": [
+                        "1300060",
+                        "1300201",
+                        "1300607",
+                        "1303700",
+                        "1303908",
+                        "1304062",
+                        "1304237"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "130007",
+                    "nome_regiao_imediata": "Eirunep\u00e9",
+                    "municipios": [
+                        "1301407",
+                        "1301506",
+                        "1301654",
+                        "1301803",
+                        "1301951"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1301",
+            "nome_regiao_intermediaria": "Manaus",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "130004",
+                    "nome_regiao_imediata": "Manacapuru",
+                    "municipios": [
+                        "1300086",
+                        "1300839",
+                        "1302504",
+                        "1303205"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "130003",
+                    "nome_regiao_imediata": "Coari",
+                    "municipios": [
+                        "1300102",
+                        "1300631",
+                        "1301209",
+                        "1301308"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "130001",
+                    "nome_regiao_imediata": "Manaus",
+                    "municipios": [
+                        "1300300",
+                        "1300805",
+                        "1301100",
+                        "1301159",
+                        "1301852",
+                        "1302553",
+                        "1302603",
+                        "1303106",
+                        "1303536",
+                        "1303569"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "130002",
+                    "nome_regiao_imediata": "S\u00e3o Gabriel da Cachoeira",
+                    "municipios": [
+                        "1300409",
+                        "1303601",
+                        "1303809"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1303",
+            "nome_regiao_intermediaria": "L\u00e1brea",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "130009",
+                    "nome_regiao_imediata": "Manicor\u00e9",
+                    "municipios": [
+                        "1300144",
+                        "1301704",
+                        "1302702",
+                        "1303304"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "130008",
+                    "nome_regiao_imediata": "L\u00e1brea",
+                    "municipios": [
+                        "1300706",
+                        "1300904",
+                        "1302405",
+                        "1303502",
+                        "1304104"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1304",
+            "nome_regiao_intermediaria": "Parintins",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "130010",
+                    "nome_regiao_imediata": "Parintins",
+                    "municipios": [
+                        "1300508",
+                        "1300680",
+                        "1302900",
+                        "1303007",
+                        "1303403"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "130011",
+                    "nome_regiao_imediata": "Itacoatiara",
+                    "municipios": [
+                        "1301902",
+                        "1302009",
+                        "1303957",
+                        "1304005",
+                        "1304302",
+                        "1304401"
+                    ]
+                }
+            ]
+        }
+    ]
+}

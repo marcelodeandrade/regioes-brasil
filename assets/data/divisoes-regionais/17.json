@@ -1,0 +1,227 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "1701",
+            "nome_regiao_intermediaria": "Palmas",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "170003",
+                    "nome_regiao_imediata": "Para\u00edso do Tocantins",
+                    "municipios": [
+                        "1700251",
+                        "1701903",
+                        "1703107",
+                        "1703909",
+                        "1704600",
+                        "1706100",
+                        "1707108",
+                        "1711902",
+                        "1712504",
+                        "1713700",
+                        "1715002",
+                        "1716109",
+                        "1717503",
+                        "1718451"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "170001",
+                    "nome_regiao_imediata": "Palmas",
+                    "municipios": [
+                        "1701101",
+                        "1711951",
+                        "1712009",
+                        "1712405",
+                        "1712702",
+                        "1715101",
+                        "1718758",
+                        "1719004",
+                        "1720150",
+                        "1721000"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "170002",
+                    "nome_regiao_imediata": "Porto Nacional",
+                    "municipios": [
+                        "1703701",
+                        "1705102",
+                        "1707553",
+                        "1709807",
+                        "1713601",
+                        "1714203",
+                        "1715507",
+                        "1717008",
+                        "1717909",
+                        "1718204",
+                        "1718899",
+                        "1718907",
+                        "1720655"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "170004",
+                    "nome_regiao_imediata": "Miracema do Tocantins",
+                    "municipios": [
+                        "1707207",
+                        "1713205",
+                        "1713304",
+                        "1718709",
+                        "1721109"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1702",
+            "nome_regiao_intermediaria": "Aragua\u00edna",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "170008",
+                    "nome_regiao_imediata": "Tocantin\u00f3polis",
+                    "municipios": [
+                        "1700301",
+                        "1703826",
+                        "1712454",
+                        "1712801",
+                        "1713809",
+                        "1714302",
+                        "1720002",
+                        "1721208"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "170005",
+                    "nome_regiao_imediata": "Aragua\u00edna",
+                    "municipios": [
+                        "1701002",
+                        "1701051",
+                        "1701309",
+                        "1702109",
+                        "1702158",
+                        "1702307",
+                        "1703008",
+                        "1703073",
+                        "1703842",
+                        "1703883",
+                        "1706506",
+                        "1707702",
+                        "1709005",
+                        "1713957",
+                        "1714880",
+                        "1716307",
+                        "1717206",
+                        "1718550",
+                        "1718865",
+                        "1722081",
+                        "1722107"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "170009",
+                    "nome_regiao_imediata": "Araguatins",
+                    "municipios": [
+                        "1702208",
+                        "1702554",
+                        "1702901",
+                        "1703800",
+                        "1703891",
+                        "1707405",
+                        "1710706",
+                        "1718303",
+                        "1718808",
+                        "1720101",
+                        "1720200",
+                        "1720309",
+                        "1720804"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "170007",
+                    "nome_regiao_imediata": "Colinas do Tocantins",
+                    "municipios": [
+                        "1703057",
+                        "1703206",
+                        "1703602",
+                        "1705508",
+                        "1710508",
+                        "1710904",
+                        "1711803",
+                        "1715705",
+                        "1721307"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "170006",
+                    "nome_regiao_imediata": "Guara\u00ed",
+                    "municipios": [
+                        "1703305",
+                        "1704105",
+                        "1706001",
+                        "1708254",
+                        "1708304",
+                        "1709302",
+                        "1711100",
+                        "1716505",
+                        "1716653",
+                        "1716703",
+                        "1718402",
+                        "1718501",
+                        "1718881",
+                        "1721257"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1703",
+            "nome_regiao_intermediaria": "Gurupi",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "170010",
+                    "nome_regiao_imediata": "Gurupi",
+                    "municipios": [
+                        "1700350",
+                        "1700707",
+                        "1702000",
+                        "1703867",
+                        "1706258",
+                        "1707306",
+                        "1707652",
+                        "1708205",
+                        "1709500",
+                        "1711506",
+                        "1715754",
+                        "1716208",
+                        "1716604",
+                        "1718840",
+                        "1720259",
+                        "1720499",
+                        "1720853",
+                        "1720978"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "170011",
+                    "nome_regiao_imediata": "Dian\u00f3polis",
+                    "municipios": [
+                        "1700400",
+                        "1702406",
+                        "1702703",
+                        "1705557",
+                        "1705607",
+                        "1707009",
+                        "1712157",
+                        "1715150",
+                        "1715259",
+                        "1717800",
+                        "1718006",
+                        "1718659",
+                        "1720903",
+                        "1720937"
+                    ]
+                }
+            ]
+        }
+    ]
+}

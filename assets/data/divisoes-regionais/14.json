@@ -1,0 +1,55 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "1401",
+            "nome_regiao_intermediaria": "Boa Vista",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "140002",
+                    "nome_regiao_imediata": "Pacaraima",
+                    "municipios": [
+                        "1400027",
+                        "1400407",
+                        "1400456",
+                        "1400704"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "140001",
+                    "nome_regiao_imediata": "Boa Vista",
+                    "municipios": [
+                        "1400050",
+                        "1400100",
+                        "1400159",
+                        "1400175",
+                        "1400308"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1402",
+            "nome_regiao_intermediaria": "Rorain\u00f3polis - Caracara\u00ed",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "140004",
+                    "nome_regiao_imediata": "Caracara\u00ed",
+                    "municipios": [
+                        "1400209",
+                        "1400282"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "140003",
+                    "nome_regiao_imediata": "Rorain\u00f3polis",
+                    "municipios": [
+                        "1400233",
+                        "1400472",
+                        "1400506",
+                        "1400605"
+                    ]
+                }
+            ]
+        }
+    ]
+}

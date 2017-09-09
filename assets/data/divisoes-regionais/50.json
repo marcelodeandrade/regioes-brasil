@@ -1,0 +1,179 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "5001",
+            "nome_regiao_intermediaria": "Campo Grande",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "500002",
+                    "nome_regiao_imediata": "Tr\u00eas Lagoas",
+                    "municipios": [
+                        "5000203",
+                        "5001904",
+                        "5002308",
+                        "5007554",
+                        "5007802",
+                        "5008305"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "500004",
+                    "nome_regiao_imediata": "Coxim",
+                    "municipios": [
+                        "5000252",
+                        "5003256",
+                        "5003306",
+                        "5003900",
+                        "5006408",
+                        "5007406",
+                        "5007935"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "500003",
+                    "nome_regiao_imediata": "Parana\u00edba - Chapad\u00e3o do Sul - Cassil\u00e2ndia",
+                    "municipios": [
+                        "5001003",
+                        "5002902",
+                        "5002951",
+                        "5004403",
+                        "5006275",
+                        "5006309"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "500001",
+                    "nome_regiao_imediata": "Campo Grande",
+                    "municipios": [
+                        "5001508",
+                        "5002605",
+                        "5002704",
+                        "5003108",
+                        "5003488",
+                        "5004908",
+                        "5006002",
+                        "5007109",
+                        "5007307",
+                        "5007505",
+                        "5007695",
+                        "5007901",
+                        "5008008"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "5002",
+            "nome_regiao_intermediaria": "Dourados",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "500009",
+                    "nome_regiao_imediata": "Amambai",
+                    "municipios": [
+                        "5000609",
+                        "5003157",
+                        "5006358",
+                        "5007703",
+                        "5007950"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "500007",
+                    "nome_regiao_imediata": "Nova Andradina",
+                    "municipios": [
+                        "5000807",
+                        "5000856",
+                        "5002001",
+                        "5004700",
+                        "5006200",
+                        "5006259"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "500008",
+                    "nome_regiao_imediata": "Ponta Por\u00e3",
+                    "municipios": [
+                        "5000906",
+                        "5001243",
+                        "5006606"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "500005",
+                    "nome_regiao_imediata": "Dourados",
+                    "municipios": [
+                        "5002407",
+                        "5003454",
+                        "5003504",
+                        "5003702",
+                        "5003801",
+                        "5004007",
+                        "5004502",
+                        "5005103",
+                        "5005152",
+                        "5005251",
+                        "5005400",
+                        "5007208",
+                        "5008404"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "500006",
+                    "nome_regiao_imediata": "Navira\u00ed - Mundo Novo",
+                    "municipios": [
+                        "5003751",
+                        "5004304",
+                        "5004601",
+                        "5004809",
+                        "5005681",
+                        "5005707"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "7",
+                    "nome_regiao_imediata": "Nova Andradina",
+                    "municipios": [
+                        "5007976"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "5003",
+            "nome_regiao_intermediaria": "Corumb\u00e1",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "500012",
+                    "nome_regiao_imediata": "Aquidauana - Anast\u00e1cio",
+                    "municipios": [
+                        "5000708",
+                        "5001102",
+                        "5002159",
+                        "5005608"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "500011",
+                    "nome_regiao_imediata": "Jardim",
+                    "municipios": [
+                        "5002100",
+                        "5002209",
+                        "5002803",
+                        "5004106",
+                        "5005004",
+                        "5005806",
+                        "5006903"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "500010",
+                    "nome_regiao_imediata": "Corumb\u00e1",
+                    "municipios": [
+                        "5003207",
+                        "5005202"
+                    ]
+                }
+            ]
+        }
+    ]
+}

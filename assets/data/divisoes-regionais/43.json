@@ -1,0 +1,807 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "4302",
+            "nome_regiao_intermediaria": "Pelotas",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "430010",
+                    "nome_regiao_imediata": "Bag\u00e9",
+                    "municipios": [
+                        "4300034",
+                        "4301602",
+                        "4304358",
+                        "4306601",
+                        "4309654",
+                        "4314175",
+                        "4314506"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430009",
+                    "nome_regiao_imediata": "Pelotas",
+                    "municipios": [
+                        "4301073",
+                        "4301305",
+                        "4304507",
+                        "4304663",
+                        "4305124",
+                        "4305439",
+                        "4307104",
+                        "4311007",
+                        "4312450",
+                        "4314209",
+                        "4314407",
+                        "4314605",
+                        "4315602",
+                        "4317301",
+                        "4318507",
+                        "4318804",
+                        "4322327"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4306",
+            "nome_regiao_intermediaria": "Passo Fundo",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "430032",
+                    "nome_regiao_imediata": "Tapejara - Sananduva",
+                    "municipios": [
+                        "4300059",
+                        "4305371",
+                        "4309803",
+                        "4312203",
+                        "4313607",
+                        "4316600",
+                        "4316733",
+                        "4317954",
+                        "4318424",
+                        "4320909",
+                        "4323358"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430028",
+                    "nome_regiao_imediata": "Carazinho",
+                    "municipios": [
+                        "4300471",
+                        "4301958",
+                        "4304705",
+                        "4305306",
+                        "4305603",
+                        "4305801",
+                        "4305850",
+                        "4306924",
+                        "4312658",
+                        "4312955",
+                        "4313466",
+                        "4316204",
+                        "4316436",
+                        "4317756",
+                        "4320107"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430035",
+                    "nome_regiao_imediata": "Nonoai",
+                    "municipios": [
+                        "4300505",
+                        "4309126",
+                        "4312708",
+                        "4314704",
+                        "4315552",
+                        "4321956"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430025",
+                    "nome_regiao_imediata": "Passo Fundo",
+                    "municipios": [
+                        "4300554",
+                        "4304101",
+                        "4305975",
+                        "4307054",
+                        "4307500",
+                        "4311270",
+                        "4312138",
+                        "4312674",
+                        "4314100",
+                        "4314779",
+                        "4316105",
+                        "4320503",
+                        "4321006",
+                        "4321469",
+                        "4321857",
+                        "4323200"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430029",
+                    "nome_regiao_imediata": "Frederico Westphalen",
+                    "municipios": [
+                        "4300646",
+                        "4302154",
+                        "4303400",
+                        "4306072",
+                        "4307302",
+                        "4308508",
+                        "4310504",
+                        "4310850",
+                        "4311601",
+                        "4313441",
+                        "4313805",
+                        "4314456",
+                        "4314498",
+                        "4315909",
+                        "4320206",
+                        "4321329",
+                        "4323101",
+                        "4323507"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430026",
+                    "nome_regiao_imediata": "Erechim",
+                    "municipios": [
+                        "4300901",
+                        "4301552",
+                        "4301701",
+                        "4301925",
+                        "4302055",
+                        "4303806",
+                        "4304853",
+                        "4305116",
+                        "4306130",
+                        "4306957",
+                        "4306973",
+                        "4307005",
+                        "4307203",
+                        "4307559",
+                        "4308052",
+                        "4308250",
+                        "4308706",
+                        "4308904",
+                        "4310462",
+                        "4310702",
+                        "4310900",
+                        "4311908",
+                        "4312005",
+                        "4314134",
+                        "4314787",
+                        "4315313",
+                        "4319703",
+                        "4320602",
+                        "4321634",
+                        "4322905"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430031",
+                    "nome_regiao_imediata": "Soledade",
+                    "municipios": [
+                        "4301404",
+                        "4302006",
+                        "4308300",
+                        "4309951",
+                        "4310579",
+                        "4312427",
+                        "4318465",
+                        "4320800"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430033",
+                    "nome_regiao_imediata": "Lagoa Vermelha",
+                    "municipios": [
+                        "4301800",
+                        "4303202",
+                        "4304622",
+                        "4304952",
+                        "4309902",
+                        "4311304",
+                        "4311700",
+                        "4318606",
+                        "4322186"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430027",
+                    "nome_regiao_imediata": "Cruz Alta",
+                    "municipios": [
+                        "4302220",
+                        "4302238",
+                        "4306106",
+                        "4308458",
+                        "4310009",
+                        "4310876",
+                        "4315354",
+                        "4316451",
+                        "4316709",
+                        "4320305",
+                        "4322202"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430030",
+                    "nome_regiao_imediata": "Marau",
+                    "municipios": [
+                        "4303558",
+                        "4304903",
+                        "4305504",
+                        "4306304",
+                        "4308854",
+                        "4311809",
+                        "4312625",
+                        "4312757",
+                        "4317558",
+                        "4318051",
+                        "4322558",
+                        "4323408"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430034",
+                    "nome_regiao_imediata": "Palmeira das Miss\u00f5es",
+                    "municipios": [
+                        "4305157",
+                        "4306429",
+                        "4311429",
+                        "4313490",
+                        "4313706",
+                        "4316428",
+                        "4318457",
+                        "4319364"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4303",
+            "nome_regiao_intermediaria": "Santa Maria",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "430011",
+                    "nome_regiao_imediata": "Santa Maria",
+                    "municipios": [
+                        "4300109",
+                        "4302907",
+                        "4306379",
+                        "4306700",
+                        "4308003",
+                        "4308409",
+                        "4310538",
+                        "4310751",
+                        "4311106",
+                        "4311130",
+                        "4311205",
+                        "4312104",
+                        "4313102",
+                        "4314472",
+                        "4315321",
+                        "4315503",
+                        "4316907",
+                        "4318101",
+                        "4318432",
+                        "4319125",
+                        "4319406",
+                        "4319604",
+                        "4319802",
+                        "4320651",
+                        "4321493"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430012",
+                    "nome_regiao_imediata": "S\u00e3o Gabriel - Ca\u00e7apava do Sul",
+                    "municipios": [
+                        "4302808",
+                        "4311502",
+                        "4316972",
+                        "4317004",
+                        "4318309",
+                        "4323457"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430013",
+                    "nome_regiao_imediata": "Cachoeira do Sul",
+                    "municipios": [
+                        "4303004",
+                        "4305132",
+                        "4313391",
+                        "4314027"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430014",
+                    "nome_regiao_imediata": "Santiago",
+                    "municipios": [
+                        "4304655",
+                        "4310553",
+                        "4313037",
+                        "4317400",
+                        "4322376"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4305",
+            "nome_regiao_intermediaria": "Iju\u00ed",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "430018",
+                    "nome_regiao_imediata": "Iju\u00ed",
+                    "municipios": [
+                        "4300208",
+                        "4301503",
+                        "4302584",
+                        "4305009",
+                        "4305405",
+                        "4305702",
+                        "4305871",
+                        "4305900",
+                        "4310207",
+                        "4310413",
+                        "4311155",
+                        "4313334",
+                        "4313904",
+                        "4314308",
+                        "4317806",
+                        "4319737"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430019",
+                    "nome_regiao_imediata": "Santa Rosa",
+                    "municipios": [
+                        "4300307",
+                        "4303707",
+                        "4304309",
+                        "4313425",
+                        "4315008",
+                        "4315057",
+                        "4315073",
+                        "4317202",
+                        "4317905",
+                        "4320321",
+                        "4322103",
+                        "4322301"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430023",
+                    "nome_regiao_imediata": "Tr\u00eas de Maio",
+                    "municipios": [
+                        "4300455",
+                        "4302204",
+                        "4306734",
+                        "4309605",
+                        "4310405",
+                        "4313011",
+                        "4318499",
+                        "4321808"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430021",
+                    "nome_regiao_imediata": "Tr\u00eas Passos",
+                    "municipios": [
+                        "4301859",
+                        "4302378",
+                        "4302600",
+                        "4304002",
+                        "4306007",
+                        "4306320",
+                        "4307450",
+                        "4309704",
+                        "4312302",
+                        "4315404",
+                        "4319109",
+                        "4320230",
+                        "4321402",
+                        "4321477",
+                        "4321907",
+                        "4323705"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430022",
+                    "nome_regiao_imediata": "S\u00e3o Luiz Gonzaga",
+                    "municipios": [
+                        "4302501",
+                        "4303301",
+                        "4306353",
+                        "4308656",
+                        "4314555",
+                        "4315958",
+                        "4317707",
+                        "4318903",
+                        "4319208"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430024",
+                    "nome_regiao_imediata": "Cerro Largo",
+                    "municipios": [
+                        "4305207",
+                        "4312179",
+                        "4315107",
+                        "4316303",
+                        "4316477",
+                        "4319307",
+                        "4319372",
+                        "4322343"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430020",
+                    "nome_regiao_imediata": "Santo \u00c2ngelo",
+                    "municipios": [
+                        "4306932",
+                        "4307831",
+                        "4309001",
+                        "4309506",
+                        "4317509",
+                        "4319158",
+                        "4320578",
+                        "4323754"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4304",
+            "nome_regiao_intermediaria": "Uruguaiana",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "430015",
+                    "nome_regiao_imediata": "Uruguaiana",
+                    "municipios": [
+                        "4300406",
+                        "4301875",
+                        "4311759",
+                        "4322400"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430017",
+                    "nome_regiao_imediata": "S\u00e3o Borja",
+                    "municipios": [
+                        "4310603",
+                        "4311718",
+                        "4318002"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430016",
+                    "nome_regiao_imediata": "Santana do Livramento",
+                    "municipios": [
+                        "4315305",
+                        "4316402",
+                        "4317103"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4307",
+            "nome_regiao_intermediaria": "Caxias do Sul",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "430036",
+                    "nome_regiao_imediata": "Caxias do Sul",
+                    "municipios": [
+                        "4300570",
+                        "4300802",
+                        "4303608",
+                        "4303673",
+                        "4304408",
+                        "4305108",
+                        "4307906",
+                        "4308102",
+                        "4308201",
+                        "4309100",
+                        "4310439",
+                        "4313086",
+                        "4313201",
+                        "4313359",
+                        "4314423",
+                        "4318200",
+                        "4319000",
+                        "4322541"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430038",
+                    "nome_regiao_imediata": "Nova Prata - Guapor\u00e9",
+                    "municipios": [
+                        "4300661",
+                        "4306452",
+                        "4309258",
+                        "4309407",
+                        "4312351",
+                        "4312807",
+                        "4312906",
+                        "4313300",
+                        "4314001",
+                        "4315172",
+                        "4318440",
+                        "4320404",
+                        "4322350",
+                        "4323606"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430037",
+                    "nome_regiao_imediata": "Bento Gon\u00e7alves",
+                    "municipios": [
+                        "4301651",
+                        "4302105",
+                        "4302253",
+                        "4304804",
+                        "4305934",
+                        "4305959",
+                        "4307864",
+                        "4308607",
+                        "4312385",
+                        "4314548",
+                        "4317251",
+                        "4319711",
+                        "4322806",
+                        "4323309"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430039",
+                    "nome_regiao_imediata": "Vacaria",
+                    "municipios": [
+                        "4302303",
+                        "4307401",
+                        "4311122",
+                        "4312377",
+                        "4312617",
+                        "4314464",
+                        "4318622",
+                        "4322509"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4301",
+            "nome_regiao_intermediaria": "Porto Alegre",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "430001",
+                    "nome_regiao_imediata": "Porto Alegre",
+                    "municipios": [
+                        "4300604",
+                        "4301107",
+                        "4301750",
+                        "4301909",
+                        "4303103",
+                        "4304606",
+                        "4304671",
+                        "4304713",
+                        "4306767",
+                        "4307708",
+                        "4309050",
+                        "4309209",
+                        "4309308",
+                        "4311981",
+                        "4312500",
+                        "4313375",
+                        "4313656",
+                        "4314902",
+                        "4317608",
+                        "4320008",
+                        "4320552",
+                        "4321352",
+                        "4323002"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430005",
+                    "nome_regiao_imediata": "Camaqu\u00e3",
+                    "municipios": [
+                        "4300638",
+                        "4300851",
+                        "4303509",
+                        "4305173",
+                        "4305447",
+                        "4306056",
+                        "4306502",
+                        "4320354",
+                        "4321105"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430002",
+                    "nome_regiao_imediata": "Novo Hamburgo - S\u00e3o Leopoldo",
+                    "municipios": [
+                        "4300877",
+                        "4302352",
+                        "4303905",
+                        "4304689",
+                        "4306403",
+                        "4307609",
+                        "4309555",
+                        "4310801",
+                        "4311627",
+                        "4311643",
+                        "4312476",
+                        "4313060",
+                        "4313409",
+                        "4314803",
+                        "4315149",
+                        "4316956",
+                        "4318481",
+                        "4318705",
+                        "4319505",
+                        "4319752",
+                        "4319901",
+                        "4322251"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430008",
+                    "nome_regiao_imediata": "Torres",
+                    "municipios": [
+                        "4301057",
+                        "4306551",
+                        "4311734",
+                        "4312443",
+                        "4321501",
+                        "4321667",
+                        "4321832"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430003",
+                    "nome_regiao_imediata": "Tramanda\u00ed - Os\u00f3rio",
+                    "municipios": [
+                        "4301636",
+                        "4304630",
+                        "4305454",
+                        "4310330",
+                        "4310652",
+                        "4311775",
+                        "4313508",
+                        "4321436",
+                        "4321600",
+                        "4323804"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430007",
+                    "nome_regiao_imediata": "Montenegro",
+                    "municipios": [
+                        "4302659",
+                        "4311791",
+                        "4312401",
+                        "4314035",
+                        "4316501",
+                        "4318614",
+                        "4319356"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430006",
+                    "nome_regiao_imediata": "Charqueadas - Triunfo - S\u00e3o Jer\u00f4nimo",
+                    "municipios": [
+                        "4302709",
+                        "4305355",
+                        "4308805",
+                        "4312252",
+                        "4318408",
+                        "4322004"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430004",
+                    "nome_regiao_imediata": "Taquara - Parob\u00e9 - Igrejinha",
+                    "municipios": [
+                        "4310108",
+                        "4314050",
+                        "4315750",
+                        "4316006",
+                        "4321204",
+                        "4321709"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4308",
+            "nome_regiao_intermediaria": "Santa Cruz do Sul - Lajeado",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "430043",
+                    "nome_regiao_imediata": "Encantado",
+                    "municipios": [
+                        "4300703",
+                        "4306759",
+                        "4306809",
+                        "4310306",
+                        "4312609",
+                        "4313003",
+                        "4315206",
+                        "4315453",
+                        "4315800",
+                        "4322855"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430041",
+                    "nome_regiao_imediata": "Lajeado",
+                    "municipios": [
+                        "4301008",
+                        "4302402",
+                        "4302451",
+                        "4304614",
+                        "4304697",
+                        "4305587",
+                        "4305835",
+                        "4306205",
+                        "4307807",
+                        "4308078",
+                        "4308433",
+                        "4310363",
+                        "4311403",
+                        "4312054",
+                        "4314159",
+                        "4314753",
+                        "4315131",
+                        "4315156",
+                        "4316758",
+                        "4320453",
+                        "4320859",
+                        "4321303",
+                        "4321451",
+                        "4321626",
+                        "4323770"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430042",
+                    "nome_regiao_imediata": "Sobradinho",
+                    "municipios": [
+                        "4301206",
+                        "4307815",
+                        "4309753",
+                        "4311239",
+                        "4311254",
+                        "4314068",
+                        "4320263",
+                        "4320701",
+                        "4322152"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "430040",
+                    "nome_regiao_imediata": "Santa Cruz do Sul",
+                    "municipios": [
+                        "4304200",
+                        "4306908",
+                        "4309159",
+                        "4309571",
+                        "4312153",
+                        "4313953",
+                        "4314076",
+                        "4315701",
+                        "4316808",
+                        "4320677",
+                        "4322525",
+                        "4322533",
+                        "4322608",
+                        "4322707"
+                    ]
+                }
+            ]
+        }
+    ]
+}

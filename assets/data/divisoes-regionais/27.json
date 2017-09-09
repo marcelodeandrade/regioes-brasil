@@ -1,0 +1,184 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "2702",
+            "nome_regiao_intermediaria": "Arapiraca",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "270009",
+                    "nome_regiao_imediata": "Delmiro Gouveia",
+                    "municipios": [
+                        "2700102",
+                        "2702405",
+                        "2703304",
+                        "2705002",
+                        "2705804",
+                        "2706422",
+                        "2707107"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "270007",
+                    "nome_regiao_imediata": "Arapiraca",
+                    "municipios": [
+                        "2700300",
+                        "2701506",
+                        "2702009",
+                        "2702355",
+                        "2702603",
+                        "2702900",
+                        "2703700",
+                        "2704005",
+                        "2704104",
+                        "2704203",
+                        "2704807",
+                        "2705903",
+                        "2708808",
+                        "2709004",
+                        "2709103",
+                        "2709152",
+                        "2709202"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "270011",
+                    "nome_regiao_imediata": "P\u00e3o de A\u00e7\u00facar - Olho d'\u00c1gua das Flores \u2013 Batalha",
+                    "municipios": [
+                        "2700706",
+                        "2700904",
+                        "2703403",
+                        "2705408",
+                        "2705705",
+                        "2706208",
+                        "2706406",
+                        "2708402"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "270008",
+                    "nome_regiao_imediata": "Palmeira dos \u00cdndios",
+                    "municipios": [
+                        "2700805",
+                        "2701209",
+                        "2702553",
+                        "2703106",
+                        "2704401",
+                        "2705309",
+                        "2706307",
+                        "2706604",
+                        "2707602"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "270010",
+                    "nome_regiao_imediata": "Santana do Ipanema",
+                    "municipios": [
+                        "2701605",
+                        "2701803",
+                        "2702504",
+                        "2704609",
+                        "2706000",
+                        "2706109",
+                        "2707206",
+                        "2708006",
+                        "2708956"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2701",
+            "nome_regiao_intermediaria": "Macei\u00f3",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "270004",
+                    "nome_regiao_imediata": "S\u00e3o Miguel dos Campos",
+                    "municipios": [
+                        "2700201",
+                        "2701001",
+                        "2701407",
+                        "2703759",
+                        "2707800",
+                        "2708600"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "270006",
+                    "nome_regiao_imediata": "Atalaia",
+                    "municipios": [
+                        "2700409",
+                        "2701308",
+                        "2701704",
+                        "2701902",
+                        "2704906",
+                        "2707008",
+                        "2709400"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "270001",
+                    "nome_regiao_imediata": "Macei\u00f3",
+                    "municipios": [
+                        "2700508",
+                        "2700607",
+                        "2702207",
+                        "2702801",
+                        "2703809",
+                        "2704302",
+                        "2704708",
+                        "2705200",
+                        "2706448",
+                        "2706901",
+                        "2707701",
+                        "2707909",
+                        "2708907"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "270005",
+                    "nome_regiao_imediata": "Uni\u00e3o dos Palmares",
+                    "municipios": [
+                        "2701100",
+                        "2703007",
+                        "2705507",
+                        "2708105",
+                        "2708303",
+                        "2709301"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "270002",
+                    "nome_regiao_imediata": "Porto Calvo - S\u00e3o Lu\u00eds do Quitunde",
+                    "municipios": [
+                        "2701357",
+                        "2702108",
+                        "2703502",
+                        "2703601",
+                        "2703908",
+                        "2704500",
+                        "2705101",
+                        "2705606",
+                        "2706505",
+                        "2707305",
+                        "2707404",
+                        "2708501",
+                        "2708709"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "270003",
+                    "nome_regiao_imediata": "Penedo",
+                    "municipios": [
+                        "2702306",
+                        "2702702",
+                        "2703205",
+                        "2706703",
+                        "2706802",
+                        "2707503",
+                        "2708204"
+                    ]
+                }
+            ]
+        }
+    ]
+}
