@@ -57,6 +57,26 @@ export class MapService {
         });
 
         this.map.addLayer(this.vectorRegiao);
+
+        this.map.addInteraction(new ol.interaction.Select({
+          condition: ol.events.condition.click,
+          layers: [this.vectorRegiao]
+        }));
+
+        const self = this;
+        this.map.on('click', event => {
+          const feature = self.map.forEachFeatureAtPixel(event.pixel, featureCB => {
+            return featureCB;
+          });
+          self.dataService.listMunicipios().subscribe(municipios => {
+            const municipio = municipios.filter(municipio => {
+              return municipio.codigo == feature.getProperties().cod;
+            })[0];
+            const element = document.getElementById('title');
+            element.innerHTML = municipio.nome;
+          });
+        });
+
       }
 
       this.view.animate({zoom: 8}, {center: ol.proj.transform(options.latLng, 'EPSG:4326',
