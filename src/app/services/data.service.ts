@@ -11,14 +11,14 @@ export class DataService {
   constructor(private http: Http) {}
 
   getEstado (codigo_estado: number) {
-    return this.http.get(`../assets/data/coordenadas/${codigo_estado}.json`)
+    return this.http.get(`assets/data/coordenadas/${codigo_estado}.json`)
       .map((response) => response.json());
   }
 
   listEstados(): Array<Object> {
     const data = [];
 
-    this.http.get('../assets/data/estados.json')
+    this.http.get('assets/data/estados.json')
     .map((response) => response.json())
     .subscribe(estados => {
       estados.map(estado => {
@@ -36,7 +36,7 @@ export class DataService {
   listRegioesIntermediarias(estado: number): Array<Object> {
     const data = [];
 
-    this.http.get(`../assets/data/regioes.intermediarias.json`)
+    this.http.get(`assets/data/regioes.intermediarias.json`)
     .map((response) => response.json())
     .subscribe(regioes => {
       regioes[estado].map(regiao => {
@@ -50,7 +50,7 @@ export class DataService {
   listRegioesImediatas(regiaoIntermediaria: number): Array<Object> {
     const data = [];
 
-    this.http.get(`../assets/data/regioes.imediatas.json`)
+    this.http.get(`assets/data/regioes.imediatas.json`)
     .map((response) => response.json())
     .subscribe(regioes => {
       regioes[regiaoIntermediaria].map(regiao => {
@@ -74,7 +74,7 @@ export class DataService {
   }
 
   listMunicipios() {
-    return this.http.get('../assets/data/municipios.json')
+    return this.http.get('assets/data/municipios.json')
     .map((response) => response.json());
 
   }
