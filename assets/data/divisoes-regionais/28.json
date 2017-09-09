@@ -1,0 +1,127 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "2801",
+            "nome_regiao_intermediaria": "Aracaju",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "280003",
+                    "nome_regiao_imediata": "Propri\u00e1",
+                    "municipios": [
+                        "2800100",
+                        "2800209",
+                        "2800704",
+                        "2801108",
+                        "2801603",
+                        "2802700",
+                        "2803401",
+                        "2803807",
+                        "2804300",
+                        "2804409",
+                        "2804706",
+                        "2804904",
+                        "2805703",
+                        "2806404",
+                        "2806909",
+                        "2807303"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "280001",
+                    "nome_regiao_imediata": "Aracaju",
+                    "municipios": [
+                        "2800308",
+                        "2800605",
+                        "2801306",
+                        "2801504",
+                        "2801900",
+                        "2802007",
+                        "2802502",
+                        "2803203",
+                        "2803302",
+                        "2803609",
+                        "2804003",
+                        "2804607",
+                        "2804805",
+                        "2805307",
+                        "2805901",
+                        "2806107",
+                        "2806503",
+                        "2806602",
+                        "2806701",
+                        "2807204"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "280002",
+                    "nome_regiao_imediata": "Est\u00e2ncia",
+                    "municipios": [
+                        "2800407",
+                        "2800670",
+                        "2801702",
+                        "2802106",
+                        "2802809",
+                        "2803005",
+                        "2805109",
+                        "2806305",
+                        "2807501",
+                        "2807600"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2802",
+            "nome_regiao_intermediaria": "Itabaiana",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "280004",
+                    "nome_regiao_imediata": "Itabaiana",
+                    "municipios": [
+                        "2800506",
+                        "2801009",
+                        "2801405",
+                        "2802304",
+                        "2802908",
+                        "2803708",
+                        "2803906",
+                        "2804102",
+                        "2804458",
+                        "2805000",
+                        "2805208",
+                        "2806008",
+                        "2806800",
+                        "2807006"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "280006",
+                    "nome_regiao_imediata": "Nossa Senhora da Gl\u00f3ria",
+                    "municipios": [
+                        "2801207",
+                        "2802205",
+                        "2802403",
+                        "2802601",
+                        "2803104",
+                        "2804201",
+                        "2804508",
+                        "2805406",
+                        "2805604"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "280005",
+                    "nome_regiao_imediata": "Lagarto",
+                    "municipios": [
+                        "2803500",
+                        "2805505",
+                        "2805802",
+                        "2806206",
+                        "2807105",
+                        "2807402"
+                    ]
+                }
+            ]
+        }
+    ]
+}

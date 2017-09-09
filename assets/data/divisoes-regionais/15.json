@@ -1,0 +1,316 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "1501",
+            "nome_regiao_intermediaria": "Bel\u00e9m",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "150003",
+                    "nome_regiao_imediata": "Abaetetuba",
+                    "municipios": [
+                        "1500107",
+                        "1503309",
+                        "1504703",
+                        "1507953"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150001",
+                    "nome_regiao_imediata": "Bel\u00e9m",
+                    "municipios": [
+                        "1500206",
+                        "1500800",
+                        "1501303",
+                        "1501402",
+                        "1501501",
+                        "1501907",
+                        "1502608",
+                        "1502756",
+                        "1504422",
+                        "1506351",
+                        "1506500",
+                        "1507003",
+                        "1507102",
+                        "1508001",
+                        "1508209"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150002",
+                    "nome_regiao_imediata": "Camet\u00e1",
+                    "municipios": [
+                        "1502103",
+                        "1504000",
+                        "1504604",
+                        "1505205"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1503",
+            "nome_regiao_intermediaria": "Marab\u00e1",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "150009",
+                    "nome_regiao_imediata": "Marab\u00e1",
+                    "municipios": [
+                        "1500131",
+                        "1501576",
+                        "1501758",
+                        "1503705",
+                        "1503804",
+                        "1504208",
+                        "1504976",
+                        "1505494",
+                        "1505635",
+                        "1506187",
+                        "1507151",
+                        "1507458",
+                        "1507508"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150011",
+                    "nome_regiao_imediata": "Tucuru\u00ed",
+                    "municipios": [
+                        "1501204",
+                        "1501782",
+                        "1503093",
+                        "1505064",
+                        "1505486",
+                        "1508100"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150010",
+                    "nome_regiao_imediata": "Parauapebas",
+                    "municipios": [
+                        "1502152",
+                        "1502772",
+                        "1502954",
+                        "1505536"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1507",
+            "nome_regiao_intermediaria": "Breves",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "150020",
+                    "nome_regiao_imediata": "Breves",
+                    "municipios": [
+                        "1500305",
+                        "1500701",
+                        "1501105",
+                        "1501808",
+                        "1502509",
+                        "1502806",
+                        "1503101",
+                        "1504505",
+                        "1505809",
+                        "1507706"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150021",
+                    "nome_regiao_imediata": "Soure-Salvaterra",
+                    "municipios": [
+                        "1502004",
+                        "1504901",
+                        "1505700",
+                        "1506302",
+                        "1506401",
+                        "1507904"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1504",
+            "nome_regiao_intermediaria": "Reden\u00e7\u00e3o",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "150014",
+                    "nome_regiao_imediata": "Xinguara",
+                    "municipios": [
+                        "1500347",
+                        "1506161",
+                        "1507755",
+                        "1508407"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150012",
+                    "nome_regiao_imediata": "Reden\u00e7\u00e3o",
+                    "municipios": [
+                        "1501253",
+                        "1502707",
+                        "1502764",
+                        "1503044",
+                        "1505551",
+                        "1506138",
+                        "1506583",
+                        "1506708"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150013",
+                    "nome_regiao_imediata": "Tucum\u00e3 - S\u00e3o F\u00e9lix do Xingu",
+                    "municipios": [
+                        "1505437",
+                        "1507300",
+                        "1508084"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1505",
+            "nome_regiao_intermediaria": "Santar\u00e9m",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "150015",
+                    "nome_regiao_imediata": "Santar\u00e9m",
+                    "municipios": [
+                        "1500404",
+                        "1501451",
+                        "1504752",
+                        "1504802",
+                        "1506005",
+                        "1506807"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150016",
+                    "nome_regiao_imediata": "Itaituba",
+                    "municipios": [
+                        "1501006",
+                        "1503606",
+                        "1503754",
+                        "1505031",
+                        "1505650",
+                        "1506195",
+                        "1508050"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150017",
+                    "nome_regiao_imediata": "Oriximin\u00e1",
+                    "municipios": [
+                        "1502855",
+                        "1503002",
+                        "1503903",
+                        "1505106",
+                        "1505304",
+                        "1507979"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1506",
+            "nome_regiao_intermediaria": "Altamira",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "150019",
+                    "nome_regiao_imediata": "Almeirim - Porto de Moz",
+                    "municipios": [
+                        "1500503",
+                        "1505908"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150018",
+                    "nome_regiao_imediata": "Altamira",
+                    "municipios": [
+                        "1500602",
+                        "1500859",
+                        "1501725",
+                        "1504455",
+                        "1507805",
+                        "1508159",
+                        "1508357"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1502",
+            "nome_regiao_intermediaria": "Castanhal",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "150005",
+                    "nome_regiao_imediata": "Bragan\u00e7a",
+                    "municipios": [
+                        "1500909",
+                        "1501709",
+                        "1501956",
+                        "1506559",
+                        "1508035",
+                        "1508308"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150007",
+                    "nome_regiao_imediata": "Paragominas",
+                    "municipios": [
+                        "1500958",
+                        "1502939",
+                        "1503457",
+                        "1504059",
+                        "1505502",
+                        "1508126"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150006",
+                    "nome_regiao_imediata": "Capanema",
+                    "municipios": [
+                        "1501600",
+                        "1502202",
+                        "1505007",
+                        "1505601",
+                        "1506104",
+                        "1506112",
+                        "1506203",
+                        "1506906",
+                        "1507474"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150008",
+                    "nome_regiao_imediata": "Capit\u00e3o Po\u00e7o",
+                    "municipios": [
+                        "1502301",
+                        "1503077",
+                        "1504950",
+                        "1505403"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "150004",
+                    "nome_regiao_imediata": "Castanhal",
+                    "municipios": [
+                        "1502400",
+                        "1502905",
+                        "1503200",
+                        "1503408",
+                        "1503507",
+                        "1504109",
+                        "1504307",
+                        "1504406",
+                        "1506609",
+                        "1507201",
+                        "1507409",
+                        "1507466",
+                        "1507607",
+                        "1507961"
+                    ]
+                }
+            ]
+        }
+    ]
+}

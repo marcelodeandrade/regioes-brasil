@@ -1,0 +1,245 @@
+[
+    {
+        "codigo": "11",
+        "uf": "RO",
+        "nome": "RONDONIA",
+        "capital": {
+          "codigo": 1100205,
+          "latLng": [-8.76, -63.9]
+        }
+    },
+    {
+        "codigo": "12",
+        "uf": "AC",
+        "nome": "ACRE",
+        "capital": {
+          "codigo": 1200401,
+          "latLng": [-9.97, -67.81]
+        }
+    },
+    {
+        "codigo": "13",
+        "uf": "AM",
+        "nome": "AMAZONAS",
+        "capital": {
+          "codigo": 1302603,
+          "latLng": [-3.1, -60.02]
+        }
+    },
+    {
+        "codigo": "14",
+        "uf": "RR",
+        "nome": "RORAIMA",
+        "capital": {
+          "codigo": 1400100,
+          "latLng": [2.82, -60.67]
+        }
+    },
+    {
+        "codigo": "15",
+        "uf": "PA",
+        "nome": "PARA",
+        "capital": {
+          "codigo": 1501402,
+          "latLng": [-1.45, -48.5]
+        }
+    },
+    {
+        "codigo": "16",
+        "uf": "AP",
+        "nome": "AMAPA",
+        "capital": {
+          "codigo": 1600303,
+          "latLng": [0.03, -51.06]
+        }
+    },
+    {
+        "codigo": "17",
+        "uf": "TO",
+        "nome": "TOCANTINS",
+        "capital": {
+          "codigo": 1721000,
+          "latLng": [-10.16, -48.33]
+        }
+    },
+    {
+        "codigo": "21",
+        "uf": "MA",
+        "nome": "MARANHAO",
+        "capital": {
+          "codigo": 2111300,
+          "latLng": [-2.53, -44.3]
+        }
+    },
+    {
+        "codigo": "22",
+        "uf": "PI",
+        "nome": "PIAUI",
+        "capital": {
+          "codigo": 2211001,
+          "latLng": [-5.08, -42.8]
+        }
+    },
+    {
+        "codigo": "23",
+        "uf": "CE",
+        "nome": "CEARA",
+        "capital": {
+          "codigo": 2304400,
+          "latLng": [-3.71, -38.54]
+        }
+    },
+    {
+        "codigo": "24",
+        "uf": "RN",
+        "nome": "RIO GRANDE NORTE",
+        "capital": {
+          "codigo": 2408102,
+          "latLng": [-5.79, -35.2]
+        }
+    },
+    {
+        "codigo": "25",
+        "uf": "PB",
+        "nome": "PARAIBA",
+        "capital": {
+          "codigo": 2507507,
+          "latLng": [-7.11, -34.86]
+        }
+    },
+    {
+        "codigo": "26",
+        "uf": "PE",
+        "nome": "PERNAMBUCO",
+        "capital": {
+          "codigo": 2611606,
+          "latLng": [-8.05, -34.88]
+        }
+    },
+    {
+        "codigo": "27",
+        "uf": "AL",
+        "nome": "ALAGOAS",
+        "capital": {
+          "codigo": 2704302,
+          "latLng": [-9.66, -35.73]
+        }
+    },
+    {
+        "codigo": "28",
+        "uf": "SE",
+        "nome": "SERGIPE",
+        "capital": {
+          "codigo": 2800308,
+          "latLng": [-10.91, -37.07]
+        }
+    },
+    {
+        "codigo": "29",
+        "uf": "BA",
+        "nome": "BAHIA",
+        "capital": {
+          "codigo": 2927408,
+          "latLng": [-12.97, -38.51]
+        }
+    },
+    {
+        "codigo": "31",
+        "uf": "MG",
+        "nome": "MINAS GERAIS",
+        "capital": {
+          "codigo": 3106200,
+          "latLng": [-19.81, -43.95]
+        }
+    },
+    {
+        "codigo": "32",
+        "uf": "ES",
+        "nome": "ESPIRITO SANTO",
+        "capital": {
+          "codigo": 3205309,
+          "latLng": [-20.31, -40.33]
+        }
+    },
+    {
+        "codigo": "33",
+        "uf": "RJ",
+        "nome": "RIO DE JANEIRO",
+        "capital": {
+          "codigo": 3304557,
+          "latLng": [-22.9, -43.2]
+        }
+    },
+    {
+        "codigo": "35",
+        "uf": "SP",
+        "nome": "SAO PAULO",
+        "capital": {
+          "codigo": 3550308,
+          "latLng": [-23.54, -46.63]
+        }
+    },
+    {
+        "codigo": "41",
+        "uf": "PR",
+        "nome": "PARANA",
+        "capital": {
+          "codigo": 4106902,
+          "latLng": [-25.42, -49.27]
+        }
+    },
+    {
+        "codigo": "42",
+        "uf": "SC",
+        "nome": "SANTA CATARINA",
+        "capital": {
+          "codigo": 4205407,
+          "latLng": [-27.59, -48.54]
+        }
+    },
+    {
+        "codigo": "43",
+        "uf": "RS",
+        "nome": "RIO GRANDE DO SUL",
+        "capital": {
+          "codigo": 4314902,
+          "latLng": [-30.03, -51.23]
+        }
+    },
+    {
+        "codigo": "50",
+        "uf": "MS",
+        "nome": "MATO GROSSO DO SUL",
+        "capital": {
+          "codigo": 5002704,
+          "latLng": [-20.44, -54.64]
+        }
+    },
+    {
+        "codigo": "51",
+        "uf": "MT",
+        "nome": "MATO GROSSO",
+        "capital": {
+          "codigo": 5103403,
+          "latLng": [-15.59, -56.09]
+        }
+    },
+    {
+        "codigo": "52",
+        "uf": "GO",
+        "nome": "GOIAS",
+        "capital": {
+          "codigo": 5208707,
+          "latLng": [-16.67, -49.25]
+        }
+    },
+    {
+        "codigo": "53",
+        "uf": "DF",
+        "nome": "DESTRITO FEDERAL",
+        "capital": {
+          "codigo": 5300108,
+          "latLng": [-15.78, -47.93]
+        }
+    }
+]

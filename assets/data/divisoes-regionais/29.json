@@ -1,0 +1,685 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "2904",
+            "nome_regiao_intermediaria": "Vit\u00f3ria da Conquista",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "290013",
+                    "nome_regiao_imediata": "Brumado",
+                    "municipios": [
+                        "2900108",
+                        "2900504",
+                        "2902005",
+                        "2904605",
+                        "2907558",
+                        "2910107",
+                        "2918605",
+                        "2919504",
+                        "2920304",
+                        "2923605",
+                        "2926707",
+                        "2926905"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290012",
+                    "nome_regiao_imediata": "Jequi\u00e9",
+                    "municipios": [
+                        "2900603",
+                        "2901957",
+                        "2909505",
+                        "2914208",
+                        "2915106",
+                        "2916708",
+                        "2916906",
+                        "2917607",
+                        "2918001",
+                        "2918308",
+                        "2918704",
+                        "2919058",
+                        "2920403",
+                        "2920502",
+                        "2924900",
+                        "2927903"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290011",
+                    "nome_regiao_imediata": "Vit\u00f3ria da Conquista",
+                    "municipios": [
+                        "2901205",
+                        "2902807",
+                        "2902906",
+                        "2903508",
+                        "2903706",
+                        "2903953",
+                        "2904803",
+                        "2905156",
+                        "2906709",
+                        "2906899",
+                        "2908705",
+                        "2908804",
+                        "2909000",
+                        "2910404",
+                        "2912202",
+                        "2913507",
+                        "2914307",
+                        "2915809",
+                        "2917201",
+                        "2919959",
+                        "2921450",
+                        "2922706",
+                        "2924702",
+                        "2925006",
+                        "2925105",
+                        "2925709",
+                        "2926657",
+                        "2931004",
+                        "2931806",
+                        "2933307"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290014",
+                    "nome_regiao_imediata": "Ipia\u00fa",
+                    "municipios": [
+                        "2903102",
+                        "2910008",
+                        "2911204",
+                        "2911501",
+                        "2912905",
+                        "2913903",
+                        "2915205",
+                        "2915700",
+                        "2922755",
+                        "2924678",
+                        "2931608",
+                        "2932309",
+                        "2933505"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290015",
+                    "nome_regiao_imediata": "Itapetinga",
+                    "municipios": [
+                        "2916401",
+                        "2916807",
+                        "2917102",
+                        "2919702",
+                        "2920007",
+                        "2925402"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2909",
+            "nome_regiao_intermediaria": "Paulo Afonso",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "290024",
+                    "nome_regiao_imediata": "Paulo Afonso",
+                    "municipios": [
+                        "2900207",
+                        "2907707",
+                        "2911402",
+                        "2919900",
+                        "2924009",
+                        "2927101",
+                        "2927606"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290027",
+                    "nome_regiao_imediata": "C\u00edcero Dantas",
+                    "municipios": [
+                        "2900355",
+                        "2901601",
+                        "2907806",
+                        "2910750",
+                        "2911857",
+                        "2923803"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290025",
+                    "nome_regiao_imediata": "Ribeira do Pombal",
+                    "municipios": [
+                        "2902658",
+                        "2907905",
+                        "2922904",
+                        "2923100",
+                        "2926509",
+                        "2926608",
+                        "2931905"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290026",
+                    "nome_regiao_imediata": "Euclides da Cunha",
+                    "municipios": [
+                        "2906808",
+                        "2906824",
+                        "2910701",
+                        "2921500",
+                        "2925907"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290028",
+                    "nome_regiao_imediata": "Jeremoabo",
+                    "municipios": [
+                        "2909208",
+                        "2918100",
+                        "2923050",
+                        "2924207",
+                        "2930766"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2901",
+            "nome_regiao_intermediaria": "Salvador",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "290002",
+                    "nome_regiao_imediata": "Alagoinhas",
+                    "municipios": [
+                        "2900306",
+                        "2900702",
+                        "2901908",
+                        "2902054",
+                        "2902203",
+                        "2907004",
+                        "2908606",
+                        "2909604",
+                        "2910503",
+                        "2910602",
+                        "2913705",
+                        "2916500",
+                        "2917904",
+                        "2924108",
+                        "2927002",
+                        "2929701",
+                        "2931400"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290001",
+                    "nome_regiao_imediata": "Salvador",
+                    "municipios": [
+                        "2905701",
+                        "2906501",
+                        "2907509",
+                        "2910057",
+                        "2915908",
+                        "2919207",
+                        "2919926",
+                        "2921005",
+                        "2925204",
+                        "2927408",
+                        "2928604",
+                        "2929206",
+                        "2929503",
+                        "2929750",
+                        "2930709",
+                        "2931707"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2910",
+            "nome_regiao_intermediaria": "Feira de Santana",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "290029",
+                    "nome_regiao_imediata": "Feira de Santana",
+                    "municipios": [
+                        "2900405",
+                        "2901106",
+                        "2901502",
+                        "2901700",
+                        "2902609",
+                        "2906402",
+                        "2906857",
+                        "2908200",
+                        "2908507",
+                        "2908903",
+                        "2910800",
+                        "2911253",
+                        "2913309",
+                        "2913804",
+                        "2914000",
+                        "2914505",
+                        "2919108",
+                        "2919603",
+                        "2920106",
+                        "2922102",
+                        "2922730",
+                        "2923308",
+                        "2924058",
+                        "2924652",
+                        "2925956",
+                        "2926301",
+                        "2927507",
+                        "2928307",
+                        "2928802",
+                        "2929305",
+                        "2930402",
+                        "2931103",
+                        "2933059"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290031",
+                    "nome_regiao_imediata": "Itaberaba",
+                    "municipios": [
+                        "2901304",
+                        "2903805",
+                        "2911907",
+                        "2912608",
+                        "2914703",
+                        "2915007",
+                        "2919009",
+                        "2920809",
+                        "2922854",
+                        "2927200",
+                        "2932804",
+                        "2933406"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290033",
+                    "nome_regiao_imediata": "Serrinha",
+                    "municipios": [
+                        "2902104",
+                        "2903276",
+                        "2903607",
+                        "2930501",
+                        "2931509"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290034",
+                    "nome_regiao_imediata": "Seabra",
+                    "municipios": [
+                        "2904001",
+                        "2913002",
+                        "2914406",
+                        "2919306",
+                        "2921906",
+                        "2923035",
+                        "2923506",
+                        "2924306",
+                        "2929909",
+                        "2930808"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290030",
+                    "nome_regiao_imediata": "Jacobina",
+                    "municipios": [
+                        "2905107",
+                        "2905503",
+                        "2906873",
+                        "2917508",
+                        "2921203",
+                        "2921401",
+                        "2923357",
+                        "2924801",
+                        "2925931",
+                        "2929370",
+                        "2929800",
+                        "2930600",
+                        "2931301",
+                        "2932457",
+                        "2933109",
+                        "2933158"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290032",
+                    "nome_regiao_imediata": "Concei\u00e7\u00e3o do Coit\u00e9",
+                    "municipios": [
+                        "2908408",
+                        "2922656",
+                        "2925808",
+                        "2926103",
+                        "2928000",
+                        "2928950",
+                        "2933000"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2903",
+            "nome_regiao_intermediaria": "Ilh\u00e9us \u2013 Itabuna",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "290008",
+                    "nome_regiao_imediata": "Teixeira de Freitas",
+                    "municipios": [
+                        "2900801",
+                        "2906907",
+                        "2912806",
+                        "2915601",
+                        "2916005",
+                        "2918456",
+                        "2918902",
+                        "2921104",
+                        "2922003",
+                        "2923001",
+                        "2925501",
+                        "2931350",
+                        "2933257"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290007",
+                    "nome_regiao_imediata": "Ilh\u00e9us \u2013 Itabuna",
+                    "municipios": [
+                        "2900900",
+                        "2902401",
+                        "2903300",
+                        "2904704",
+                        "2908002",
+                        "2910909",
+                        "2911006",
+                        "2912103",
+                        "2912301",
+                        "2912707",
+                        "2913606",
+                        "2914802",
+                        "2914901",
+                        "2915403",
+                        "2915502",
+                        "2916203",
+                        "2916609",
+                        "2920700",
+                        "2927804",
+                        "2929354",
+                        "2932200",
+                        "2932705"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290010",
+                    "nome_regiao_imediata": "Camacan",
+                    "municipios": [
+                        "2902252",
+                        "2905602",
+                        "2906303",
+                        "2918555",
+                        "2920908",
+                        "2923902",
+                        "2928059",
+                        "2932507"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290009",
+                    "nome_regiao_imediata": "Eun\u00e1polis - Porto Seguro",
+                    "municipios": [
+                        "2903409",
+                        "2910727",
+                        "2911808",
+                        "2914653",
+                        "2915304",
+                        "2916302",
+                        "2925303",
+                        "2927705"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2902",
+            "nome_regiao_intermediaria": "Santo Ant\u00f4nio de Jesus",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "290003",
+                    "nome_regiao_imediata": "Santo Ant\u00f4nio de Jesus",
+                    "municipios": [
+                        "2901007",
+                        "2904308",
+                        "2910206",
+                        "2910305",
+                        "2918209",
+                        "2918803",
+                        "2921302",
+                        "2922201",
+                        "2922409",
+                        "2922805",
+                        "2928703",
+                        "2929404",
+                        "2932101",
+                        "2933174"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290006",
+                    "nome_regiao_imediata": "Nazar\u00e9 \u2013 Maragogipe",
+                    "municipios": [
+                        "2902302",
+                        "2916104",
+                        "2917805",
+                        "2920601",
+                        "2922508",
+                        "2927309",
+                        "2933208"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290004",
+                    "nome_regiao_imediata": "Cruz das Almas",
+                    "municipios": [
+                        "2904852",
+                        "2904902",
+                        "2907301",
+                        "2908309",
+                        "2909802",
+                        "2911600",
+                        "2916856",
+                        "2922300",
+                        "2928505",
+                        "2929008",
+                        "2929107",
+                        "2929602"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290005",
+                    "nome_regiao_imediata": "Valen\u00e7a",
+                    "municipios": [
+                        "2905404",
+                        "2905800",
+                        "2913457",
+                        "2917300",
+                        "2922607",
+                        "2925758",
+                        "2931202",
+                        "2932903"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2907",
+            "nome_regiao_intermediaria": "Irec\u00ea",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "290020",
+                    "nome_regiao_imediata": "Irec\u00ea",
+                    "municipios": [
+                        "2901155",
+                        "2903003",
+                        "2903235",
+                        "2904050",
+                        "2905305",
+                        "2906204",
+                        "2907608",
+                        "2912400",
+                        "2913101",
+                        "2914604",
+                        "2915353",
+                        "2918357",
+                        "2918506",
+                        "2919157",
+                        "2921708",
+                        "2922052",
+                        "2925600",
+                        "2929255",
+                        "2932408"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290021",
+                    "nome_regiao_imediata": "Xique-Xique \u2013 Barra",
+                    "municipios": [
+                        "2902708",
+                        "2904506",
+                        "2904753",
+                        "2911303",
+                        "2913200",
+                        "2914109",
+                        "2921609",
+                        "2922250",
+                        "2923209",
+                        "2933604"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2908",
+            "nome_regiao_intermediaria": "Juazeiro",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "290023",
+                    "nome_regiao_imediata": "Senhor do Bonfim",
+                    "municipios": [
+                        "2901353",
+                        "2901809",
+                        "2906006",
+                        "2910859",
+                        "2917003",
+                        "2917706",
+                        "2924603",
+                        "2925253",
+                        "2930105"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290022",
+                    "nome_regiao_imediata": "Juazeiro",
+                    "municipios": [
+                        "2905909",
+                        "2907202",
+                        "2909901",
+                        "2918407",
+                        "2924405",
+                        "2926004",
+                        "2930204",
+                        "2930774",
+                        "2932002"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2906",
+            "nome_regiao_intermediaria": "Barreiras",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "290018",
+                    "nome_regiao_imediata": "Barreiras",
+                    "municipios": [
+                        "2901403",
+                        "2902500",
+                        "2903201",
+                        "2904407",
+                        "2907400",
+                        "2909406",
+                        "2909703",
+                        "2911105",
+                        "2919553",
+                        "2920452",
+                        "2926202",
+                        "2928208",
+                        "2928406",
+                        "2928901",
+                        "2930303",
+                        "2930907",
+                        "2933455"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290019",
+                    "nome_regiao_imediata": "Santa Maria da Vitoria",
+                    "municipios": [
+                        "2906105",
+                        "2908101",
+                        "2909109",
+                        "2909307",
+                        "2917359",
+                        "2928109",
+                        "2929057"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2905",
+            "nome_regiao_intermediaria": "Guanambi",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "290017",
+                    "nome_regiao_imediata": "Bom Jesus da Lapa",
+                    "municipios": [
+                        "2903904",
+                        "2904100",
+                        "2912509",
+                        "2919801",
+                        "2923704",
+                        "2930154",
+                        "2930758"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "290016",
+                    "nome_regiao_imediata": "Guanambi",
+                    "municipios": [
+                        "2904209",
+                        "2905008",
+                        "2905206",
+                        "2906600",
+                        "2907103",
+                        "2910776",
+                        "2911659",
+                        "2911709",
+                        "2912004",
+                        "2913408",
+                        "2917334",
+                        "2917409",
+                        "2918753",
+                        "2919405",
+                        "2920205",
+                        "2921054",
+                        "2921807",
+                        "2923407",
+                        "2924504",
+                        "2926400",
+                        "2926806",
+                        "2930006",
+                        "2931053",
+                        "2932606"
+                    ]
+                }
+            ]
+        }
+    ]
+}

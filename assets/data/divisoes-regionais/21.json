@@ -1,0 +1,383 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "2105",
+            "nome_regiao_intermediaria": "Imperatriz",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "210021",
+                    "nome_regiao_imediata": "A\u00e7ail\u00e2ndia",
+                    "municipios": [
+                        "2100055",
+                        "2102036",
+                        "2102325",
+                        "2105427",
+                        "2110856"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210022",
+                    "nome_regiao_imediata": "Balsas",
+                    "municipios": [
+                        "2100501",
+                        "2101400",
+                        "2102804",
+                        "2104073",
+                        "2104107",
+                        "2106102",
+                        "2107258",
+                        "2109502",
+                        "2109700",
+                        "2110807",
+                        "2111607",
+                        "2112001"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210019",
+                    "nome_regiao_imediata": "Imperatriz",
+                    "municipios": [
+                        "2100600",
+                        "2102358",
+                        "2102556",
+                        "2103257",
+                        "2103752",
+                        "2104057",
+                        "2104552",
+                        "2105302",
+                        "2105500",
+                        "2105989",
+                        "2107001",
+                        "2109007",
+                        "2109551",
+                        "2111052",
+                        "2111532",
+                        "2111763",
+                        "2112852"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210020",
+                    "nome_regiao_imediata": "Barra do Corda",
+                    "municipios": [
+                        "2100956",
+                        "2101608",
+                        "2104081",
+                        "2104099",
+                        "2104800",
+                        "2105351",
+                        "2105476",
+                        "2111573",
+                        "2111805"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2103",
+            "nome_regiao_intermediaria": "Caxias",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "210013",
+                    "nome_regiao_imediata": "Caxias",
+                    "municipios": [
+                        "2100105",
+                        "2100303",
+                        "2103000",
+                        "2103406",
+                        "2103901",
+                        "2111078"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210014",
+                    "nome_regiao_imediata": "Timon",
+                    "municipios": [
+                        "2102309",
+                        "2106607",
+                        "2107803",
+                        "2112209"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210015",
+                    "nome_regiao_imediata": "Cod\u00f3",
+                    "municipios": [
+                        "2103307",
+                        "2103604",
+                        "2108454",
+                        "2112100"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2101",
+            "nome_regiao_intermediaria": "S\u00e3o Lu\u00eds",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "210007",
+                    "nome_regiao_imediata": "Tut\u00f3ia - Araioses",
+                    "municipios": [
+                        "2100154",
+                        "2100907",
+                        "2106300",
+                        "2108058",
+                        "2110237",
+                        "2110609",
+                        "2112506"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210001",
+                    "nome_regiao_imediata": "S\u00e3o Lu\u00eds",
+                    "municipios": [
+                        "2100204",
+                        "2101251",
+                        "2107506",
+                        "2109452",
+                        "2109601",
+                        "2110203",
+                        "2111201",
+                        "2111300"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210004",
+                    "nome_regiao_imediata": "Itapecuru Mirim",
+                    "municipios": [
+                        "2100709",
+                        "2102705",
+                        "2105401",
+                        "2106631",
+                        "2106755",
+                        "2107209",
+                        "2108801",
+                        "2109304",
+                        "2112704"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210003",
+                    "nome_regiao_imediata": "Chapadinha",
+                    "municipios": [
+                        "2100808",
+                        "2101731",
+                        "2102101",
+                        "2102200",
+                        "2103208",
+                        "2106409",
+                        "2106672",
+                        "2110104",
+                        "2110401",
+                        "2112605"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210008",
+                    "nome_regiao_imediata": "Cururupu",
+                    "municipios": [
+                        "2100832",
+                        "2101301",
+                        "2103109",
+                        "2103125",
+                        "2103703",
+                        "2104909",
+                        "2106805",
+                        "2109056",
+                        "2111789"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210005",
+                    "nome_regiao_imediata": "Viana",
+                    "municipios": [
+                        "2101004",
+                        "2102408",
+                        "2102507",
+                        "2106508",
+                        "2107456",
+                        "2108306",
+                        "2111003",
+                        "2111706",
+                        "2112803",
+                        "2112902"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210006",
+                    "nome_regiao_imediata": "Barreirinhas",
+                    "municipios": [
+                        "2101103",
+                        "2101707",
+                        "2102374",
+                        "2105005",
+                        "2105104",
+                        "2107100",
+                        "2109205",
+                        "2109403",
+                        "2110278"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210002",
+                    "nome_regiao_imediata": "Pinheiro",
+                    "municipios": [
+                        "2101350",
+                        "2101905",
+                        "2107605",
+                        "2108256",
+                        "2108405",
+                        "2108603",
+                        "2109270",
+                        "2109809",
+                        "2110500",
+                        "2112407",
+                        "2112456"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2102",
+            "nome_regiao_intermediaria": "Santa In\u00eas - Bacabal",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "210010",
+                    "nome_regiao_imediata": "Bacabal",
+                    "municipios": [
+                        "2100402",
+                        "2100436",
+                        "2101202",
+                        "2102077",
+                        "2102150",
+                        "2103554",
+                        "2105708",
+                        "2105906",
+                        "2105963",
+                        "2106359",
+                        "2107407",
+                        "2108108",
+                        "2111409",
+                        "2111508",
+                        "2111722",
+                        "2113009"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210009",
+                    "nome_regiao_imediata": "Santa In\u00eas",
+                    "municipios": [
+                        "2100477",
+                        "2100873",
+                        "2101772",
+                        "2102002",
+                        "2104651",
+                        "2105153",
+                        "2106904",
+                        "2107357",
+                        "2108504",
+                        "2108702",
+                        "2109908",
+                        "2110005",
+                        "2111029",
+                        "2112274",
+                        "2114007"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210011",
+                    "nome_regiao_imediata": "Governador Nunes Freire",
+                    "municipios": [
+                        "2100550",
+                        "2101970",
+                        "2102606",
+                        "2102903",
+                        "2103158",
+                        "2103174",
+                        "2104305",
+                        "2104677",
+                        "2105658",
+                        "2106201",
+                        "2106326",
+                        "2106375",
+                        "2109239",
+                        "2110039"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210012",
+                    "nome_regiao_imediata": "Pedreiras",
+                    "municipios": [
+                        "2101939",
+                        "2102754",
+                        "2104008",
+                        "2105203",
+                        "2105609",
+                        "2105807",
+                        "2105948",
+                        "2106003",
+                        "2108207",
+                        "2108900",
+                        "2110302",
+                        "2111631",
+                        "2111672",
+                        "2112233"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2104",
+            "nome_regiao_intermediaria": "Presidente Dutra",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "210017",
+                    "nome_regiao_imediata": "S\u00e3o Jo\u00e3o dos Patos",
+                    "municipios": [
+                        "2101509",
+                        "2101806",
+                        "2105922",
+                        "2107308",
+                        "2107704",
+                        "2107902",
+                        "2108009",
+                        "2110658",
+                        "2110906",
+                        "2111102",
+                        "2111953"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210018",
+                    "nome_regiao_imediata": "Colinas",
+                    "municipios": [
+                        "2103505",
+                        "2105450",
+                        "2106706",
+                        "2111904"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "210016",
+                    "nome_regiao_imediata": "Presidente Dutra",
+                    "municipios": [
+                        "2103802",
+                        "2104206",
+                        "2104404",
+                        "2104503",
+                        "2104602",
+                        "2104628",
+                        "2104701",
+                        "2109106",
+                        "2109759",
+                        "2110708",
+                        "2111250",
+                        "2111748",
+                        "2112308"
+                    ]
+                }
+            ]
+        }
+    ]
+}

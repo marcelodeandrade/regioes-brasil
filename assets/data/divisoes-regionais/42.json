@@ -1,0 +1,485 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "4204",
+            "nome_regiao_intermediaria": "Chapec\u00f3",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "420008",
+                    "nome_regiao_imediata": "Joa\u00e7aba - Herval d'Oeste",
+                    "municipios": [
+                        "4200051",
+                        "4200408",
+                        "4203600",
+                        "4203907",
+                        "4204004",
+                        "4204152",
+                        "4205209",
+                        "4206702",
+                        "4206801",
+                        "4208609",
+                        "4209003",
+                        "4209201",
+                        "4210035",
+                        "4211801",
+                        "4218509",
+                        "4219150",
+                        "4219176",
+                        "4219853"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420011",
+                    "nome_regiao_imediata": "Xanxer\u00ea",
+                    "municipios": [
+                        "4200101",
+                        "4202537",
+                        "4204459",
+                        "4205175",
+                        "4205308",
+                        "4207684",
+                        "4211850",
+                        "4212270",
+                        "4213401",
+                        "4216107",
+                        "4219101",
+                        "4219507",
+                        "4219606"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420007",
+                    "nome_regiao_imediata": "Chapec\u00f3",
+                    "municipios": [
+                        "4200507",
+                        "4200556",
+                        "4201653",
+                        "4203105",
+                        "4204103",
+                        "4204202",
+                        "4204350",
+                        "4204400",
+                        "4204756",
+                        "4205431",
+                        "4206652",
+                        "4207858",
+                        "4208955",
+                        "4209458",
+                        "4210555",
+                        "4210902",
+                        "4211009",
+                        "4211405",
+                        "4211454",
+                        "4211876",
+                        "4212106",
+                        "4212908",
+                        "4213153",
+                        "4214201",
+                        "4215075",
+                        "4215695",
+                        "4216008",
+                        "4217303",
+                        "4217550",
+                        "4217758",
+                        "4218855",
+                        "4219705"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420010",
+                    "nome_regiao_imediata": "Conc\u00f3rdia",
+                    "municipios": [
+                        "4200754",
+                        "4201273",
+                        "4204301",
+                        "4207601",
+                        "4207700",
+                        "4207809",
+                        "4208005",
+                        "4209854",
+                        "4212601",
+                        "4213104",
+                        "4213906",
+                        "4217501"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420009",
+                    "nome_regiao_imediata": "S\u00e3o Miguel do Oeste",
+                    "municipios": [
+                        "4200804",
+                        "4202081",
+                        "4202099",
+                        "4202156",
+                        "4204905",
+                        "4205001",
+                        "4205357",
+                        "4206405",
+                        "4206603",
+                        "4207650",
+                        "4208401",
+                        "4212007",
+                        "4212239",
+                        "4214151",
+                        "4215208",
+                        "4215554",
+                        "4216255",
+                        "4216701",
+                        "4217204",
+                        "4218756"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420012",
+                    "nome_regiao_imediata": "Maravilha",
+                    "municipios": [
+                        "4202578",
+                        "4204707",
+                        "4207759",
+                        "4210506",
+                        "4215356",
+                        "4215687",
+                        "4217154",
+                        "4217956"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420013",
+                    "nome_regiao_imediata": "S\u00e3o Louren\u00e7o do Oeste",
+                    "municipios": [
+                        "4203501",
+                        "4205605",
+                        "4209177",
+                        "4211652",
+                        "4215752",
+                        "4216909"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4207",
+            "nome_regiao_intermediaria": "Blumenau",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "420022",
+                    "nome_regiao_imediata": "Rio do Sul",
+                    "municipios": [
+                        "4200200",
+                        "4200309",
+                        "4201802",
+                        "4201901",
+                        "4202859",
+                        "4209508",
+                        "4209904",
+                        "4210852",
+                        "4213708",
+                        "4214102",
+                        "4214508",
+                        "4214607",
+                        "4214805",
+                        "4215307",
+                        "4215679",
+                        "4217808",
+                        "4218608"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420019",
+                    "nome_regiao_imediata": "Blumenau",
+                    "municipios": [
+                        "4201257",
+                        "4201703",
+                        "4202206",
+                        "4202404",
+                        "4205159",
+                        "4205902",
+                        "4207106",
+                        "4207502",
+                        "4213203",
+                        "4214706",
+                        "4215109",
+                        "4218202"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420020",
+                    "nome_regiao_imediata": "Itaja\u00ed",
+                    "municipios": [
+                        "4202008",
+                        "4202107",
+                        "4202453",
+                        "4203204",
+                        "4208203",
+                        "4208302",
+                        "4210001",
+                        "4211306",
+                        "4212502",
+                        "4212809",
+                        "4213500",
+                        "4218004"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420021",
+                    "nome_regiao_imediata": "Brusque",
+                    "municipios": [
+                        "4202701",
+                        "4202909",
+                        "4203709",
+                        "4206306",
+                        "4210209",
+                        "4211504",
+                        "4216305"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420024",
+                    "nome_regiao_imediata": "Ituporanga",
+                    "municipios": [
+                        "4204194",
+                        "4207403",
+                        "4208500",
+                        "4209805",
+                        "4212700",
+                        "4219200"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420023",
+                    "nome_regiao_imediata": "Ibirama - Presidente Get\u00falio",
+                    "municipios": [
+                        "4205100",
+                        "4206900",
+                        "4209151",
+                        "4214003",
+                        "4219358",
+                        "4219408"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4201",
+            "nome_regiao_intermediaria": "Florian\u00f3polis",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "420001",
+                    "nome_regiao_imediata": "Florian\u00f3polis",
+                    "municipios": [
+                        "4200606",
+                        "4200705",
+                        "4200903",
+                        "4201109",
+                        "4201208",
+                        "4202305",
+                        "4205407",
+                        "4205704",
+                        "4206009",
+                        "4207304",
+                        "4211900",
+                        "4212304",
+                        "4214300",
+                        "4215703",
+                        "4215901",
+                        "4216602",
+                        "4217253"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4203",
+            "nome_regiao_intermediaria": "Lages",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "420005",
+                    "nome_regiao_imediata": "Lages",
+                    "municipios": [
+                        "4201000",
+                        "4202438",
+                        "4202503",
+                        "4202602",
+                        "4203253",
+                        "4203402",
+                        "4204178",
+                        "4204558",
+                        "4209300",
+                        "4211751",
+                        "4211892",
+                        "4212056",
+                        "4213302",
+                        "4215059",
+                        "4216503",
+                        "4216800",
+                        "4218905",
+                        "4218954"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420006",
+                    "nome_regiao_imediata": "Curitibanos",
+                    "municipios": [
+                        "4202875",
+                        "4204806",
+                        "4205555",
+                        "4213351",
+                        "4215505",
+                        "4216057"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4206",
+            "nome_regiao_intermediaria": "Joinville",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "420016",
+                    "nome_regiao_imediata": "Joinville",
+                    "municipios": [
+                        "4201307",
+                        "4202057",
+                        "4204509",
+                        "4205803",
+                        "4206504",
+                        "4208450",
+                        "4208906",
+                        "4209102",
+                        "4210605",
+                        "4216206",
+                        "4216354",
+                        "4217402"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420017",
+                    "nome_regiao_imediata": "Mafra",
+                    "municipios": [
+                        "4202131",
+                        "4203808",
+                        "4207908",
+                        "4208104",
+                        "4210100",
+                        "4210308",
+                        "4211108",
+                        "4212205",
+                        "4213609",
+                        "4218301"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420018",
+                    "nome_regiao_imediata": "S\u00e3o Bento do Sul - Rio Negrinho",
+                    "municipios": [
+                        "4203303",
+                        "4215000",
+                        "4215802"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4202",
+            "nome_regiao_intermediaria": "Crici\u00fama",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "420004",
+                    "nome_regiao_imediata": "Ararangu\u00e1",
+                    "municipios": [
+                        "4201406",
+                        "4201950",
+                        "4202073",
+                        "4205191",
+                        "4208708",
+                        "4210407",
+                        "4210803",
+                        "4212254",
+                        "4213807",
+                        "4215653",
+                        "4216404",
+                        "4217709",
+                        "4218103",
+                        "4218806"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420003",
+                    "nome_regiao_imediata": "Tubar\u00e3o",
+                    "municipios": [
+                        "4201505",
+                        "4202800",
+                        "4203956",
+                        "4206108",
+                        "4206207",
+                        "4207205",
+                        "4208807",
+                        "4209409",
+                        "4212403",
+                        "4212650",
+                        "4214904",
+                        "4215455",
+                        "4215604",
+                        "4217006",
+                        "4217105",
+                        "4218400",
+                        "4218707"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420002",
+                    "nome_regiao_imediata": "Crici\u00fama",
+                    "municipios": [
+                        "4204251",
+                        "4204608",
+                        "4205456",
+                        "4207007",
+                        "4209607",
+                        "4211207",
+                        "4211256",
+                        "4211603",
+                        "4211702",
+                        "4217600",
+                        "4218350",
+                        "4219002",
+                        "4220000"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "4205",
+            "nome_regiao_intermediaria": "Ca\u00e7ador",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "420015",
+                    "nome_regiao_imediata": "Videira",
+                    "municipios": [
+                        "4201604",
+                        "4205506",
+                        "4206751",
+                        "4207577",
+                        "4211058",
+                        "4213005",
+                        "4214409",
+                        "4215406",
+                        "4217907",
+                        "4219309"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "420014",
+                    "nome_regiao_imediata": "Ca\u00e7ador",
+                    "municipios": [
+                        "4203006",
+                        "4203154",
+                        "4209706",
+                        "4210050",
+                        "4210704",
+                        "4218251"
+                    ]
+                }
+            ]
+        }
+    ]
+}

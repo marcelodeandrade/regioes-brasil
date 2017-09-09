@@ -1,0 +1,332 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "2304",
+            "nome_regiao_intermediaria": "Juazeiro do Norte",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "230012",
+                    "nome_regiao_imediata": "Brejo Santo",
+                    "municipios": [
+                        "2300101",
+                        "2302008",
+                        "2302503",
+                        "2307205",
+                        "2308104",
+                        "2308302",
+                        "2310605",
+                        "2311108"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230011",
+                    "nome_regiao_imediata": "Juazeiro do Norte",
+                    "municipios": [
+                        "2300408",
+                        "2300606",
+                        "2300804",
+                        "2301307",
+                        "2301604",
+                        "2301703",
+                        "2301901",
+                        "2302701",
+                        "2303204",
+                        "2304202",
+                        "2304301",
+                        "2304806",
+                        "2307106",
+                        "2307304",
+                        "2307502",
+                        "2308401",
+                        "2309201",
+                        "2311207",
+                        "2311959",
+                        "2312106",
+                        "2313252",
+                        "2314003"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2301",
+            "nome_regiao_intermediaria": "Fortaleza",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "230003",
+                    "nome_regiao_imediata": "Reden\u00e7\u00e3o-Acarape",
+                    "municipios": [
+                        "2300150",
+                        "2301208",
+                        "2301406",
+                        "2301950",
+                        "2302107",
+                        "2302909",
+                        "2305100",
+                        "2306504",
+                        "2309102",
+                        "2309458",
+                        "2309805",
+                        "2311603"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230002",
+                    "nome_regiao_imediata": "Itapipoca",
+                    "municipios": [
+                        "2300754",
+                        "2306405",
+                        "2308377",
+                        "2313500",
+                        "2313559",
+                        "2313757",
+                        "2313807"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230005",
+                    "nome_regiao_imediata": "Itapag\u00e9",
+                    "municipios": [
+                        "2300903",
+                        "2304608",
+                        "2306108",
+                        "2306306",
+                        "2310704",
+                        "2313351"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230001",
+                    "nome_regiao_imediata": "Fortaleza",
+                    "municipios": [
+                        "2301000",
+                        "2302206",
+                        "2303501",
+                        "2303709",
+                        "2303956",
+                        "2304285",
+                        "2304400",
+                        "2304954",
+                        "2305233",
+                        "2306256",
+                        "2307650",
+                        "2307700",
+                        "2309607",
+                        "2309706",
+                        "2310100",
+                        "2310209",
+                        "2310258",
+                        "2310852",
+                        "2312403",
+                        "2312601"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230004",
+                    "nome_regiao_imediata": "Canind\u00e9",
+                    "municipios": [
+                        "2302404",
+                        "2302800",
+                        "2303006",
+                        "2306603",
+                        "2307635",
+                        "2310407"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2306",
+            "nome_regiao_intermediaria": "Sobral",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "230017",
+                    "nome_regiao_imediata": "Acara\u00fa",
+                    "municipios": [
+                        "2300200",
+                        "2302305",
+                        "2304251",
+                        "2306553",
+                        "2307254",
+                        "2307809"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230015",
+                    "nome_regiao_imediata": "Sobral",
+                    "municipios": [
+                        "2300507",
+                        "2303105",
+                        "2303659",
+                        "2304004",
+                        "2304350",
+                        "2304509",
+                        "2304657",
+                        "2304905",
+                        "2305209",
+                        "2307908",
+                        "2308005",
+                        "2308203",
+                        "2308807",
+                        "2308906",
+                        "2309003",
+                        "2309904",
+                        "2311702",
+                        "2312007",
+                        "2312205",
+                        "2312809",
+                        "2312908",
+                        "2313906",
+                        "2313955"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230018",
+                    "nome_regiao_imediata": "Camocim",
+                    "municipios": [
+                        "2302057",
+                        "2302602",
+                        "2303907",
+                        "2304707"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230016",
+                    "nome_regiao_imediata": "S\u00e3o Benedito - Ipu - Guaraciaba do Norte - Tiangu\u00e1",
+                    "municipios": [
+                        "2303402",
+                        "2304236",
+                        "2305001",
+                        "2305308",
+                        "2305803",
+                        "2305902",
+                        "2310951",
+                        "2312304",
+                        "2313401",
+                        "2313609",
+                        "2314102"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2303",
+            "nome_regiao_intermediaria": "Iguatu",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "230009",
+                    "nome_regiao_imediata": "Iguatu",
+                    "municipios": [
+                        "2300309",
+                        "2303303",
+                        "2303600",
+                        "2303808",
+                        "2305506",
+                        "2307403",
+                        "2308500",
+                        "2310902",
+                        "2311355",
+                        "2311900"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230010",
+                    "nome_regiao_imediata": "Ic\u00f3",
+                    "municipios": [
+                        "2301802",
+                        "2305407",
+                        "2305704",
+                        "2309508",
+                        "2313708"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2302",
+            "nome_regiao_intermediaria": "Quixad\u00e1",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "230007",
+                    "nome_regiao_imediata": "Russas - Limoeiro do Norte",
+                    "municipios": [
+                        "2300705",
+                        "2304277",
+                        "2306009",
+                        "2306702",
+                        "2306801",
+                        "2306900",
+                        "2307601",
+                        "2308708",
+                        "2310001",
+                        "2310803",
+                        "2311231",
+                        "2311504",
+                        "2311801",
+                        "2312502",
+                        "2313104"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230008",
+                    "nome_regiao_imediata": "Aracati",
+                    "municipios": [
+                        "2301109",
+                        "2304459",
+                        "2305357",
+                        "2306207",
+                        "2307007"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230006",
+                    "nome_regiao_imediata": "Quixad\u00e1",
+                    "municipios": [
+                        "2301851",
+                        "2303931",
+                        "2304269",
+                        "2305266",
+                        "2305332",
+                        "2308351",
+                        "2310506",
+                        "2311306",
+                        "2311405",
+                        "2312700",
+                        "2313005"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "2305",
+            "nome_regiao_intermediaria": "Crate\u00fas",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "230013",
+                    "nome_regiao_imediata": "Crate\u00fas",
+                    "municipios": [
+                        "2301257",
+                        "2304103",
+                        "2305605",
+                        "2305654",
+                        "2308609",
+                        "2309300",
+                        "2309409",
+                        "2311009",
+                        "2311264",
+                        "2313203"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "230014",
+                    "nome_regiao_imediata": "Tau\u00e1",
+                    "municipios": [
+                        "2301505",
+                        "2310308",
+                        "2313302"
+                    ]
+                }
+            ]
+        }
+    ]
+}

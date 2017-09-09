@@ -1,0 +1,56 @@
+{
+    "regioes_intermediarias": [
+        {
+            "codigo_regiao_intermediaria": "1602",
+            "nome_regiao_intermediaria": "Oiapoque - Porto Grande",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "160004",
+                    "nome_regiao_imediata": "Porto Grande",
+                    "municipios": [
+                        "1600055",
+                        "1600154",
+                        "1600238",
+                        "1600535"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "160003",
+                    "nome_regiao_imediata": "Oiapoque",
+                    "municipios": [
+                        "1600105",
+                        "1600204",
+                        "1600212",
+                        "1600501",
+                        "1600550",
+                        "1600709"
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo_regiao_intermediaria": "1601",
+            "nome_regiao_intermediaria": "Macap\u00e1",
+            "regioes_imediatas": [
+                {
+                    "codigo_regiao_imediata": "160001",
+                    "nome_regiao_imediata": "Macap\u00e1",
+                    "municipios": [
+                        "1600253",
+                        "1600303",
+                        "1600402",
+                        "1600600"
+                    ]
+                },
+                {
+                    "codigo_regiao_imediata": "160002",
+                    "nome_regiao_imediata": "Laranjal do Jari",
+                    "municipios": [
+                        "1600279",
+                        "1600808"
+                    ]
+                }
+            ]
+        }
+    ]
+}
